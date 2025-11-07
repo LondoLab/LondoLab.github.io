@@ -11,8 +11,8 @@ All current and previous members of the lab.
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+{% include list.html data="members" component="portrait" filter="role == 'Principal Investigator'" %}
+{% include list.html data="members" component="portrait" filter="role != 'Principal Investigator'" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
