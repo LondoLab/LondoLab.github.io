@@ -30,6 +30,10 @@ tech:
   icon: fa-solid fa-glasses
   description: Technician
 
+alum:
+  icon: fa-solid fa-graduation-cap
+  description: Alumni
+
 # general
 
 link:
