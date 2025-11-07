@@ -22,7 +22,7 @@
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We investigate the phenotypic plasticity of perennial fruit crops through molecular, physiological, and observational tools.
 
 {%
   include button.html
@@ -45,7 +45,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We build integrated molecular and phenotypic tools that can be implemented by scientists and growers alike.
 
 {%
   include button.html
@@ -70,7 +70,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Housed at Cornell AgriTech, our team represents students, technicians, and scientists that have access to state of the art facilities and interact with world-class collaborators.
 
 {%
   include button.html
