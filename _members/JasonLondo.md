@@ -1,6 +1,6 @@
 ---
 name: Jason Londo
-image: images/photo.jpg
+image: images/jason-londo-headshot.jpg
 role: people-leader
 affiliation: Cornell University
 links:
