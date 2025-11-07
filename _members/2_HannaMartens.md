@@ -2,7 +2,7 @@
 name: Hanna Martens
 image: images/hanna.png
 affiliation: Cornell University
-role: Lab Technician
+role: tech
 group: Staff
 links: 
   home-page: https://cals.cornell.edu/people/hanna-martens
