@@ -1,6 +1,6 @@
 ---
 name: Kenneth Buck
-image: images/photo.jpg
+image: images/Kenneth-buck.jpg
 role: PhD Candidate
 affiliation: Cornell University
 links:
