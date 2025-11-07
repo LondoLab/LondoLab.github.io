@@ -7,24 +7,28 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-All current and previous members of the lab.
+# Current Lab Members
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'Principal Investigator'" %}
-{% include list.html data="members" component="portrait" filter="role != 'Principal Investigator'" %}
+{% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
+{% include list.html data="members" component="portrait" filter="role == 'tech'" %}
+{% include list.html data="members" component="portrait" filter="role == 'postdoc'" %}
+{% include list.html data="members" component="portrait" filter="role == 'undergrad'" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-Lab Alumni
+# Lab Alumni
+{% include list.html data="members" component="portrait" filter="role == 'alum'" %}
+
+
 
 {% include section.html %}
 
 {% capture content %}
 
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
+{% include figure.html image="images/group.jpg" %}
+
 
 {% endcapture %}
 
