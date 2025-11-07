@@ -1,6 +1,6 @@
 ---
 name: Hanna Martens
-image: images/photo.jpg
+image: images/hanna.jpg
 role: Master of Disaster
 group: Staff
 links: 
