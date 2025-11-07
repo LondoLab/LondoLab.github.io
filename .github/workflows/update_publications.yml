@@ -1,0 +1,27 @@
+name: Update Publications
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'   # every Monday 00:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: pip install scholarly pyyaml
+      - name: Fetch publications
+        run: python fetch_publications.py
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add _data/publications.yml
+          git commit -m "Update publications from Google Scholar" || echo "No changes"
+          git push
