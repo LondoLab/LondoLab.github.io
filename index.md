@@ -1,10 +1,8 @@
 ---
 ---
 
-# Lab Website Template
+# The Fruit Crop Physiology Lab at Cornell AgriTech
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
 
 {%
   include button.html
@@ -62,7 +60,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/grape_cluster.jpg"
   link="projects"
   title="Our Projects"
   flip=true
@@ -87,7 +85,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/group.jpg"
   link="team"
   title="Our Team"
   text=text
