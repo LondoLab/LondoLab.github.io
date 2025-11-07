@@ -1,47 +1,30 @@
-- title: Cool Dataset
+- title: Vitis Underground
+  subtitle: NSF Plant Genome Research Program
+  group: featured
+  image: images/grape_cluster.jpg
+  link: http://www.vitisunderground.org/
+  description: Award #2431712-2431716
+  repo: greenelab/lab-website-template
+  tags:
+    - collaboration
+    - NSF
+
+- title: Apple Tree Physiology
   subtitle: a subtitle
   group: featured
-  image: images/photo.jpg
+  image: images/Apple_frost.jpg
   link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: 
   repo: greenelab/lab-website-template
   tags:
     - resource
 
-- title: Cool Package
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+- title: NYUS.2
+  subtitle: Grapevine freezing tolerance in North America
+  image: images/NYUS2.jpg
+  link: https://github.com/imbaterry11/NYUS.2
+  description: 
   repo: greenelab/lab-website-template
   tags:
     - resource
     - publication
-
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
-
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
