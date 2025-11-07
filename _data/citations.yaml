@@ -1,191 +1,813 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1101/2025.06.19.660613
-  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
+- id: doi:10.1101/2025.08.08.669328
+  title: Time-series transcriptomics of grapevine deacclimation reveals chilling-dependent
+    genetic responses to temperature increase during dormancy
   authors:
-  - Dave Bunten
-  - Jenna Tomkinson
-  - Erik Serrano
-  - Michael J. Lippincott
-  - Kenneth I. Brewer
-  - Vince Rubinetti
-  - Faisal Alquaddoomi
-  - Gregory P. Way
+  - Hongrui Wang
+  - Jason P. Londo
   publisher: Cold Spring Harbor Laboratory
-  date: '2025-06-25'
-  link: https://doi.org/g9rfr3
-  orcid: 0000-0002-4655-3773
+  date: '2025-08-09'
+  link: https://doi.org/g99kmz
+  orcid: 0000-0003-0535-4820
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
+- id: doi:10.1093/jxb/eraf045
+  title: Integrating cold hardiness and deacclimation resistance demonstrates a conserved
+    response to chilling accumulation in grapevines
   authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
+  - Jason P Londo
+  - Al P Kovaleski
+  publisher: Journal of Experimental Botany
+  date: '2025-02-08'
+  link: https://doi.org/g99km2
+  orcid: 0000-0003-0535-4820
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
+- id: doi:10.1101/2025.01.09.632158
+  title: 'Warming winters, changing springs: cold hardiness dynamics predict budbreak
+    and associated low temperature threats on an intercontinental scale'
   authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
+  - Francisco Campos-Arguedas
+  - Erica Kirchhof
+  - Michael G North
+  - Jason P Londo
+  - Terry Bates
+  - Cornelis van Leeuwen
+  - "Agn\xE8s Destrac-Irvine"
+  - Benjamin Bois
+  - Al P Kovaleski
   publisher: Cold Spring Harbor Laboratory
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
+  date: '2025-01-14'
+  link: https://doi.org/g99km3
+  orcid: 0000-0003-0535-4820
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+- id: doi:10.1101/2024.11.10.622717
+  title: Evolutionary history of the grape sex-determining region in angiosperms and
+    emergence of dioecy in Vitaceae
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
-  authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
+  - Melanie Massonnet
+  - Noe Cochetel
+  - Valentina Ricciardi
+  - Andrea Minio
+  - Rosa Figueroa-Balderas
+  - Jason Londo
+  - Dario Cantu
   publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
+  date: '2024-11-11'
+  link: https://doi.org/g99km4
+  orcid: 0000-0003-0535-4820
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
+- id: doi:10.1101/2024.09.28.615590
+  title: Integrating cold hardiness and deacclimation resistance demonstrates a conserved
+    response to chilling accumulation in grapevines
   authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
-  authors:
-  - Jacob D Krol
-  - Joseph T Burke
-  - Samuel Z Chen
-  - Lo M Sosinski
-  - Faisal S Alquaddoomi
-  - Evan P Brenner
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
+  - Jason P Londo
+  - Al P Kovaleski
   publisher: Cold Spring Harbor Laboratory
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
+  date: '2024-09-30'
+  link: https://doi.org/g99km5
+  orcid: 0000-0003-0535-4820
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
+- id: doi:10.1186/s13059-023-03133-2
+  title: A super-pangenome of the North American wild grape species
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
+  - "No\xE9 Cochetel"
+  - Andrea Minio
+  - Andrea Guarracino
+  - Jadran F. Garcia
+  - Rosa Figueroa-Balderas
+  - "M\xE9lanie Massonnet"
+  - Takao Kasuga
+  - Jason P. Londo
+  - Erik Garrison
+  - Brandon S. Gaut
+  - Dario Cantu
   publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
+  date: '2023-12-19'
+  link: https://doi.org/gtv2q8
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2023.10.21.563432
+  title: Physiological and transcriptomic characterization of cold acclimation in
+    endodormant grapevine under different temperature regimes
+  authors:
+  - Hongrui Wang
+  - Al P. Kovaleski
+  - Jason P. Londo
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-10-23'
+  link: https://doi.org/g99km6
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.46471/gigabyte.84
+  title: "Genome assembly of the hybrid grapevine Vitis \u2018Chambourcin\u2019"
+  authors:
+  - Sagar Patel
+  - Zachary N. Harris
+  - Jason P. Londo
+  - Allison Miller
+  - Anne Fennell
+  publisher: Gigabyte
+  date: '2023-07-03'
+  link: https://doi.org/g99km7
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2023.06.27.545624
+  title: A super-pangenome of the North American wild grape species
+  authors:
+  - "No\xE9 Cochetel"
+  - Andrea Minio
+  - Andrea Guarracino
+  - Jadran F. Garcia
+  - Rosa Figueroa-Balderas
+  - "M\xE9lanie Massonnet"
+  - Takao Kasuga
+  - Jason Londo
+  - Erik Garrison
+  - Brandon Gaut
+  - Dario Cantu
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-06-27'
+  link: https://doi.org/g99km8
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.agrformet.2023.109324
+  title: Development of a new cold hardiness prediction model for grapevine using
+    phased integration of acclimation and deacclimation responses
+  authors:
+  - Al P. Kovaleski
+  - Michael G. North
+  - Timothy E. Martinson
+  - Jason P. Londo
+  publisher: Agricultural and Forest Meteorology
+  date: '2023-03-01'
+  link: https://doi.org/g99km9
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2023.01.18.524616
+  title: "Genome assembly of the hybrid grapevine<i>Vitis</i>\u2018Chambourcin\u2019"
+  authors:
+  - Sagar Patel
+  - Zachary N. Harris
+  - Jason P. Londo
+  - Allison Miller
+  - Anne Fennell
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-01-20'
+  link: https://doi.org/g99knb
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.5344/ajev.2022.22010
+  title: Evaluation of Sample Preparation Practices Common with Differential Thermal
+    Analysis of Grapevine Bud Cold Hardiness
+  authors:
+  - Jason P. Londo
+  - Michelle M. Moyer
+  - Maria Mireles
+  - Lynn Mills
+  - Markus Keller
+  - Beth Ann Workmaster
+  - Amaya Atucha
+  - Al P. Kovaleski
+  publisher: American Journal of Enology and Viticulture
+  date: '2022-09-21'
+  link: https://doi.org/g99knc
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2022.09.09.507298
+  title: Development of a new cold hardiness prediction model for grapevine using
+    phased integration of acclimation and deacclimation responses
+  authors:
+  - Al P. Kovaleski
+  - Michael G. North
+  - Timothy E. Martinson
+  - Jason P. Londo
+  publisher: Cold Spring Harbor Laboratory
+  date: '2022-09-11'
+  link: https://doi.org/gszj3q
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/gigascience/giab087
+  title: Multi-dimensional leaf phenotypes reflect root system genotype in grafted
+    grapevine over the growing season
+  authors:
+  - Zachary N Harris
+  - Mani Awale
+  - Niyati Bhakta
+  - Daniel H Chitwood
+  - Anne Fennell
+  - Emma Frawley
+  - Laura L Klein
+  - Laszlo G Kovacs
+  - Misha Kwasniewski
+  - Jason P Londo
+  - Qin Ma
+  - "Zo\xEB Migicovsky"
+  - Joel F Swift
+  - Allison J Miller
+  publisher: GigaScience
+  date: '2021-12-01'
+  link: https://doi.org/g99knd
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/ajb2.1639
+  title: "Vein\u2010to\u2010blade ratio is an allometric indicator of leaf size and\
+    \ plasticity"
+  authors:
+  - Daniel H. Chitwood
+  - Joey Mullins
+  - "Zo\xEB Migicovsky"
+  - Margaret Frank
+  - Robert VanBuren
+  - Jason P. Londo
+  publisher: American Journal of Botany
+  date: '2021-04-01'
+  link: https://doi.org/gkzgzx
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2020.05.20.106906
+  title: Vein-to-blade ratio is an allometric indicator of climate-induced changes
+    in grapevine leaf size and shape
+  authors:
+  - Daniel H. Chitwood
+  - Joey Mullins
+  - "Zo\xEB Migicovsky"
+  - Margaret Frank
+  - Robert VanBuren
+  - Jason P. Londo
+  publisher: Cold Spring Harbor Laboratory
+  date: '2020-05-22'
+  link: https://doi.org/gsx8nn
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41467-019-14280-1
+  title: Haplotyping the Vitis collinear core genome with rhAmpSeq improves marker
+    transferability in a diverse genus
+  authors:
+  - Cheng Zou
+  - Avinash Karn
+  - Bruce Reisch
+  - Allen Nguyen
+  - Yongming Sun
+  - Yun Bao
+  - Michael S. Campbell
+  - Deanna Church
+  - Stephen Williams
+  - Xia Xu
+  - Craig A. Ledbetter
+  - Sagar Patel
+  - Anne Fennell
+  - Jeffrey C. Glaubitz
+  - Matthew Clark
+  - Doreen Ware
+  - Jason P. Londo
+  - Qi Sun
+  - Lance Cadle-Davidson
+  publisher: Nature Communications
+  date: '2020-01-21'
+  link: https://doi.org/ghdrnk
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/jxb/erz394
+  title: 'Characterizing 3D inflorescence architecture in grapevine using X-ray imaging
+    and advanced morphometrics: implications for understanding cluster density'
+  authors:
+  - Mao Li
+  - Laura L Klein
+  - Keith E Duncan
+  - Ni Jiang
+  - Daniel H Chitwood
+  - Jason P Londo
+  - Allison J Miller
+  - Christopher N Topp
+  publisher: Journal of Experimental Botany
+  date: '2019-08-31'
+  link: https://doi.org/ghdkh8
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/fpls.2019.01373
+  title: Quantitative Trait Locus Analysis of Leaf Morphology Indicates Conserved
+    Shape Loci in Grapevine
+  authors:
+  - Elizabeth M. Demmings
+  - Brigette R. Williams
+  - Cheng-Ruei Lee
+  - Paola Barba
+  - Shanshan Yang
+  - Chin-Feng Hwang
+  - Bruce I. Reisch
+  - Daniel H. Chitwood
+  - Jason P. Londo
+  publisher: Frontiers in Plant Science
+  date: '2019-11-15'
+  link: https://doi.org/gkzg38
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.plantsci.2019.110178
+  title: Tempo of gene regulation in wild and cultivated Vitis species shows coordination
+    between cold deacclimation and budbreak
+  authors:
+  - Alisson P. Kovaleski
+  - Jason P. Londo
+  publisher: Plant Science
+  date: '2019-10-01'
+  link: https://doi.org/g5shrz
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41598-019-51415-2
+  title: X-ray phase contrast imaging of Vitis spp. buds shows freezing pattern and
+    correlation between volume and cold hardiness
+  authors:
+  - Alisson P. Kovaleski
+  - Jason P. Londo
+  - Kenneth D. Finkelstein
+  publisher: Scientific Reports
+  date: '2019-10-18'
+  link: https://doi.org/g99knf
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/ajgw.12389
+  title: 'Deconstructing cold hardiness: variation in supercooling ability and chilling
+    requirements in the wild grapevine<i>Vitis riparia</i>'
+  authors:
+  - J.P. Londo
+  - A.P. Kovaleski
+  publisher: Australian Journal of Grape and Wine Research
+  date: '2019-03-14'
+  link: https://doi.org/gfxv3n
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41438-019-0146-2
+  title: "Rootstock effects on scion phenotypes in a \u2018Chambourcin\u2019 experimental\
+    \ vineyard"
+  authors:
+  - "Zo\xEB Migicovsky"
+  - Zachary N. Harris
+  - Laura L. Klein
+  - Mao Li
+  - Adam McDermaid
+  - Daniel H. Chitwood
+  - Anne Fennell
+  - Laszlo G. Kovacs
+  - Misha Kwasniewski
+  - Jason P. Londo
+  - Qin Ma
+  - Allison J. Miller
+  publisher: Horticulture Research
+  date: '2019-05-01'
+  link: https://doi.org/ghdrmz
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/aobpla/ply066
+  title: Deacclimation kinetics as a quantitative phenotype for delineating the dormancy
+    transition and thermal efficiency for budbreak in Vitis species
+  authors:
+  - Alisson P Kovaleski
+  - Bruce I Reisch
+  - Jason P Londo
+  publisher: AoB PLANTS
+  date: '2018-10-11'
+  link: https://doi.org/gfpwr8
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/fpls.2018.00553
+  title: 'Topological Data Analysis as a Morphometric Method: Using Persistent Homology
+    to Demarcate a Leaf Morphospace'
+  authors:
+  - Mao Li
+  - Hong An
+  - Ruthie Angelovici
+  - Clement Bagaza
+  - Albert Batushansky
+  - Lynn Clark
+  - Viktoriya Coneva
+  - Michael J. Donoghue
+  - Erika Edwards
+  - Diego Fajardo
+  - Hui Fang
+  - Margaret H. Frank
+  - Timothy Gallaher
+  - Sarah Gebken
+  - Theresa Hill
+  - Shelley Jansky
+  - Baljinder Kaur
+  - Phillip C. Klahs
+  - Laura L. Klein
+  - Vasu Kuraparthy
+  - Jason Londo
+  - "Zo\xEB Migicovsky"
+  - Allison Miller
+  - Rebekah Mohn
+  - Sean Myles
+  - Wagner C. Otoni
+  - J. C. Pires
+  - Edmond Rieffer
+  - Sam Schmerler
+  - Elizabeth Spriggs
+  - Christopher N. Topp
+  - Allen Van Deynze
+  - Kuang Zhang
+  - Linglong Zhu
+  - Braden M. Zink
+  - Daniel H. Chitwood
+  publisher: Frontiers in Plant Science
+  date: '2018-04-25'
+  link: https://doi.org/gdhrvj
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41438-018-0020-7
+  title: Divergence in the transcriptional landscape between low temperature and freeze
+    shock in cultivated grapevine (Vitis vinifera)
+  authors:
+  - Jason P. Londo
+  - Alisson P. Kovaleski
+  - Jacquelyn A. Lillis
+  publisher: Horticulture Research
+  date: '2018-03-01'
+  link: https://doi.org/gsmbc2
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/ajb2.1033
+  title: "High\u2010throughput sequencing data clarify evolutionary relationships\
+    \ among North American <i>Vitis</i> species and improve identification in <scp>USDA\
+    \ </scp><i>Vitis</i> germplasm collections"
+  authors:
+  - Laura L. Klein
+  - Allison J. Miller
+  - Claudia Ciotir
+  - Katie Hyma
+  - "Simon Uribe\u2010Convers"
+  - Jason Londo
+  publisher: American Journal of Botany
+  date: '2018-02-01'
+  link: https://doi.org/gc77p2
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1186/s12864-017-4346-6
+  title: "RNA-seq-based genome annotation and identification of long-noncoding RNAs\
+    \ in the grapevine cultivar \u2018Riesling\u2019"
+  authors:
+  - Zachary N. Harris
+  - Laszlo G. Kovacs
+  - Jason P. Londo
+  publisher: BMC Genomics
+  date: '2017-12-01'
+  link: https://doi.org/ggqzcn
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/hortres.2016.56
+  title: Towards an open grapevine information system
+  authors:
+  - A-F Adam-Blondon
+  - M Alaux
+  - C Pommier
+  - D Cantu
+  - Z-M Cheng
+  - GR Cramer
+  - C Davies
+  - S Delrot
+  - L Deluc
+  - G Di Gaspero
+  - J Grimplet
+  - A Fennell
+  - JP Londo
+  - P Kersey
+  - F Mattivi
+  - S Naithani
+  - P Neveu
+  - M Nikolski
+  - M Pezzotti
+  - BI Reisch
+  - "R T\xF6pfer"
+  - MA Vivier
+  - D Ware
+  - H Quesneville
+  publisher: Horticulture Research
+  date: '2016-11-23'
+  link: https://doi.org/g99kng
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1104/pp.15.01825
+  title: 'Climate and Developmental Plasticity: Interannual Variability in Grapevine
+    Leaf Morphology'
+  authors:
+  - Daniel H. Chitwood
+  - Susan M. Rundell
+  - Darren Y. Li
+  - Quaneisha L. Woodford
+  - Tommy T. Yu
+  - Jose R. Lopez
+  - Daniel Greenblatt
+  - Julie Kang
+  - Jason P. Londo
+  publisher: Plant Physiology
+  date: '2016-01-29'
+  link: https://doi.org/g99knh
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1371/journal.pone.0149560
+  title: Next Generation Mapping of Enological Traits in an F2 Interspecific Grapevine
+    Hybrid Family
+  authors:
+  - Shanshan Yang
+  - "Jonathan Fresnedo-Ram\xEDrez"
+  - Qi Sun
+  - David C. Manns
+  - Gavin L. Sacks
+  - Anna Katharine Mansfield
+  - James J. Luby
+  - Jason P. Londo
+  - Bruce I. Reisch
+  - Lance E. Cadle-Davidson
+  - Anne Y. Fennell
+  publisher: PLOS ONE
+  date: '2016-03-14'
+  link: https://doi.org/f8whfb
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/hortres.2016.2
+  title: 'A next-generation marker genotyping platform (AmpSeq) in heterozygous crops:
+    a case study for marker-assisted selection in grapevine'
+  authors:
+  - Shanshan Yang
+  - "Jonathan Fresnedo-Ram\xEDrez"
+  - Minghui Wang
+  - Linda Cote
+  - Peter Schweitzer
+  - Paola Barba
+  - Elizabeth M Takacs
+  - Matthew Clark
+  - James Luby
+  - David C Manns
+  - Gavin Sacks
+  - Anna Katharine Mansfield
+  - Jason Londo
+  - Anne Fennell
+  - David Gadoury
+  - Bruce Reisch
+  - Lance Cadle-Davidson
+  - Qi Sun
+  publisher: Horticulture Research
+  date: '2016-02-17'
+  link: https://doi.org/gf6jt4
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.tplants.2015.11.008
+  title: 'Rootstocks: Diversity, Domestication, and Impacts on Shoot Phenotypes'
+  authors:
+  - Emily J. Warschefsky
+  - Laura L. Klein
+  - Margaret H. Frank
+  - Daniel H. Chitwood
+  - Jason P. Londo
+  - Eric J.B. von Wettberg
+  - Allison J. Miller
+  publisher: Trends in Plant Science
+  date: '2016-05-01'
+  link: https://doi.org/f8nfps
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/nph.13754
+  title: Latent developmental and evolutionary shapes embedded within the grapevine
+    leaf
+  authors:
+  - Daniel H. Chitwood
+  - Laura L. Klein
+  - Regan O'Hanlon
+  - Steven Chacko
+  - Matthew Greg
+  - Cassandra Kitchen
+  - Allison J. Miller
+  - Jason P. Londo
+  publisher: New Phytologist
+  date: '2015-11-18'
+  link: https://doi.org/f8g83g
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1371/journal.pone.0134880
+  title: 'Heterozygous Mapping Strategy (HetMappS) for High Resolution Genotyping-By-Sequencing
+    Markers: A Case Study in Grapevine'
+  authors:
+  - Katie E. Hyma
+  - Paola Barba
+  - Minghui Wang
+  - Jason P. Londo
+  - Charlotte B. Acharya
+  - Sharon E. Mitchell
+  - Qi Sun
+  - Bruce Reisch
+  - Lance Cadle-Davidson
+  publisher: PLOS ONE
+  date: '2015-08-05'
+  link: https://doi.org/gf6jv2
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.envexpbot.2013.12.012
+  title: Variation in the chilling requirement and budburst rate of wild Vitis species
+  authors:
+  - Jason P. Londo
+  - Lynn M. Johnson
+  publisher: Environmental and Experimental Botany
+  date: '2014-10-01'
+  link: https://doi.org/f6cpd4
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1186/1471-2229-14-103
+  title: Genome-wide identification of WRKY family genes and their response to cold
+    stress in Vitis vinifera
+  authors:
+  - Lina Wang
+  - Wei Zhu
+  - Linchuan Fang
+  - Xiaoming Sun
+  - Lingye Su
+  - Zhenchang Liang
+  - Nian Wang
+  - Jason P Londo
+  - Shaohua Li
+  - Haiping Xin
+  publisher: BMC Plant Biology
+  date: '2014-04-22'
+  link: https://doi.org/f5z5zg
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1186/1471-2229-14-70
+  title: Sub-lethal glyphosate exposure alters flowering phenology and causes transient
+    male-sterility in Brassica spp
+  authors:
+  - Jason Londo
+  - John McKinney
+  - Matthew Schwartz
+  - Mike Bollman
+  - Cynthia Sagers
+  - Lidia Watrud
+  publisher: BMC Plant Biology
+  date: '2014-01-01'
+  link: https://doi.org/f5x7d8
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1371/journal.pone.0058740
+  title: Genome Wide Transcriptional Profile Analysis of Vitis amurensis and Vitis
+    vinifera in Response to Cold Stress
+  authors:
+  - Haiping Xin
+  - Wei Zhu
+  - Lina Wang
+  - Yue Xiang
+  - Linchuan Fang
+  - Jitao Li
+  - Xiaoming Sun
+  - Nian Wang
+  - Jason P. Londo
+  - Shaohua Li
+  publisher: PLoS ONE
+  date: '2013-03-13'
+  link: https://doi.org/g99knj
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1371/journal.pone.0025736
+  title: The Establishment of Genetically Engineered Canola Populations in the U.S.
+  authors:
+  - Meredith G. Schafer
+  - Andrew A. Ross
+  - Jason P. Londo
+  - Connie A. Burdick
+  - E. Henry Lee
+  - Steven E. Travers
+  - Peter K. Van de Water
+  - Cynthia L. Sagers
+  publisher: PLoS ONE
+  date: '2011-10-05'
+  link: https://doi.org/c7bhkr
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1890/09-2366.1
+  title: Changes in constructed<i>Brassica</i>communities treated with glyphosate
+    drift
+  authors:
+  - Lidia S. Watrud
+  - George King
+  - Jason P. Londo
+  - Ricardo Colasanti
+  - Bonnie M. Smith
+  - Ronald S. Waschmann
+  - E. Henry Lee
+  publisher: Ecological Applications
+  date: '2011-03-01'
+  link: https://doi.org/dpfh9h
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/hdy.2011.19
+  title: Changes in fitness-associated traits due to the stacking of transgenic glyphosate
+    resistance and insect resistance in Brassica napus L.
+  authors:
+  - J P Londo
+  - M A Bollman
+  - C L Sagers
+  - E H Lee
+  - L S Watrud
+  publisher: Heredity
+  date: '2011-03-23'
+  link: https://doi.org/dscksj
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/j.1469-8137.2011.03706.x
+  title: "Glyphosate\u2010drift but not herbivory alters the rate of transgene flow\
+    \ from single and stacked trait transgenic canola (<i>Brassica napus</i>) to nontransgenic\
+    \ <i>B. napus</i> and <i>B. rapa</i>"
+  authors:
+  - Jason P. Londo
+  - Michael A. Bollman
+  - Cynthia L. Sagers
+  - E. Henry Lee
+  - Lidia S. Watrud
+  publisher: New Phytologist
+  date: '2011-03-28'
+  link: https://doi.org/cnmbcj
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/aob/mcq190
+  title: Glyphosate drift promotes changes in fitness and transgene gene flow in canola
+    (Brassica napus) and hybrids
+  authors:
+  - Jason P. Londo
+  - Nonnatus S. Bautista
+  - Cynthia L. Sagers
+  - E. Henry Lee
+  - Lidia S. Watrud
+  publisher: Annals of Botany
+  date: '2010-09-18'
+  link: https://doi.org/b7x8ht
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/j.1365-294x.2007.03489.x
+  title: Origins and population genetics of weedy red rice in the USA
+  authors:
+  - J. P. LONDO
+  - B. A. SCHAAL
+  publisher: Molecular Ecology
+  date: '2007-09-21'
+  link: https://doi.org/cn75xx
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1073/pnas.0603152103
+  title: "Phylogeography of Asian wild rice,\n            <i>Oryza rufipogon</i>\n\
+    \            , reveals multiple independent domestications of cultivated rice,\n\
+    \            <i>Oryza sativa</i>"
+  authors:
+  - Jason P. Londo
+  - Yu-Chung Chiang
+  - Kuo-Hsiang Hung
+  - Tzen-Yuh Chiang
+  - Barbara A. Schaal
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2006-06-20'
+  link: https://doi.org/d2vhvv
+  orcid: 0000-0003-0535-4820
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1371/journal.pcbi.1007128
@@ -201,9 +823,6 @@
   publisher: PLOS Computational Biology
   date: '2020-12-04'
   link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
   type: paper
   description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
     do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -220,21 +839,8 @@
   - open science
   - collaboration
   repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.csbj.2020.05.017
   title: Constructing knowledge graphs and their biomedical applications
   authors:
