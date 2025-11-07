@@ -1,6 +1,6 @@
 ---
 name: Brandon G. Roy, PhD
-image: images/photo.jpg
+image: images/brandon.jpg
 role: Postdoctoral Research Associate
 affiliation: Cornell University
 links:
