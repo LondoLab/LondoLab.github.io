@@ -1,7 +1,7 @@
 ---
 name: Jason Londo
 image: images/photo.jpg
-role: principal-investigator
+role: people-leader
 affiliation: Cornell University
 links:
   home-page: https://cals.cornell.edu/people/jason-londo
