@@ -3,7 +3,8 @@ name: Hanna Martens
 image: images/photo.jpg
 role: Master of Disaster
 group: Staff
-links: https://cals.cornell.edu/people/hanna-martens
+links: 
+  home-page: https://cals.cornell.edu/people/hanna-martens
   github: 
 ---
 
