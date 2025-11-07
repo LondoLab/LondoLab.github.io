@@ -26,6 +26,10 @@ mascot:
   icon: fa-solid fa-dog
   description: Mascot
 
+tech:
+  icon: fa-solid fa-glasses
+  description: Technician
+
 # general
 
 link:
