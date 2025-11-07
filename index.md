@@ -37,7 +37,7 @@ We investigate the phenotypic plasticity of perennial fruit crops through molecu
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/tube.jpg"
   link="research"
   title="Our Research"
   text=text
