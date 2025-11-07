@@ -1,1 +1,1 @@
-Sitemap: https://londolab.github.io/sitemap.xml
+Sitemap: http://londolab.github.io/sitemap.xml
