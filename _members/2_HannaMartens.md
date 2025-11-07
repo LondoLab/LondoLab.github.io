@@ -1,6 +1,7 @@
 ---
 name: Hanna Martens
 image: images/hanna.png
+affiliation: Cornell University
 role: Lab Technician
 group: Staff
 links: 
