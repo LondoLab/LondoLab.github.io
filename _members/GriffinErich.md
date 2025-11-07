@@ -1,7 +1,7 @@
 ---
 name: Griffin Erich
 image: images/griffin-erich-headshot-edited.jpg
-role: PhD Student
+role: phd
 affiliation: Cornell University
 links:
   home-page: https://cals.cornell.edu/people/griffin-john-erich
