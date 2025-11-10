@@ -4,7 +4,7 @@ image: images/sophie.jpg
 role: tech
 affiliation: Cornell University
 links:
-  scholar: h
+  scholar: 
   orcid: 
 ---
 
