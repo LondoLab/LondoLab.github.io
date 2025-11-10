@@ -1,5 +1,5 @@
 ---
-name: Jason Londo
+name: Jason P. Londo
 image: images/jason-londo-headshot.jpg
 role: principal-investigator
 affiliation: Cornell University
