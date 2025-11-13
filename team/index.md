@@ -17,13 +17,20 @@ nav:
 {% include list.html data="members" component="portrait" filter="role == 'phdc'" %}
 {% include list.html data="members" component="portrait" filter="role == 'phd'" %}
 {% include list.html data="members" component="portrait" filter="role == 'undergrad'" %}
+{% include list.html data="members" component="portrait" filter="role == 'mascot'" %}
+
 
 {% include section.html background="images/background.jpg" dark=true %}
 
+# Cornell Agritech Summer Scholars
+{% include list.html data="members" component="portrait" filter="role == 'summer-scholar'" %}
+
+{% include section.html %}
+
 # Lab Alumni
 {% include list.html data="members" component="portrait" filter="role == 'alum'" %}
-
-
+{% include list.html data="members" component="portrait" filter="role == 'tech-alum'" %}
+{% include list.html data="members" component="portrait" filter="role == 'intern'" %}
 
 {% include section.html %}
 
