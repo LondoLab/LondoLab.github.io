@@ -7,7 +7,7 @@ principal-investigator:
   description: Principal Investigator
 
 postdoc:
-  icon: fa-solid fa-glasses
+  icon: fa-solid fa-dna
   description: Postdoctoral Researcher
 
 phd:
@@ -37,6 +37,23 @@ tech:
 alum:
   icon: fa-solid fa-graduation-cap
   description: Alumni
+
+tech-alum:
+  icon: fa-solid fa-microscope
+  description: Technician
+
+visiting-scholar:
+  icon: fa-solid fa-book
+  description: Visiting Scientist
+
+intern:
+  icon: fa-solid fa-lightbulb
+  description: Intern
+
+summer-scholar:
+  icon: fa-solid fa-book-open
+  description: Summer Scholar
+  
 
 # general
 
