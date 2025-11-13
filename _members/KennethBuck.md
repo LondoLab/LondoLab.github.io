@@ -1,6 +1,6 @@
 ---
 name: Kenneth Buck
-image: images/Kenneth-buck.jpg
+image: images/kennethb.jpg
 role: phdc
 affiliation: Cornell University
 links:
