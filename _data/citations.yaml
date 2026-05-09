@@ -1,12 +1,31 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1111/nph.71074
+  title: "Cold hardiness dynamics predict budbreak and associated low\u2010temperature\
+    \ threats in grapevine"
+  authors:
+  - "Francisco Campos\u2010Arguedas"
+  - Erica Kirchhof
+  - Michael G. North
+  - Jason P. Londo
+  - Terry Bates
+  - Cornelis van Leeuwen
+  - "Agn\xE8s Destrac\u2010Irvine"
+  - Benjamin Bois
+  - Al P. Kovaleski
+  publisher: New Phytologist
+  date: '2026-03-08'
+  link: https://doi.org/hb3bxr
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/2025.08.08.669328
   title: Time-series transcriptomics of grapevine deacclimation reveals chilling-dependent
     genetic responses to temperature increase during dormancy
   authors:
   - Hongrui Wang
   - Jason P. Londo
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2025-08-09'
   link: https://doi.org/g99kmz
   orcid: 0000-0003-0535-4820
@@ -25,8 +44,8 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1101/2025.01.09.632158
-  title: 'Warming winters, changing springs: cold hardiness dynamics predict budbreak
-    and associated low temperature threats on an intercontinental scale'
+  title: Cold hardiness dynamics predict budbreak and associated low temperature threats
+    in grapevine
   authors:
   - Francisco Campos-Arguedas
   - Erica Kirchhof
@@ -37,7 +56,7 @@
   - "Agn\xE8s Destrac-Irvine"
   - Benjamin Bois
   - Al P Kovaleski
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2025-01-14'
   link: https://doi.org/g99km3
   orcid: 0000-0003-0535-4820
@@ -54,7 +73,7 @@
   - Rosa Figueroa-Balderas
   - Jason Londo
   - Dario Cantu
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2024-11-11'
   link: https://doi.org/g99km4
   orcid: 0000-0003-0535-4820
@@ -66,7 +85,7 @@
   authors:
   - Jason P Londo
   - Al P Kovaleski
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2024-09-30'
   link: https://doi.org/g99km5
   orcid: 0000-0003-0535-4820
@@ -99,7 +118,7 @@
   - Hongrui Wang
   - Al P. Kovaleski
   - Jason P. Londo
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2023-10-23'
   link: https://doi.org/g99km6
   orcid: 0000-0003-0535-4820
@@ -133,7 +152,7 @@
   - Erik Garrison
   - Brandon Gaut
   - Dario Cantu
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2023-06-27'
   link: https://doi.org/g99km8
   orcid: 0000-0003-0535-4820
@@ -154,14 +173,15 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1101/2023.01.18.524616
-  title: "Genome assembly of the hybrid grapevine<i>Vitis</i>\u2018Chambourcin\u2019"
+  title: "Genome assembly of the hybrid grapevine\n                  <i>Vitis</i>\n\
+    \                  \u2018Chambourcin\u2019"
   authors:
   - Sagar Patel
   - Zachary N. Harris
   - Jason P. Londo
   - Allison Miller
   - Anne Fennell
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2023-01-20'
   link: https://doi.org/g99knb
   orcid: 0000-0003-0535-4820
@@ -193,7 +213,7 @@
   - Michael G. North
   - Timothy E. Martinson
   - Jason P. Londo
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2022-09-11'
   link: https://doi.org/gszj3q
   orcid: 0000-0003-0535-4820
@@ -249,7 +269,7 @@
   - Margaret Frank
   - Robert VanBuren
   - Jason P. Londo
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2020-05-22'
   link: https://doi.org/gsx8nn
   orcid: 0000-0003-0535-4820
@@ -810,61 +830,20 @@
   orcid: 0000-0003-0535-4820
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
+- id: doi:10.3390/plants11243565
+  title: High-Throughput Sequencing Reveals Tobacco and Tomato Ringspot Viruses in
+    Pawpaw
   authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
-  tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
-  authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
-  authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
-  plugin: sources.py
-  file: sources.yaml
+  - Jiyeong Choi
+  - Anya Clara Osatuke
+  - Griffin Erich
+  - Kristian Stevens
+  - Min Sook Hwang
+  - Maher Al Rwahnih
+  - Marc Fuchs
+  publisher: Plants
+  date: '2022-12-17'
+  link: https://doi.org/hb3bxs
+  orcid: 0000-0002-3603-657X
+  plugin: orcid.py
+  file: orcid.yaml
