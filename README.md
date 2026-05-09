@@ -1,32 +1,24 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17228741.svg)](https://doi.org/10.5281/zenodo.17228741)
+# Londo Lab Website
 
-<h1 align="center">Lab Website Template</h1>
-<p align="center">
-<img height="200" src="https://raw.githubusercontent.com/greenelab/lab-website-template/main/images/share.jpg?raw=true" alt="Lab Website Template">
-</p>
+Source for [londolab.github.io](https://londolab.github.io) — the Fruit Crop Physiology Lab at Cornell AgriTech (Geneva, NY).
 
-Lab Website Template (LWT) is an easy-to-use, flexible website template for labs.
-Spend less time worrying about managing a website and citations, and more time running your lab.
+Built on the [Greene Lab Website Template](https://github.com/greenelab/lab-website-template) (Jekyll + GitHub Pages). The `main` branch auto-deploys to `gh-pages` via GitHub Actions on push.
 
-👇👇 **Get Started** 👇👇
+## Local preview
 
-[**Documentation**](https://greene-lab.gitbook.io/lab-website-template-docs)
+With Docker:
 
-## Key Features
+```sh
+.docker/run.sh
+```
 
-- 🤖 Based on Git, GitHub, and Jekyll.
-- 📜 Automatically generated citations from simple identifiers (DOI, PubMed, ORCID, and many more) using Manubot. E.g. `doi:1234/5678` -> `title`, `authors`, `publisher`, `date`, etc.
-- 🧱 A comprehensive and flexible suite of pre-made components (building blocks) for structuring and styling your website:
-  - Formatted tables, code blocks, figures, and other basic elements.
-  - Citations with thumbnails and other rich details.
-  - List large sets of data with flexible filters and components.
-  - ...many more
-- 👁️ Automatic pull request previews.
-- ⚙️ Easy and automated configuration.
-- 👥 Team member pages with bios, roles, and social media links.
-- 🖋️ Blog posts with tags and rich content.
-- 📱 Works and looks good on desktop and mobile.
-- 🤝 Great documentation and support (if we do say so ourselves).
-- ... and much more!
+The site will be available at http://localhost:4000.
 
-![GitHub last commit](https://img.shields.io/github/last-commit/greenelab/lab-website-template)
+## Adding content
+
+- **Team members:** add a markdown file to `_members/`. Front-matter fields: `name`, `image`, `role`, `affiliation`, `links`.
+- **Publications:** add an ORCID to `_data/orcid.yaml` (lab members' papers auto-populate via Manubot in the nightly `update-citations` workflow), or add a manual entry to `_data/sources.yaml` by DOI.
+- **Projects:** edit `_data/projects.yaml`.
+- **Blog posts:** add a `YYYY-MM-DD-title.md` file to `_posts/`.
+
+For broader template documentation see the upstream [LWT docs](https://greene-lab.gitbook.io/lab-website-template-docs).
