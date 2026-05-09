@@ -8,3 +8,4 @@ links:
   orcid: 
 ---
 
+Sophie supports field, greenhouse, and lab operations across the lab's grapevine and apple projects.

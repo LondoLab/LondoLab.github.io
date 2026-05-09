@@ -1,1 +1,18 @@
-- orcid: 0000-0003-0535-4820
+# ORCIDs of lab members whose publications should appear on the Research page.
+# The update-citations workflow (nightly + on-demand) pulls every work on each
+# ORCID and de-duplicates. Adding an alum's ORCID will pull *all* their papers,
+# including ones from before/after their time in the lab.
+
+# --- Current lab ---
+- orcid: 0000-0003-0535-4820  # Jason P. Londo (PI)
+- orcid: 0000-0002-3603-657X  # Griffin Erich (PhD)
+- orcid: 0009-0002-3075-0382  # Kenneth Buck (PhD)
+
+# --- Alumni (commented out — uncomment if you want all of their works listed) ---
+# - orcid: 0000-0002-3287-4963  # Al Kovaleski (alum, now UW Madison)
+# - orcid: 0000-0003-4238-0884  # Hongrui Wang (alum, now INRAE)
+
+# --- Missing ORCIDs to add when known ---
+# - Brandon Roy (postdoc) — needs ORCID
+# - Davis Upchurch (PhD) — needs ORCID
+# - Hanna Martens (lab manager) — if she has one

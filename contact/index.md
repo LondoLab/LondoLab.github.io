@@ -49,21 +49,23 @@ We are always interested in forming new collaborations with scientists and growe
 {% include section.html dark=true %}
 
 {% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+**Address**  
+Cornell AgriTech  
+630 W North St  
+Geneva, NY 14456
 {% endcapture %}
 
 {% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+**Department**  
+School of Integrative Plant Science  
+Horticulture Section  
+Cornell University
 {% endcapture %}
 
 {% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+**Get in touch**  
+Prospective students and collaborators —  
+email Jason to start a conversation.
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 col3=col3 %}
