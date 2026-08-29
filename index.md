@@ -1,8 +1,6 @@
 ---
 ---
 
-# The Fruit Crop Physiology and Climate Adaptation Lab at Cornell University
-
 {% include section.html %}
 
 ## Highlights
