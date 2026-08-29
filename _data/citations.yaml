@@ -859,3 +859,359 @@
   orcid: 0000-0002-3603-657X
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.3389/fpls.2025.1625453
+  title: Genetic regulation of leaf morphology in own-rooted and grafted vines of
+    an F1 rootstock population
+  authors:
+  - Prakriti Sharma
+  - Dilmini Alahakoon
+  - Jason P. Londo
+  - Anne Fennell
+  publisher: Frontiers in Plant Science
+  date: '2025-10-23'
+  link: https://doi.org/hcg748
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1073/pnas.2023548118
+  title: Multiple independent recombinations led to hermaphroditism in grapevine
+  authors:
+  - Cheng Zou
+  - "M\xE9lanie Massonnet"
+  - Andrea Minio
+  - Sagar Patel
+  - Victor Llaca
+  - Avinash Karn
+  - Fred Gouker
+  - Lance Cadle-Davidson
+  - Bruce Reisch
+  - Anne Fennell
+  - Dario Cantu
+  - Qi Sun
+  - Jason P. Londo
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2021-04-09'
+  link: https://doi.org/gkzg29
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.48130/frures-2022-0001
+  title: Transcriptomic analysis of grapevine in response to ABA application reveals
+    its diverse regulations during cold acclimation and deacclimation
+  authors:
+  - Hongrui Wang
+  - Imed E. Dami
+  - Hanna Martens
+  - Jason P. Londo
+  publisher: Fruit Research
+  date: '2022-01-01'
+  link: https://doi.org/hcg749
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3390/agronomy5010021
+  title: Benefits of Transgenic Insect Resistance in Brassica Hybrids under Selection
+  authors:
+  - Cynthia Sagers
+  - Jason Londo
+  - Nonnie Bautista
+  - Edward Lee
+  - Lidia Watrud
+  - George King
+  publisher: Agronomy
+  date: '2015-01-08'
+  link: https://doi.org/gpj5sz
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/s10658-015-0745-1
+  title: 'Cold Stress-Induced Disease Resistance (SIDR): indirect effects of low temperatures
+    on host-pathogen interactions and disease progress in the grapevine powdery mildew
+    pathosystem'
+  authors:
+  - Michelle M. Moyer
+  - Jason Londo
+  - David M. Gadoury
+  - Lance Cadle-Davidson
+  publisher: European Journal of Plant Pathology
+  date: '2015-09-03'
+  link: https://doi.org/hcg75b
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.5344/ajev.2016.16090
+  title: Characterization of Wild North American Grapevine Cold Hardiness Using Differential
+    Thermal Analysis
+  authors:
+  - Jason P. Londo
+  - Alisson P. Kovaleski
+  publisher: American Journal of Enology and Viticulture
+  date: '2017-01-06'
+  link: https://doi.org/hcg75c
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1094/pdis-10-17-1577-pdn
+  title: First Report of <i>Grapevine red blotch virus</i> in Seven <i>Vitis</i> Species
+    in a U.S. <i>Vitis</i> Germplasm Repository
+  authors:
+  - T. Thompson
+  - S. Petersen
+  - J. Londo
+  - W. P. Qiu
+  publisher: Plant Disease
+  date: '2018-04-01'
+  link: https://doi.org/hcg75d
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.7717/peerj.10773
+  title: "Identification of SNPs associated with magnesium and sodium uptake and the\
+    \ effect of their accumulation on micro and macro nutrient levels in\n       \
+    \             <i>Vitis vinifera</i>"
+  authors:
+  - Rachel P. Naegele
+  - Jason P. Londo
+  - Cheng Zou
+  - Peter Cousins
+  publisher: PeerJ
+  date: '2021-02-08'
+  link: https://doi.org/hcg75f
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.5344/ajev.2015.15012
+  title: Population Structure of <i>Vitis rupestris</i>, an Important Resource for
+    Viticulture
+  authors:
+  - "D\xE1niel Pap"
+  - Allison J. Miller
+  - Jason P. Londo
+  - "L\xE1szl\xF3 G. Kov\xE1cs"
+  publisher: American Journal of Enology and Viticulture
+  date: '2015-06-19'
+  link: https://doi.org/f7zz5c
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41438-020-0316-2
+  title: "Draft genome of the Native American cold hardy grapevine Vitis riparia Michx.\
+    \ \u2018Manitoba 37\u2019"
+  authors:
+  - Sagar Patel
+  - Michael Robben
+  - Anne Fennell
+  - Jason P. Londo
+  - Dilmini Alahakoon
+  - Roberto Villegas-Diaz
+  - Padmapriya Swaminathan
+  publisher: Horticulture Research
+  date: '2020-06-01'
+  link: https://doi.org/gg53d4
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1002/aps3.11404
+  title: "Composite modeling of leaf shape along shoots discriminates\n          \
+    \          <i>Vitis</i>\n                    species better than individual leaves"
+  authors:
+  - Abigail E. Bryson
+  - Maya Wilson Brown
+  - Joey Mullins
+  - Wei Dong
+  - Keivan Bahmani
+  - Nolan Bornowski
+  - Christina Chiu
+  - Philip Engelgau
+  - Bethany Gettings
+  - Fabio Gomezcano
+  - Luke M. Gregory
+  - Anna C. Haber
+  - Donghee Hoh
+  - Emily E. Jennings
+  - Zhongjie Ji
+  - Prabhjot Kaur
+  - Sunil K. Kenchanmane Raju
+  - Yunfei Long
+  - Serena G. Lotreck
+  - Davis T. Mathieu
+  - Thilanka Ranaweera
+  - Eleanore J. Ritter
+  - Rie Sadohara
+  - Robert Z. Shrote
+  - Kaila E. Smith
+  - Scott J. Teresi
+  - Julian Venegas
+  - Hao Wang
+  - McKena L. Wilson
+  - Alyssa R. Tarrant
+  - Margaret H. Frank
+  - "Zo\xEB Migicovsky"
+  - Jyothi Kumar
+  - Robert VanBuren
+  - Jason P. Londo
+  - Daniel H. Chitwood
+  publisher: Applications in Plant Sciences
+  date: '2020-12-01'
+  link: https://doi.org/gqtgts
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41598-021-03783-x
+  title: Phenological diversity in wild and hybrid grapes (Vitis) from the USDA-ARS
+    cold-hardy grape collection
+  authors:
+  - Benjamin Gutierrez
+  - Heidi Schwaninger
+  - Victoria Meakem
+  - Jason Londo
+  - Gan-Yuan Zhong
+  publisher: Scientific Reports
+  date: '2021-12-21'
+  link: https://doi.org/hcg75g
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.5344/ajev.2020.20030
+  title: A Novel Grape Downy Mildew Resistance Locus from<i>Vitis rupestris</i>
+  authors:
+  - Gaurab Bhattarai
+  - Anne Fennell
+  - Jason P. Londo
+  - Courtney Coleman
+  - Laszlo G. Kovacs
+  publisher: American Journal of Enology and Viticulture
+  date: '2020-08-20'
+  link: https://doi.org/g36bs4
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1093/hr/uhad286
+  title: 'NYUS.2: an automated machine learning prediction model for the large-scale
+    real-time simulation of grapevine freezing tolerance in North America'
+  authors:
+  - Hongrui Wang
+  - Gaurav D Moghe
+  - Al P Kovaleski
+  - Markus Keller
+  - Timothy E Martinson
+  - A Harrison Wright
+  - Jeffrey L Franklin
+  - "Andr\xE9anne H\xE9bert-Hach\xE9"
+  - Caroline Provost
+  - Michael Reinke
+  - Amaya Atucha
+  - Michael G North
+  - Jennifer P Russo
+  - Pierre Helwi
+  - Michela Centinari
+  - Jason P Londo
+  publisher: Horticulture Research
+  date: '2023-12-29'
+  link: https://doi.org/hcg75h
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3120/0024-9637(2006)53[244:gdosta]2.0.co;2
+  title: GENOTYPE DIVERSITY OF SALSOLA TRAGUS AND POTENTIAL ORIGINS OF A PREVIOUSLY
+    UNIDENTIFIED INVASIVE SALSOLA FROM CALIFORNIA AND ARIZONA
+  authors:
+  - John F. Gaskin
+  - Frederick J. Ryan
+  - G. Frederic Hrusa
+  - Jason P. Londo
+  publisher: "Madro\xF1o"
+  date: '2006-07-01'
+  link: https://doi.org/fr7f38
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/s11032-016-0538-z
+  title: Toward the elucidation of cytoplasmic diversity in North American grape breeding
+    programs
+  authors:
+  - "Jonathan Fresnedo-Ram\xEDrez"
+  - Qi Sun
+  - Chin-Feng Hwang
+  - Craig A. Ledbetter
+  - David W. Ramming
+  - Anne Y. Fennell
+  - M. Andrew Walker
+  - James J. Luby
+  - Matthew D. Clark
+  - Jason P. Londo
+  - Lance Cadle-Davidson
+  - Gan-Yuan Zhong
+  - Bruce I. Reisch
+  publisher: Molecular Breeding
+  date: '2016-08-01'
+  link: https://doi.org/f83v45
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.stress.2025.100861
+  title: Tetralone-ABA enhances winter cold acclimation, reduces deacclimation, and
+    delays budbreak in V. vinifera and V. hybrid grapevines
+  authors:
+  - Hongrui Wang
+  - Yue Pan
+  - Jason P. Londo
+  publisher: Plant Stress
+  date: '2025-06-01'
+  link: https://doi.org/hcg75j
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.scienta.2018.01.014
+  title: Water deficit severity during berry development alters timing of dormancy
+    transitions in wine grape cultivar Malbec
+  authors:
+  - Krista Shellie
+  - Alisson P. Kovaleski
+  - Jason P. Londo
+  publisher: Scientia Horticulturae
+  date: '2018-02-01'
+  link: https://doi.org/gc2qr8
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41438-020-0304-6
+  title: "A key \u2018foxy\u2019 aroma gene is regulated by homology-induced promoter\
+    \ indels in the iconic juice grape \u2018Concord\u2019"
+  authors:
+  - Yingzhen Yang
+  - "Jos\xE9 Cuenca"
+  - Nian Wang
+  - Zhenchang Liang
+  - Honghe Sun
+  - Benjamin Gutierrez
+  - Xiaojun Xi
+  - Jie Arro
+  - Yi Wang
+  - Peige Fan
+  - Jason Londo
+  - Peter Cousins
+  - Shaohua Li
+  - Zhangjun Fei
+  - Gan-Yuan Zhong
+  publisher: Horticulture Research
+  date: '2020-04-18'
+  link: https://doi.org/gtv2rb
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.21273/hortsci.51.7.856
+  title: Assessment of Freeze Injury of Grapevine Green Tissues in Response to Cultivars
+    and a Cryoprotectant Product
+  authors:
+  - Michela Centinari
+  - Maria S. Smith
+  - Jason P. Londo
+  publisher: HortScience
+  date: '2016-07-01'
+  link: https://doi.org/hcg75k
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/s11032-017-0739-0
+  title: An integrative AmpSeq platform for highly multiplexed marker-assisted pyramiding
+    of grapevine powdery mildew resistance loci
+  authors:
+  - "Jonathan Fresnedo-Ram\xEDrez"
+  - Shanshan Yang
+  - Qi Sun
+  - Linda M. Cote
+  - Peter A. Schweitzer
+  - Bruce I. Reisch
+  - Craig A. Ledbetter
+  - James J. Luby
+  - Matthew D. Clark
+  - Jason P. Londo
+  - David M. Gadoury
+  - "P\xE1l Kozma"
+  - Lance Cadle-Davidson
+  publisher: Molecular Breeding
+  date: '2017-11-07'
+  link: https://doi.org/gcp92v
+  plugin: sources.py
+  file: sources.yaml
