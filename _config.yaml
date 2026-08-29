@@ -1,9 +1,9 @@
 # site properties and page defaults
-title: The Londo Lab
-subtitle: at Cornell University
-description: The Fruit Crop Physiology Lab is housed at Cornell Agritech where we work on grapevine and apple.
-header: images/background.jpg
-footer: images/background.jpg
+title: The Fruit Crop Physiology and Climate Adaptation Lab
+subtitle: at Cornell AgriTech
+description: The Fruit Crop Physiology and Climate Adaptation Lab is housed at Cornell AgriTech where we work on grapevine and apple.
+header-dark: false
+footer-dark: false
 proofer: false
 
 # site social media and other links
