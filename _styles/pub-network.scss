@@ -1,0 +1,108 @@
+---
+---
+
+.pubnet {
+  margin: 10px 0 10px;
+}
+
+.pubnet-head {
+  margin-bottom: 12px;
+}
+
+.pubnet-title {
+  margin: 0 0 4px;
+  font-family: var(--heading);
+  font-weight: var(--bold);
+  font-size: var(--large);
+}
+
+.pubnet-sub {
+  margin: 0;
+  color: var(--gray);
+  font-size: 0.9rem;
+  line-height: var(--compact);
+  max-width: 70ch;
+}
+
+.pubnet-legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 18px;
+  margin: 10px 0;
+  font-size: 0.85rem;
+}
+
+.pubnet-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.pubnet-legend-shape {
+  gap: 6px;
+  padding-left: 10px;
+  margin-left: 4px;
+  border-left: 1px solid var(--light-gray);
+}
+
+.pubnet-legend-shape .pubnet-dia {
+  margin-left: 12px;
+}
+
+.pubnet-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.pubnet-dia {
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+  transform: rotate(45deg);
+  border-radius: 2px;
+}
+
+.pubnet-canvas {
+  position: relative;
+  width: 100%;
+  height: 560px;
+  border: 1px solid var(--light-gray);
+  border-radius: var(--rounded);
+  background: var(--background);
+  overflow: hidden;
+}
+
+#pubnet-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  touch-action: none;
+}
+
+.pubnet-tip {
+  position: absolute;
+  max-width: 250px;
+  padding: 8px 10px;
+  background: var(--text);
+  color: var(--background);
+  border-radius: var(--rounded);
+  font-size: 0.8rem;
+  line-height: 1.35;
+  pointer-events: none;
+  box-shadow: var(--shadow);
+  z-index: 5;
+}
+
+.pubnet-tip-meta {
+  opacity: 0.75;
+  text-transform: capitalize;
+}
+
+@media (max-width: 600px) {
+  .pubnet-canvas {
+    height: 420px;
+  }
+}

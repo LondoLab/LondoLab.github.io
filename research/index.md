@@ -9,6 +9,10 @@ nav:
 
 {% include section.html %}
 
+{% include pub-network.html %}
+
+{% include section.html %}
+
 {% include search-box.html %}
 
 {% include search-info.html %}
