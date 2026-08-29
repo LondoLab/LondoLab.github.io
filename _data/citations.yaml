@@ -1,5 +1,17 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1111/ppl.71056
+  title: "Chilling Accumulation Shapes Transcriptomic Responses to\_Warming Exposure\
+    \ During Grapevine Deacclimation"
+  authors:
+  - Hongrui Wang
+  - Jason P. Londo
+  publisher: Physiologia Plantarum
+  date: '2026-07-01'
+  link: https://doi.org/hcg74w
+  orcid: 0000-0003-0535-4820
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1111/nph.71074
   title: "Cold hardiness dynamics predict budbreak and associated low\u2010temperature\
     \ threats in grapevine"
@@ -367,8 +379,8 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1111/ajgw.12389
-  title: 'Deconstructing cold hardiness: variation in supercooling ability and chilling
-    requirements in the wild grapevine<i>Vitis riparia</i>'
+  title: "Deconstructing cold hardiness: variation in supercooling ability and chilling\
+    \ requirements in the wild grapevine\n                    <i>Vitis riparia</i>"
   authors:
   - J.P. Londo
   - A.P. Kovaleski
@@ -815,9 +827,9 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1073/pnas.0603152103
-  title: "Phylogeography of Asian wild rice,\n            <i>Oryza rufipogon</i>\n\
-    \            , reveals multiple independent domestications of cultivated rice,\n\
-    \            <i>Oryza sativa</i>"
+  title: "Phylogeography of Asian wild rice,\n                    <i>Oryza rufipogon</i>\n\
+    \                    , reveals multiple independent domestications of cultivated\
+    \ rice,\n                    <i>Oryza sativa</i>"
   authors:
   - Jason P. Londo
   - Yu-Chung Chiang
