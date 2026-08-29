@@ -4,11 +4,9 @@
 
 .citation {
   display: flex;
-  margin: 10px 0;
-  border-radius: var(--rounded);
-  background: var(--background);
-  overflow: hidden;
-  box-shadow: var(--shadow);
+  margin: 0;
+  padding: 10px 2px;
+  border-bottom: 1px solid var(--light-gray);
 }
 
 .citation-image {
@@ -29,10 +27,10 @@
   position: relative;
   display: inline-flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 3px;
   max-width: 100%;
   height: min-content;
-  padding: 14px 18px;
+  padding: 0;
   text-align: left;
   overflow-wrap: break-word;
   z-index: 0;
@@ -47,6 +45,11 @@
 
 .citation-title {
   font-weight: var(--semi-bold);
+}
+
+.citation-details {
+  font-size: 0.9rem;
+  color: var(--gray);
 }
 
 .citation-text > .icon {
