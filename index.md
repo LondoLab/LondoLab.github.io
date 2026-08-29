@@ -1,7 +1,7 @@
 ---
 ---
 
-# The Fruit Crop Physiology Lab at Cornell AgriTech
+# The Fruit Crop Physiology and Climate Adaptation Lab at Cornell University
 
 {% include section.html %}
 

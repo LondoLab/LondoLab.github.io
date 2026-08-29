@@ -1,11 +1,11 @@
 ---
-title: Team
+title: People
 nav:
-  order: 6
-  tooltip: About our team
+  order: 1
+  tooltip: Meet the lab
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+# {% include icon.html icon="fa-solid fa-users" %}People
 
 # Current Lab Members
 

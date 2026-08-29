@@ -1,11 +1,11 @@
 ---
-title: Projects
+title: Research
 nav:
   order: 2
-  tooltip: Software, datasets, and more
+  tooltip: What we study
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# {% include icon.html icon="fa-solid fa-microscope" %}Research
 
 We work broadly in grapevine and apple production systems to understand the impact of weather and horticultural practices on yield.
 
