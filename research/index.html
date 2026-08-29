@@ -476,7 +476,8 @@
   <div class="pubnet-head">
     <p class="pubnet-title">Co-authorship network</p>
     <p class="pubnet-sub">
-      Each mark is a paper; papers are linked when they share an author other than Londo.
+      Each mark is a paper. Papers are linked when they share an author other than Londo (solid line);
+      papers with no such link are tied to others on the same theme (dashed line).
       Color = research theme, shape = journal (●) vs preprint (◆), size = number of co-authors.
       Hover to inspect, click to open the DOI, drag to rearrange.
     </p>
@@ -542,6 +543,17 @@
   }
   function year(c) { return (c.date || '').slice(0, 4); }
 
+  // ---- hide preprints superseded by a published version ----
+  var SUPERSEDED = { 'doi:10.1101/2025.08.08.669328': 'doi:10.1111/ppl.71056' }; // Wang deacclimation preprint -> Physiol. Plantarum 2026
+  function ntitle(t) { return cleanTitle(t).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim(); }
+  var publishedTitles = {};
+  raw.forEach(function (c) { if (!isPreprint(c)) publishedTitles[ntitle(c.title)] = 1; });
+  raw = raw.filter(function (c) {
+    if (SUPERSEDED[c.id]) return false;
+    if (isPreprint(c) && publishedTitles[ntitle(c.title)]) return false;
+    return true;
+  });
+
   // ---- build nodes ----
   var nodes = raw.map(function (c, i) {
     var title = cleanTitle(c.title) || '[untitled]';
@@ -572,6 +584,17 @@
     }
   }
 
+  // connect otherwise-isolated papers to same-theme papers (dashed topical links)
+  var orphans = [];
+  for (var o = 0; o < nodes.length; o++) { if (!adj[o]) orphans.push(o); }
+  orphans.forEach(function (o) {
+    for (var p = 0; p < nodes.length; p++) {
+      if (p === o || nodes[p].theme.key !== nodes[o].theme.key) continue;
+      edges.push({ s: o, t: p, w: 1, theme: true });
+      (adj[o] = adj[o] || {})[p] = 1; (adj[p] = adj[p] || {})[o] = 1;
+    }
+  });
+
   // ---- SVG setup ----
   var W = 960, H = 560, cx = W / 2, cy = H / 2;
   var svg = document.getElementById('pubnet-svg');
@@ -582,8 +605,9 @@
 
   var edgeEls = edges.map(function (e) {
     var ln = document.createElementNS(SVGNS, 'line');
-    ln.setAttribute('stroke-width', Math.min(3, e.w));
-    ln.setAttribute('stroke-opacity', 0.35);
+    ln.setAttribute('stroke-width', e.theme ? 1 : Math.min(3, e.w));
+    ln.setAttribute('stroke-opacity', e.theme ? 0.25 : 0.35);
+    if (e.theme) ln.setAttribute('stroke-dasharray', '3 4');
     gE.appendChild(ln); return ln;
   });
 
@@ -676,11 +700,16 @@
     }
     for (var i = 0; i < nodes.length; i++) drawNode(nodes[i], nodeEls[i]);
   }
-  var running = true;
+  // Pre-settle the layout synchronously so the graph appears laid out (no visible jumping).
+  alpha = 1;
+  for (var warm = 0; warm < 450 && alpha > 0.003; warm++) { tick(); alpha *= 0.985; }
+  alpha = 0;
+  render();
+
+  // Idle loop: only simulates when reheated (e.g. during drag), then cools quickly.
   function loop() {
-    if (alpha > 0.005) { tick(); alpha *= 0.985; }
-    render();
-    if (running) requestAnimationFrame(loop);
+    if (alpha > 0.003) { tick(); alpha *= 0.9; render(); }
+    requestAnimationFrame(loop);
   }
   requestAnimationFrame(loop);
 
@@ -698,7 +727,7 @@
   }
   function hoverOff() {
     for (var i = 0; i < nodes.length; i++) nodeEls[i].setAttribute('opacity', 1);
-    for (var e = 0; e < edges.length; e++) { edgeEls[e].setAttribute('stroke-opacity', 0.35); edgeEls[e].setAttribute('stroke', '#cbd5e1'); }
+    for (var e = 0; e < edges.length; e++) { edgeEls[e].setAttribute('stroke-opacity', edges[e].theme ? 0.25 : 0.35); edgeEls[e].setAttribute('stroke', '#cbd5e1'); }
   }
 
   // ---- tooltip ----
