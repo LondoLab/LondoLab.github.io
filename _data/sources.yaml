@@ -19,4 +19,35 @@
 #     tags:
 #       - cold-hardiness
 
-[]
+# --- Older/other Londo publications not indexed on the listed ORCIDs ---
+# Added 2026-08-29. Each DOI CrossRef-verified (title + Londo authorship + year)
+# before inclusion. Metadata is fetched from the DOI by _cite/cite.py.
+
+- id: doi:10.3389/fpls.2025.1625453          # Genetic regulation of leaf morphology, own-rooted vs grafted F1 vines (Front Plant Sci 2025)
+- id: doi:10.1073/pnas.2023548118            # Multiple independent recombinations led to hermaphroditism in grapevine (PNAS 2021)
+- id: doi:10.48130/frures-2022-0001          # Transcriptomic analysis of grapevine ABA response, cold acclimation/deacclimation (Fruit Research 2022)
+- id: doi:10.3390/agronomy5010021            # Benefits of transgenic insect resistance in Brassica hybrids under selection (Agronomy 2015)
+- id: doi:10.1007/s10658-015-0745-1          # Cold Stress-Induced Disease Resistance (SIDR), grapevine powdery mildew (Eur J Plant Pathol 2015)
+- id: doi:10.5344/ajev.2016.16090            # Wild North American grapevine cold hardiness via DTA (Am J Enol Vitic 2017)
+- id: doi:10.1094/pdis-10-17-1577-pdn        # First report of Grapevine red blotch virus in seven Vitis species (Plant Disease 2018)
+- id: doi:10.7717/peerj.10773                # SNPs for Mg/Na uptake in Vitis vinifera (PeerJ 2021)
+- id: doi:10.5344/ajev.2015.15012            # Population structure of Vitis rupestris (Am J Enol Vitic 2015)
+- id: doi:10.1038/s41438-020-0316-2          # Draft genome of Vitis riparia 'Manitoba 37' (Hortic Res 2020)
+- id: doi:10.1002/aps3.11404                 # Composite modeling of leaf shape discriminates Vitis species (Appl Plant Sci 2020)
+- id: doi:10.1038/s41598-021-03783-x         # Phenological diversity in wild/hybrid grapes, USDA-ARS collection (Sci Rep 2021)
+- id: doi:10.5344/ajev.2020.20030            # A novel grape downy mildew resistance locus from Vitis rupestris (Am J Enol Vitic 2020)
+- id: doi:10.1093/hr/uhad286                 # NYUS.2 machine-learning grapevine freezing-tolerance model (Hortic Res 2023)
+- id: "doi:10.3120/0024-9637(2006)53[244:gdosta]2.0.co;2"  # Genotype diversity of Salsola tragus (Madrono 2006)
+- id: doi:10.1007/s11032-016-0538-z          # Cytoplasmic diversity in North American grape breeding programs (Mol Breed 2016)
+- id: doi:10.1016/j.stress.2025.100861       # Tetralone-ABA enhances winter cold acclimation in grapevines (Plant Stress 2025)
+- id: doi:10.1016/j.scienta.2018.01.014      # Water deficit alters dormancy transitions in Malbec (Sci Hortic 2018)
+- id: doi:10.1038/s41438-020-0304-6          # 'Foxy' aroma gene in juice grape 'Concord' (Hortic Res 2020)
+- id: doi:10.21273/hortsci.51.7.856          # Freeze injury of grapevine green tissues + cryoprotectant (HortScience 2016)
+- id: doi:10.1007/s11032-017-0739-0          # AmpSeq platform for grapevine powdery mildew resistance loci (Mol Breed 2017)
+
+# --- Known publications with NO CrossRef-registered DOI (cannot auto-add here) ---
+# - "Genetic and protein sequence variation of CBF1-4 in cold hardy wild grapevine
+#    germplasm" (Vitis: J. Grapevine Research, 2015). Journal Vitis does not register
+#    DOIs with CrossRef; add manually only if a DOI is later found.
+# - "Grapevine Winter Survival and Prospects in an Age of Changing Climate"
+#    (likely a book chapter / trade article; no DOI located).
