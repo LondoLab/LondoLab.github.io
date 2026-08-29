@@ -4,7 +4,7 @@
 
 .citation {
   display: flex;
-  margin: 20px 0;
+  margin: 10px 0;
   border-radius: var(--rounded);
   background: var(--background);
   overflow: hidden;
@@ -29,11 +29,10 @@
   position: relative;
   display: inline-flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 6px;
   max-width: 100%;
   height: min-content;
-  padding: 20px;
-  padding-left: 30px;
+  padding: 14px 18px;
   text-align: left;
   overflow-wrap: break-word;
   z-index: 0;
