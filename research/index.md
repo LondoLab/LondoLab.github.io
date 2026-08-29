@@ -11,14 +11,6 @@ Our peer-reviewed papers and preprints on grapevine and apple cold hardiness, do
 
 {% include section.html %}
 
-## Highlighted
-
-{% include citation.html lookup="Time-series transcriptomics of grapevine deacclimation reveals chilling-dependent genetic responses to temperature increase during dormancy" style="rich" %}
-
-{% include section.html %}
-
-## All
-
 {% include search-box.html %}
 
 {% include search-info.html %}
