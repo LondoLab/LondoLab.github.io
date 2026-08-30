@@ -2,6 +2,7 @@
 name: Dr. Kenneth Buck
 image: images/kennethb.jpg
 role: alum
+order: 3
 affiliation: Cornell University
 links:
   home-page: https://cals.cornell.edu/people/kenneth-buck

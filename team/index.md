@@ -12,7 +12,7 @@ nav:
 ## Current Lab Members
 
 <div class="member-list">
-{%- assign current_roles = "principal-investigator,tech,postdoc,programmer,visiting-scholar,phdc,phd,undergrad" | split: "," -%}
+{%- assign current_roles = "principal-investigator,tech,postdoc,programmer,phdc,phd,undergrad" | split: "," -%}
 {%- for role in current_roles -%}
 {%- assign group = site.members | where: "role", role -%}
 {%- for m in group -%}
@@ -21,28 +21,23 @@ nav:
 {%- endfor -%}
 </div>
 
-{%- assign summer = site.members | where: "role", "summer-scholar" -%}
-{% if summer.size > 0 %}
 ## Cornell AgriTech Summer Scholars
 
 <div class="member-list">
-{%- for m in summer -%}
+{%- assign scholars = site.members | where: "role", "summer-scholar" | sort: "order" -%}
+{%- for m in scholars -%}
 {% include member-row.html member=m %}
 {%- endfor -%}
 </div>
-{% endif %}
 
 {% include section.html %}
 
 ## Lab Alumni
 
 <div class="member-list">
-{%- assign alum_roles = "alum,tech-alum,intern" | split: "," -%}
-{%- for role in alum_roles -%}
-{%- assign group = site.members | where: "role", role -%}
-{%- for m in group -%}
+{%- assign alumni = site.members | where_exp: "m", "m.role == 'alum' or m.role == 'tech-alum' or m.role == 'intern' or m.role == 'visiting-scholar'" | sort: "order" -%}
+{%- for m in alumni -%}
 {% include member-row.html member=m %}
-{%- endfor -%}
 {%- endfor -%}
 </div>
 

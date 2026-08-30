@@ -2,6 +2,7 @@
 name: Dr. Al Kovaleski
 image: images/al.jpg
 role: alum
+order: 1
 affiliation: UW Madison
 links:
   scholar: https://scholar.google.com/citations?user=riSQUbsAAAAJ&hl=en
