@@ -9,4 +9,4 @@ links:
   orcid: https://orcid.org/0000-0003-4238-0884
 ---
 
-Hongrui graduated from the Londo lab in 2024 and has continued his work in grapevine during his postdoctoral work in Bordeaux with INRAE.
+Hongrui graduated from the Londo lab in 2024 and has continued his work modeling grapevine growth and response to increasing temperatures during his postdoctoral research in Bordeaux with INRAE.
