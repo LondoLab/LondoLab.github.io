@@ -1,6 +1,6 @@
 ---
 name: Hanna Martens
-image: images/hannaM.png
+image: images/hanna-martens.jpg
 affiliation: Cornell University
 role: tech
 group: Staff
