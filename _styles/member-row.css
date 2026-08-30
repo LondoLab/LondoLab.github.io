@@ -14,11 +14,11 @@
 /* left column: photo + haiku */
 .member-media {
   flex-shrink: 0;
-  width: 160px;
+  width: 340px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 14px;
+  gap: 16px;
 }
 
 .member-photo-link {
@@ -37,18 +37,17 @@
 
 .member-haiku {
   width: 100%;
-  font-size: 0.85rem;
-  font-style: italic;
-  line-height: 1.5;
+  font-size: 1.05rem;
+  font-style: normal;
+  line-height: 1.7;
   text-align: center;
   color: var(--dark-gray);
-  white-space: pre-line;
+  white-space: nowrap;
 }
 
 .member-haiku-empty {
   color: var(--gray);
   opacity: 0.5;
-  font-style: normal;
   letter-spacing: 0.05em;
 }
 
