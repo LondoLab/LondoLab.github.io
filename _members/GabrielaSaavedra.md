@@ -2,7 +2,7 @@
 name: Gabriela Saavedra
 image: images/fallback.svg
 role: visiting-scholar
-order: 7
+order: 9
 affiliation: Universidad Mayor, Chile
 ---
 

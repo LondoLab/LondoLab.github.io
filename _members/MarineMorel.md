@@ -2,7 +2,7 @@
 name: Marine Morel
 image: images/fallback.svg
 role: visiting-scholar
-order: 9
+order: 8
 affiliation: INRAE Bordeaux, France
 ---
 

@@ -2,7 +2,7 @@
 name: Dr. Judith Boekee
 image: images/fallback.svg
 role: visiting-scholar
-order: 8
+order: 7
 affiliation: TU Delft, Netherlands
 ---
 
