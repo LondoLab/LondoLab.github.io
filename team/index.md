@@ -47,13 +47,3 @@ nav:
 {% include member-row.html member=m %}
 {%- endfor -%}
 </div>
-
-{% include section.html %}
-
-{% capture content %}
-
-{% include figure.html image="images/group.jpg" %}
-
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}
