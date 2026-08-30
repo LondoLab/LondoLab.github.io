@@ -5,7 +5,9 @@ nav:
   tooltip: Meet the lab
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}People
+{% include section.html background="images/group.jpg" dark=true %}
+
+# {% include icon.html icon="fa-solid fa-users" %}Making Magic
 
 {% include section.html %}
 
