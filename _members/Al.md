@@ -1,5 +1,5 @@
 ---
-name: Al Kovaleski, PhD
+name: Dr. Al Kovaleski
 image: images/al.jpg
 role: alum
 affiliation: UW Madison

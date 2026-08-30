@@ -1,5 +1,5 @@
 ---
-name: Hongrui Wang, PhD
+name: Dr. Hongrui Wang
 image: images/Hongrui.jpg
 role: alum
 affiliation: INRAE
