@@ -1,6 +1,6 @@
 ---
 name: Sophie Bauer
-image: images/sophie.jpg
+image: images/sophie-v2.jpg
 role: tech
 affiliation: Cornell University
 links:
