@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-book" %}Publications
 
-**Genomics and Evolution** • **Physiology and Adaptation** • **Disease Resistance**
+<p style="text-align: center"><strong>Plant Physiology</strong> • <strong>Adaptation</strong> • <strong>Dormancy</strong> • <strong>Genomics</strong> • <strong>Epigenomics</strong></p>
 
 The research conducted in this group is wide in scope. We have a programmatic belief that plant physiology and genetics are intertwined, and that many exciting questions in plant adaptation can be answered by investigating the interface.
 
