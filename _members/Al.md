@@ -9,3 +9,5 @@ links:
   orcid: https://orcid.org/0000-0002-3287-4963
   website: https://plantresilience.cals.wisc.edu/
 ---
+
+Al runs the Plant Resilience Lab at the University of Wisconsin–Madison, where his work continues to investigate cold hardiness and dormancy processes in cranberry and forest tree systems.
