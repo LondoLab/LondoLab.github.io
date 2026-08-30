@@ -37,10 +37,11 @@
     {% if m.links %}
       <div class="member-links">
         {% for link in m.links %}
-          {% if link[1] and link[1] != "" %}
+          {% assign lval = link[1] %}
+          {% if lval and lval != "" %}
             {% assign ltype = link[0] %}
             {% if ltype == "scholar" %}{% assign ltype = "google-scholar" %}{% endif %}
-            {% include button.html type=ltype link=link[1] text="" style="bare" %}
+            {% include button.html type=ltype link=lval text="" style="bare" %}
           {% endif %}
         {% endfor %}
       </div>
