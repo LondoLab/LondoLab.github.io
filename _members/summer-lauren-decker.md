@@ -1,6 +1,6 @@
 ---
 name: Lauren Decker
-image: images/fallback.svg
+image: images/lauren-decker.jpg
 role: summer-scholar
 order: 5
 affiliation: Texas A&M University

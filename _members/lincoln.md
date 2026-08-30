@@ -2,7 +2,7 @@
 name: Lincoln Champlin
 image: images/lincoln.jpg
 role: tech-alum
-order: 10
+order: 11
 affiliation: Cornell University, Hobart William Smith
 links:
   scholar: 
