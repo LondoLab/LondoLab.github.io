@@ -6,4 +6,4 @@ order: 4
 affiliation: Missouri State University
 ---
 
-As a 2022 Cornell Summer Scholar, Sarah studied the genetic architecture of variation in stomatal conductance in apple.
+As a 2022 Cornell Summer Scholar, Sarah studied the genetic architecture of variation in stomatal conductance in apple (mentor: Jason Londo).

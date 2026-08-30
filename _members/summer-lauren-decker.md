@@ -8,4 +8,4 @@ links:
   linkedin: https://www.linkedin.com/in/lauren-decker-7a712a1bb/
 ---
 
-As a 2022 Cornell Summer Scholar, Lauren studied variation in stomatal conductance in wild and domesticated grapevine.
+As a 2022 Cornell Summer Scholar, Lauren studied variation in stomatal conductance in wild and domesticated grapevine (mentor: Jason Londo).
