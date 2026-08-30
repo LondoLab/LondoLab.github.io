@@ -3,6 +3,10 @@ name: Davis Upchurch
 image: images/davis.jpg
 role: phd
 affiliation: Cornell University
+haiku: |
+  Hidden viral flows
+  move silent through orchard veins—
+  roots keep watch below.
 links:
   scholar: 
   orcid: 
