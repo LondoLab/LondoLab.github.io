@@ -2,7 +2,7 @@
 name: Dr. Hongrui Wang
 image: images/Hongrui.jpg
 role: alum
-order: 2
+order: 3
 affiliation: INRAE
 links:
   scholar: https://scholar.google.com/citations?user=wAVAL4kAAAAJ&hl=en

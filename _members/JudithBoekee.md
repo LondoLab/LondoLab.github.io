@@ -1,5 +1,5 @@
 ---
-name: Judith Boekee
+name: Dr. Judith Boekee
 image: images/fallback.svg
 role: visiting-scholar
 order: 8

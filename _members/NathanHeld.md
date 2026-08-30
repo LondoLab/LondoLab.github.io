@@ -2,7 +2,7 @@
 name: Nathan Held
 image: images/fallback.svg
 role: alum
-order: 4
+order: 5
 affiliation: Stone Hill Winery
 ---
 
