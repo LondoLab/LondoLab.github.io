@@ -1,3 +1,36 @@
+/* People hero: heading beside the group photo */
+.magic-hero {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.magic-hero-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.magic-hero-text h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.magic-hero-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--rounded);
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 800px) {
+  .magic-hero {
+    grid-template-columns: 1fr;
+  }
+}
 .member-row {
   display: flex;
   gap: 28px;
