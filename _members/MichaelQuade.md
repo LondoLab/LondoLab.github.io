@@ -1,6 +1,6 @@
 ---
 name: Michael Quade
-image: images/fallback.svg
+image: images/michael-quade.jpg
 role: alum
 order: 6
 affiliation: Cornell University

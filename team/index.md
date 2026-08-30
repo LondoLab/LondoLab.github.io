@@ -5,9 +5,14 @@ nav:
   tooltip: Meet the lab
 ---
 
-{% include section.html background="images/group.jpg" dark=true %}
-
-# {% include icon.html icon="fa-solid fa-users" %}Making Magic
+<div class="magic-hero">
+  <div class="magic-hero-text">
+    <h1>{% include icon.html icon="fa-solid fa-users" %}Making Magic</h1>
+  </div>
+  <div class="magic-hero-photo">
+    <img src="{{ 'images/group.jpg' | relative_url }}" alt="The Londo Lab team in the vineyard" loading="lazy">
+  </div>
+</div>
 
 {% include section.html %}
 
