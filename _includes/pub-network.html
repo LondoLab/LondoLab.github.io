@@ -2,16 +2,6 @@
 <script id="pub-data" type="application/json">{{ site.data.citations | jsonify }}</script>
 
 <div class="pubnet">
-  <div class="pubnet-head">
-    <p class="pubnet-title">Co-authorship network</p>
-    <p class="pubnet-sub">
-      Each mark is a paper. Papers are linked when they share an author other than Londo (solid line);
-      papers with no such link are tied to others on the same theme (dashed line).
-      Color = research theme, shape = journal (●) vs preprint (◆), size = number of co-authors.
-      Hover to inspect, click to open the DOI, drag to rearrange.
-    </p>
-  </div>
-
   <div class="pubnet-legend" id="pubnet-legend"></div>
 
   <div class="pubnet-canvas">
@@ -142,12 +132,7 @@
   });
 
   var nodeEls = nodes.map(function (n) {
-    var el;
-    if (n.preprint) {
-      el = document.createElementNS(SVGNS, 'polygon'); // diamond
-    } else {
-      el = document.createElementNS(SVGNS, 'circle');
-    }
+    var el = document.createElementNS(SVGNS, 'circle');
     el.setAttribute('fill', n.theme.color);
     el.setAttribute('stroke', '#ffffff');
     el.setAttribute('stroke-width', 1.5);
@@ -167,16 +152,9 @@
   });
 
   function drawNode(n, el) {
-    if (n.preprint) {
-      var r = n.r;
-      var pts = [ [n.x, n.y - r], [n.x + r, n.y], [n.x, n.y + r], [n.x - r, n.y] ]
-        .map(function (p) { return p[0].toFixed(1) + ',' + p[1].toFixed(1); }).join(' ');
-      el.setAttribute('points', pts);
-    } else {
-      el.setAttribute('cx', n.x.toFixed(1));
-      el.setAttribute('cy', n.y.toFixed(1));
-      el.setAttribute('r', n.r);
-    }
+    el.setAttribute('cx', n.x.toFixed(1));
+    el.setAttribute('cy', n.y.toFixed(1));
+    el.setAttribute('r', n.r);
   }
 
   // ---- force simulation ----
@@ -303,10 +281,5 @@
     span.innerHTML = '<span class="pubnet-dot" style="background:' + t.color + '"></span>' + t.label;
     legend.appendChild(span);
   });
-  var shape = document.createElement('span');
-  shape.className = 'pubnet-legend-item pubnet-legend-shape';
-  shape.innerHTML = '<span class="pubnet-dot" style="background:#8a94a6"></span>journal' +
-    '<span class="pubnet-dia" style="background:#8a94a6"></span>preprint';
-  legend.appendChild(shape);
 })();
 </script>

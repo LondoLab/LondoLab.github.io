@@ -5,11 +5,14 @@ nav:
   tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-book" %}Publications
-
-{% include section.html %}
-
-{% include pub-network.html %}
+<div class="pubs-hero">
+  <div class="pubs-hero-left">
+    <h1>{% include icon.html icon="fa-solid fa-book" %}Publications</h1>
+  </div>
+  <div class="pubs-hero-right">
+    {% include pub-network.html %}
+  </div>
+</div>
 
 {% include section.html %}
 
