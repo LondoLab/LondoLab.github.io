@@ -7,37 +7,50 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}People
 
-# Current Lab Members
+{% include section.html %}
+
+## Current Lab Members
+
+<div class="member-list">
+{%- assign current_roles = "principal-investigator,tech,postdoc,programmer,visiting-scholar,phdc,phd,undergrad" | split: "," -%}
+{%- for role in current_roles -%}
+{%- assign group = site.members | where: "role", role -%}
+{%- for m in group -%}
+{% include member-row.html member=m %}
+{%- endfor -%}
+{%- endfor -%}
+</div>
+
+{%- assign summer = site.members | where: "role", "summer-scholar" -%}
+{% if summer.size > 0 %}
+## Cornell AgriTech Summer Scholars
+
+<div class="member-list">
+{%- for m in summer -%}
+{% include member-row.html member=m %}
+{%- endfor -%}
+</div>
+{% endif %}
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
-{% include list.html data="members" component="portrait" filter="role == 'tech'" %}
-{% include list.html data="members" component="portrait" filter="role == 'postdoc'" %}
-{% include list.html data="members" component="portrait" filter="role == 'phdc'" %}
-{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
-{% include list.html data="members" component="portrait" filter="role == 'undergrad'" %}
-{% include list.html data="members" component="portrait" filter="role == 'mascot'" %}
+## Lab Alumni
 
-
-{% include section.html background="images/background.jpg" dark=true %}
-
-# Cornell Agritech Summer Scholars
-{% include list.html data="members" component="portrait" filter="role == 'summer-scholar'" %}
-
-{% include section.html %}
-
-# Lab Alumni
-{% include list.html data="members" component="portrait" filter="role == 'alum'" %}
-{% include list.html data="members" component="portrait" filter="role == 'tech-alum'" %}
-{% include list.html data="members" component="portrait" filter="role == 'intern'" %}
+<div class="member-list">
+{%- assign alum_roles = "alum,tech-alum,intern" | split: "," -%}
+{%- for role in alum_roles -%}
+{%- assign group = site.members | where: "role", role -%}
+{%- for m in group -%}
+{% include member-row.html member=m %}
+{%- endfor -%}
+{%- endfor -%}
+</div>
 
 {% include section.html %}
 
 {% capture content %}
 
 {% include figure.html image="images/group.jpg" %}
-
 
 {% endcapture %}
 

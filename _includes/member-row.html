@@ -1,0 +1,51 @@
+{% assign m = include.member %}
+{% assign type = site.data.types[m.role] %}
+
+<div class="member-row" id="{{ m.slug }}">
+  <div class="member-media">
+    <a
+      href="{{ m.url | relative_url | uri_escape }}"
+      class="member-photo-link"
+      aria-label="{{ m.name | default: 'member' | regex_strip }}"
+    >
+      <img
+        src="{{ m.image | relative_url | uri_escape }}"
+        class="member-photo"
+        alt="{{ m.name | default: 'member portrait' | regex_strip }}"
+        loading="lazy"
+        {% include fallback.html %}
+      >
+    </a>
+
+    <div class="member-haiku">
+      {% if m.haiku %}
+        {{ m.haiku | newline_to_br }}
+      {% else %}
+        <span class="member-haiku-empty">· haiku ·</span>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="member-body">
+    <p class="member-name">{{ m.name }}</p>
+
+    <p class="member-title">
+      {{- m.description | default: type.description -}}
+      {% if m.affiliation %} &middot; {{ m.affiliation }}{% endif %}
+    </p>
+
+    {% if m.links %}
+      <div class="member-links">
+        {% for link in m.links %}
+          {% if link[1] and link[1] != "" %}
+            {% assign ltype = link[0] %}
+            {% if ltype == "scholar" %}{% assign ltype = "google-scholar" %}{% endif %}
+            {% include button.html type=ltype link=link[1] text="" style="bare" %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <div class="member-blurb">{{ m.content }}</div>
+  </div>
+</div>
