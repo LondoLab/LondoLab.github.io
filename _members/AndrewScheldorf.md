@@ -1,6 +1,6 @@
 ---
 name: Dr. Andrew Scheldorf
-image: images/fallback.svg
+image: images/andrew-scheldorf.jpg
 role: alum
 order: 2
 affiliation: Cornell University

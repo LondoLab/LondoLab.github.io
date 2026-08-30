@@ -1,6 +1,6 @@
 ---
 name: Yue Pan
-image: images/fallback.svg
+image: images/yue-pan.jpg
 role: summer-scholar
 order: 3
 affiliation: Cornell University
