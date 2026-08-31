@@ -9,4 +9,4 @@ links:
   scholar: https://scholar.google.com/citations?hl=en&user=yRRMJWIAAAAJ
 ---
 
-I am a PhD student studying the apple cuticle. Broadly, my interests pertain to ecophysiology and how plants respond to the environment.
+Griffin is a PhD student studying the physiology and biochemistry of fruit cuticles. More specifically, he is working to understand the timing and mechanism behind two apple disorders, scarf skin and late russet. Broadly, his interests pertain to ecophysiology and how plants respond to the environment.
