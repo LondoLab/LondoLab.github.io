@@ -6,7 +6,7 @@ nav:
 ---
 
 <div class="magic-hero">
-  <img class="magic-hero-photo" src="{{ 'images/group.jpg' | relative_url }}" alt="The Londo Lab team in the vineyard" loading="lazy">
+  <img class="magic-hero-photo" src="{{ 'images/group-hero.jpg' | relative_url }}" alt="The Londo Lab team in the vineyard" loading="lazy">
   <h1 class="magic-hero-title">Making Magic</h1>
 </div>
 
