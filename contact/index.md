@@ -38,7 +38,7 @@ We are always interested in forming new collaborations with scientists and growe
 
 {%
   include figure.html
-  image="images/grape_cluster.jpg"
+  image="images/veraison.jpg"
   caption=""
 %}
 
