@@ -10,4 +10,4 @@ links:
   website: https://plantresilience.cals.wisc.edu/
 ---
 
-Al earned his PhD in the Londo lab, studying the kinetics, genetics, and morphometrics of cold hardiness loss (deacclimation) in grapevines. He is now an Assistant Professor running the Plant Resilience Lab at the University of Wisconsin–Madison, where his work continues to investigate cold hardiness and dormancy processes in cranberry and forest tree systems.
+Al earned his PhD studying the kinetics, genetics, and morphometrics of cold hardiness loss (deacclimation) in grapevines. He is now an Assistant Professor running the Plant Resilience Lab at the University of Wisconsin–Madison, where his work continues to investigate cold hardiness and dormancy processes in cranberry and forest tree systems.
