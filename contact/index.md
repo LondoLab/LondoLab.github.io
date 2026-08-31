@@ -7,7 +7,7 @@ nav:
 
 # Contact
 
-We are always interested in forming new collaborations with scientists and growers in New York and at the international scale. Please reach out to the lab by contacting Jason via email.
+We are interested in forming new collaborations both domestically and internationally. At this time the lab is not recruiting any student or technical staff positions. Please reach out to the lab by contacting Jason via email.
 
 {%
   include button.html
