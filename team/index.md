@@ -6,12 +6,8 @@ nav:
 ---
 
 <div class="magic-hero">
-  <div class="magic-hero-text">
-    <h1>{% include icon.html icon="fa-solid fa-users" %}Making Magic</h1>
-  </div>
-  <div class="magic-hero-photo">
-    <img src="{{ 'images/group.jpg' | relative_url }}" alt="The Londo Lab team in the vineyard" loading="lazy">
-  </div>
+  <img class="magic-hero-photo" src="{{ 'images/group.jpg' | relative_url }}" alt="The Londo Lab team in the vineyard" loading="lazy">
+  <h1 class="magic-hero-title">Making Magic</h1>
 </div>
 
 {% include section.html %}
