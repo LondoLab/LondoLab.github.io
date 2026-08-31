@@ -9,4 +9,4 @@ links:
   orcid: 
 ---
 
-Lincoln supported field and lab work in the Londo Lab as a technician.
+Lincoln supported field and lab work as a technician.
