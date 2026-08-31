@@ -33,7 +33,7 @@
 
     <p class="member-title">
       {{- m.description | default: type.description -}}
-      {% if m.affiliation %} &middot; {{ m.affiliation }}{% endif %}
+      {% if m.affiliation and m.affiliation != "Cornell University" %} &middot; {{ m.affiliation }}{% endif %}
     </p>
 
     {% if m.links %}
