@@ -6,6 +6,7 @@ affiliation: Cornell University
 links:
   scholar: 
   orcid: 
+  linkedin: https://www.linkedin.com/in/jennifer-phillips-russo-b8b95255/
 ---
 
 Jennifer is a PhD student investigating vineyard floor management, cover crops, and microclimate effects in New York vineyards, with particular focus on frost damage and mitigation. As an extension professional, Jennifer is personally driven by the goal of reducing costs and risks to the Concord industry in Western New York.
