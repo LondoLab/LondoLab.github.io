@@ -5,7 +5,7 @@ nav:
   tooltip: Email, address, and location
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# Contact
 
 We are always interested in forming new collaborations with scientists and growers in New York and at the international scale. Please reach out to the lab by contacting Jason via email.
 
@@ -28,7 +28,7 @@ We are always interested in forming new collaborations with scientists and growe
 
 {%
   include figure.html
-  image="images/group.jpg"
+  image="images/redapples.jpg"
   caption=""
 %}
 
