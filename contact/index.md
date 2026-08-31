@@ -64,10 +64,4 @@ Horticulture Section
 Cornell University
 {% endcapture %}
 
-{% capture col3 %}
-**Get in touch**  
-Prospective students and collaborators —  
-email Jason to start a conversation.
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
+{% include cols.html col1=col1 col2=col2 %}
