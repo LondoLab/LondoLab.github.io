@@ -4,6 +4,10 @@ image: images/kennethb.jpg
 role: alum
 order: 4
 affiliation: Washington State University
+haiku: |
+  it gets so frigid
+  but some winters are real mild
+  which tree will survive
 links:
   home-page: https://cals.cornell.edu/people/kenneth-buck
   orcid: https://orcid.org/0009-0002-3075-0382
