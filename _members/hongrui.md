@@ -4,6 +4,10 @@ image: images/Hongrui.jpg
 role: alum
 order: 3
 affiliation: INRAE
+haiku: |
+  Stress shapes how plants grow
+  Data reveal hidden paths
+  Models guide future
 links:
   scholar: https://scholar.google.com/citations?user=wAVAL4kAAAAJ&hl=en
   orcid: https://orcid.org/0000-0003-4238-0884
