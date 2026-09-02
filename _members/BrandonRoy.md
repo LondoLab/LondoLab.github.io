@@ -3,6 +3,10 @@ name: Brandon G. Roy, PhD
 image: images/brandon.jpg
 role: postdoc
 affiliation: Cornell University
+haiku: |
+  From virus to host
+  I track grapevine's expression
+  Molecular prose
 links:
   email: bgr36 (at) cornell.edu
   website: www.brandongroy.com
