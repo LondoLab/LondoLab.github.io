@@ -1,6 +1,6 @@
 ---
 name: Ben Skolnik
-image: images/fallback.svg
+image: images/ben-skolnik.jpg
 role: summer-scholar
 order: 1
 affiliation: Cornell University
