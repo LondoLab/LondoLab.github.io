@@ -81,3 +81,19 @@ An interactive dashboard of grapevine cold hardiness measurements and model outp
 
 {% endcapture %}
 {% include feature.html image="images/tool-vinecold.png" link="https://cornell-tree-fruit-physiology.shinyapps.io/VineColD/" title="VineColD" flip=true text=text %}
+
+{% capture text %}
+
+A live dashboard of microclimate measurements streamed from our field sensor tower.
+
+{%
+  include button.html
+  link="https://sensortower-zkcgehewyahye7ydvbnbxx.streamlit.app/"
+  text="Open dashboard"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+{% include feature.html image="images/tool-sensor.png" link="https://sensortower-zkcgehewyahye7ydvbnbxx.streamlit.app/" title="Microclimate Sensor Tower" flip=true text=text %}
