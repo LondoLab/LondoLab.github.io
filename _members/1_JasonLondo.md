@@ -3,6 +3,10 @@ name: Jason P. Londo
 image: images/jason-londo-v2.jpg
 role: principal-investigator
 affiliation: Cornell University
+haiku: |
+  Temperature shifting,
+  assisted adaptation?
+  Fruit of the future
 links:
   home-page: https://cals.cornell.edu/people/jason-londo
   orcid: https://orcid.org/0000-0003-0535-4820
