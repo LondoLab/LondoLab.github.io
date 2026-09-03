@@ -1,6 +1,6 @@
 ---
 name: Dr. Marine Morel
-image: images/fallback.svg
+image: images/marine-morel.jpg
 role: visiting-scholar
 order: 8
 affiliation: INRAE, France
