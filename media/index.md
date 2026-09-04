@@ -5,7 +5,7 @@ nav:
   tooltip: News coverage
 ---
 
-# {% include icon.html icon="fa-solid fa-newspaper" %}Media
+# Media
 
 News coverage of the lab's research.
 
