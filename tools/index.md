@@ -1,7 +1,7 @@
 ---
 title: Tools & Resources
 nav:
-  order: 4
+  order: 5
   tooltip: Models, data, and grower tools
 ---
 
