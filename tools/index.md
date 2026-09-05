@@ -5,7 +5,7 @@ nav:
   tooltip: Models, data, and grower tools
 ---
 
-# {% include icon.html icon="fa-solid fa-toolbox" %}Tools &amp; Resources
+# Tools &amp; Resources
 
 Open models, data, and decision tools from the lab and our collaborators.
 
