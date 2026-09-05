@@ -80,7 +80,7 @@ An interactive dashboard of grapevine cold hardiness measurements and model outp
 %}
 
 {% endcapture %}
-{% include feature.html image="images/tool-vinecold.png" link="https://cornell-tree-fruit-physiology.shinyapps.io/VineColD/" title="VineColD" flip=true text=text %}
+{% include feature.html image="images/tool-vinecold.jpg" link="https://cornell-tree-fruit-physiology.shinyapps.io/VineColD/" title="VineColD" flip=true text=text %}
 
 {% capture text %}
 
