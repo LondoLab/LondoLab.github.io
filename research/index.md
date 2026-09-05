@@ -5,7 +5,7 @@ nav:
   tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-book" %}Publications
+# Publications
 
 <p style="text-align: center"><strong>Plant Physiology</strong> • <strong>Adaptation</strong> • <strong>Dormancy</strong> • <strong>Genomics</strong> • <strong>Epigenomics</strong></p>
 
