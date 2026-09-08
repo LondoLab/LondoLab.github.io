@@ -23,11 +23,11 @@
           {% if tags contains "apple" %}<span class="pub-ic" data-tooltip="Apple">🍎</span>{% endif %}
           {% if tags contains "canola" %}<span class="pub-ic" data-tooltip="Brassica / canola">🌼</span>{% endif %}
           {% if tags contains "rice" %}<span class="pub-ic" data-tooltip="Rice">🌾</span>{% endif %}
-          {% if tags contains "genomics" %}<span class="pub-ic" data-tooltip="Genetics / genomics">{% include icon.html icon="fa-solid fa-dna" %}</span>{% endif %}
-          {% if tags contains "phenotyping" %}<span class="pub-ic" data-tooltip="Phenotyping">{% include icon.html icon="fa-solid fa-leaf" %}</span>{% endif %}
-          {% if tags contains "cold" %}<span class="pub-ic" data-tooltip="Cold / winter">{% include icon.html icon="fa-solid fa-snowflake" %}</span>{% endif %}
-          {% if tags contains "modeling" %}<span class="pub-ic" data-tooltip="Modeling">{% include icon.html icon="fa-solid fa-chart-line" %}</span>{% endif %}
-          {% if p.lead %}<span class="pub-ic" data-tooltip="Student / postdoc led">{% include icon.html icon="fa-solid fa-graduation-cap" %}</span>{% endif %}
+          {% if tags contains "genomics" %}<span class="pub-ic pub-ic-genomics" data-tooltip="Genetics / genomics">{% include icon.html icon="fa-solid fa-dna" %}</span>{% endif %}
+          {% if tags contains "phenotyping" %}<span class="pub-ic pub-ic-pheno" data-tooltip="Phenotyping">{% include icon.html icon="fa-solid fa-leaf" %}</span>{% endif %}
+          {% if tags contains "cold" %}<span class="pub-ic pub-ic-cold" data-tooltip="Cold / winter">{% include icon.html icon="fa-solid fa-snowflake" %}</span>{% endif %}
+          {% if tags contains "modeling" %}<span class="pub-ic pub-ic-model" data-tooltip="Modeling">{% include icon.html icon="fa-solid fa-chart-line" %}</span>{% endif %}
+          {% if p.lead %}<span class="pub-ic pub-ic-grad" data-tooltip="Student / postdoc led">{% include icon.html icon="fa-solid fa-graduation-cap" %}</span>{% endif %}
         </div>
       </div>
     </div>

@@ -73,12 +73,13 @@ $stack: 600px;
 /* work-type icons in each paper box */
 .pub-icons {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
   gap: 9px;
   margin-top: 9px;
   font-size: 0.95rem;
+  white-space: nowrap;
 }
 
 .pub-ic {
@@ -90,7 +91,22 @@ $stack: 600px;
 
 .pub-icons .icon {
   font-size: 0.82rem;
-  color: var(--gray);
+}
+
+.pub-ic-genomics .icon {
+  color: #6a4fb3;
+}
+.pub-ic-pheno .icon {
+  color: #3a9d54;
+}
+.pub-ic-cold .icon {
+  color: #3b9fd4;
+}
+.pub-ic-model .icon {
+  color: #e0842a;
+}
+.pub-ic-grad .icon {
+  color: #444444;
 }
 
 @media (max-width: $stack) {
