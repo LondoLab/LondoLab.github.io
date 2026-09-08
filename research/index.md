@@ -13,4 +13,4 @@ The research conducted in this group is wide in scope. We have a programmatic be
 
 {% include section.html %}
 
-{% include publications.html %}
+{% include publications.html style="grid" %}
