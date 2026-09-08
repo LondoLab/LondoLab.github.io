@@ -1,9 +1,7 @@
 ---
 ---
 
-/* Smooth spectrum rainbow gradient behind the nav quicklinks, slanted
-   top-right to lower-left. Shows on every page's header (home and subpages). */
-
+/* Nav quicklinks right-aligned, touching (no gaps). */
 header nav {
   position: relative;
   gap: 0;
@@ -13,7 +11,8 @@ header nav {
   isolation: isolate;
 }
 
-header nav::before {
+/* Subpages: smooth blended spectrum gradient behind the links. */
+header:not([data-big]) nav::before {
   content: "";
   position: absolute;
   inset: -3px -16px;
@@ -33,7 +32,7 @@ header nav::before {
   );
 }
 
-header nav > a {
+header:not([data-big]) nav > a {
   position: relative;
   color: #ffffff;
   padding: 4px 9px;
@@ -43,13 +42,11 @@ header nav > a {
   transition: filter 0.2s ease;
 }
 
-header nav > a:hover {
+header:not([data-big]) nav > a:hover {
   color: #ffffff;
   filter: brightness(1.12);
 }
 
-/* On narrow screens the subpage nav collapses to a vertical menu; drop the
-   slanted gradient there and restore plain links. */
 @media (max-width: 700px) {
   header:not([data-big]) nav::before {
     display: none;
@@ -57,5 +54,46 @@ header nav > a:hover {
   header:not([data-big]) nav > a {
     color: var(--text);
     text-shadow: none;
+  }
+}
+
+/* Landing page: the picture rainbow in the nav position. Scaled-down themed
+   photo panels, slanted top-right to lower-left; every panel (incl. the red
+   apple) keeps its angled edges (nav is not clipped). */
+$slant: 17px;
+
+header[data-big] nav > a {
+  position: relative;
+  height: 86px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0 17px 8px;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: var(--semi-bold);
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
+  background-position: center;
+  background-size: cover;
+  clip-path: polygon(#{$slant} 0, 100% 0, calc(100% - #{$slant}) 100%, 0 100%);
+  margin: 0 -9px;
+  transition: filter 0.2s ease;
+}
+
+header[data-big] nav > a:hover {
+  filter: brightness(1.08);
+}
+
+@for $i from 1 through 7 {
+  header[data-big] nav > a:nth-of-type(#{$i}) {
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.6) 0%,
+        rgba(0, 0, 0, 0.08) 55%,
+        transparent 78%
+      ),
+      url("/images/banner/#{$i}.jpg");
   }
 }

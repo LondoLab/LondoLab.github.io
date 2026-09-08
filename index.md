@@ -1,8 +1,6 @@
 ---
 ---
 
-{% include rainbow-hero.html %}
-
 {% include section.html %}
 
 ## Highlights
