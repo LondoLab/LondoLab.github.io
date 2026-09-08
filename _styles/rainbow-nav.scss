@@ -1,11 +1,10 @@
 ---
 ---
 
-/* Rainbow quicklink banner on the home page header.
-   A single smooth spectrum gradient behind the nav, slanted top-right to
-   lower-left, with the quicklinks sitting over it. */
+/* Smooth spectrum rainbow gradient behind the nav quicklinks, slanted
+   top-right to lower-left. Shows on every page's header (home and subpages). */
 
-header[data-big] nav {
+header nav {
   position: relative;
   gap: 0;
   margin-left: auto;
@@ -14,7 +13,7 @@ header[data-big] nav {
   isolation: isolate;
 }
 
-header[data-big] nav::before {
+header nav::before {
   content: "";
   position: absolute;
   inset: -3px -16px;
@@ -34,7 +33,7 @@ header[data-big] nav::before {
   );
 }
 
-header[data-big] nav > a {
+header nav > a {
   position: relative;
   color: #ffffff;
   padding: 4px 9px;
@@ -44,7 +43,19 @@ header[data-big] nav > a {
   transition: filter 0.2s ease;
 }
 
-header[data-big] nav > a:hover {
+header nav > a:hover {
   color: #ffffff;
   filter: brightness(1.12);
+}
+
+/* On narrow screens the subpage nav collapses to a vertical menu; drop the
+   slanted gradient there and restore plain links. */
+@media (max-width: 700px) {
+  header:not([data-big]) nav::before {
+    display: none;
+  }
+  header:not([data-big]) nav > a {
+    color: var(--text);
+    text-shadow: none;
+  }
 }
