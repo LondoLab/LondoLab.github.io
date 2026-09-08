@@ -1,6 +1,11 @@
 # Auto-built from the CV. num = CV number.
 # citation = standardized HTML citation. thumb = first-page image. doi = publisher link.
 
+- num: 76
+  citation: "Wang H., <strong>Londo J.P.</strong> (2026). <a class=\"pub-title-link\" href=\"https://doi.org/10.1111/ppl.71056\">Chilling Accumulation Shapes Transcriptomic Responses to Warming Exposure During Grapevine Deacclimation</a>. <em>Physiologia Plantarum</em> 178(4)."
+  thumb: "images/pubs/76.jpg"
+  doi: "https://doi.org/10.1111/ppl.71056"
+
 - num: 75
   citation: "Campos‐Arguedas F., Kirchhof E., North M.G., <strong>Londo J.P.</strong>, Bates T., van Leeuwen C., Destrac‐Irvine A., Bois B., Kovaleski A.P. (2026). <a class=\"pub-title-link\" href=\"https://doi.org/10.1111/nph.71074\">Cold hardiness dynamics predict budbreak and associated low‐temperature threats in grapevine</a>. <em>New Phytologist</em> 250(4), 2203-2220."
   thumb: "images/pubs/75.jpg"
