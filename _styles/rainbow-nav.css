@@ -4,14 +4,16 @@
 header[data-big] nav {
   gap: 0;
   margin-left: auto;
+  flex: 0 1 auto;
+  justify-content: flex-end;
 }
 
 header[data-big] nav > a {
   position: relative;
   z-index: 0;
   color: #ffffff;
-  padding: 5px 11px;
-  font-size: 0.95rem;
+  padding: 4px 9px;
+  font-size: 0.8rem;
   font-weight: var(--semi-bold);
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
   transition: filter 0.2s ease;
