@@ -2,6 +2,7 @@
 # citation = standardized HTML citation. thumb = first-page image. doi = publisher link.
 
 - num: 76
+  lead: true
   citation: "Wang H., <strong>Londo J.P.</strong> (2026). <a class=\"pub-title-link\" href=\"https://doi.org/10.1111/ppl.71056\">Chilling Accumulation Shapes Transcriptomic Responses to Warming Exposure During Grapevine Deacclimation</a>. <em>Physiologia Plantarum</em> 178(4)."
   thumb: "images/pubs/76.jpg"
   doi: "https://doi.org/10.1111/ppl.71056"
@@ -22,6 +23,7 @@
   doi: "https://doi.org/10.3389/fpls.2025.1625453"
 
 - num: 72
+  lead: true
   citation: "Wang H., <strong>Londo J.P.</strong> (2025). <a class=\"pub-title-link\" href=\"https://doi.org/10.1093/database/baaf055\">VineColD: an integrative database for global historical tracing and real-time monitoring of grapevine cold hardiness</a>. <em>Database</em> 2025."
   thumb: "images/pubs/72.jpg"
   doi: "https://doi.org/10.1093/database/baaf055"
@@ -32,6 +34,7 @@
   doi: "https://doi.org/10.1038/s41467-025-61387-9"
 
 - num: 70
+  lead: true
   citation: "Wang H., Pan Y., <strong>Londo J.P.</strong> (2025). <a class=\"pub-title-link\" href=\"https://doi.org/10.1016/j.stress.2025.100861\">Tetralone-ABA enhances winter cold acclimation, reduces deacclimation, and delays budbreak in V. vinifera and V. hybrid grapevines</a>. <em>Plant Stress</em> 16, 100861."
   thumb: "images/pubs/70.jpg"
   doi: "https://doi.org/10.1016/j.stress.2025.100861"
@@ -42,11 +45,13 @@
   doi: "https://doi.org/10.1093/jxb/eraf045"
 
 - num: 68
+  lead: true
   citation: "Wang H., Kovaleski A.P., <strong>Londo J.P.</strong> (2024). <a class=\"pub-title-link\" href=\"https://doi.org/10.1111/ppl.14607\">Physiological and transcriptomic characterization of cold acclimation in endodormant grapevine under different temperature regimes</a>. <em>Physiologia Plantarum</em> 176(6)."
   thumb: "images/pubs/68.jpg"
   doi: "https://doi.org/10.1111/ppl.14607"
 
 - num: 67
+  lead: true
   citation: "Wang H., Moghe G.D., Kovaleski A.P., Keller M., Martinson T.E., Wright A.H., Franklin J.L., Hébert-Haché A., Provost C., Reinke M., Atucha A., North M.G., Russo J.P., Helwi P., Centinari M., <strong>Londo J.P.</strong> (2023). <a class=\"pub-title-link\" href=\"https://doi.org/10.1093/hr/uhad286\">NYUS.2: an automated machine learning prediction model for the large-scale real-time simulation of grapevine freezing tolerance in North America</a>. <em>Horticulture Research</em> 11(2)."
   thumb: "images/pubs/67.jpg"
   doi: "https://doi.org/10.1093/hr/uhad286"
@@ -82,6 +87,7 @@
   doi: "https://doi.org/10.1186/s12870-023-04223-w"
 
 - num: 60
+  lead: true
   citation: "Kovaleski A.P., North M.G., Martinson T.E., <strong>Londo J.P.</strong> (2023). <a class=\"pub-title-link\" href=\"https://doi.org/10.1016/j.agrformet.2023.109324\">Development of a new cold hardiness prediction model for grapevine using phased integration of acclimation and deacclimation responses</a>. <em>Agricultural and Forest Meteorology</em> 331, 109324."
   thumb: "images/pubs/60.jpg"
   doi: "https://doi.org/10.1016/j.agrformet.2023.109324"
@@ -117,6 +123,7 @@
   doi: "https://doi.org/10.1093/hr/uhac027"
 
 - num: 53
+  lead: true
   citation: "Wang H., Dami I.E., Martens H., <strong>Londo J.P.</strong> (2022). <a class=\"pub-title-link\" href=\"https://doi.org/10.48130/FruRes-2022-0001\">Transcriptomic analysis of grapevine in response to ABA application reveals its diverse regulations during cold acclimation and deacclimation</a>. <em>Fruit Research</em> 2(1), 1-12."
   thumb: "images/pubs/53.jpg"
   doi: "https://doi.org/10.48130/FruRes-2022-0001"
@@ -177,11 +184,13 @@
   doi: "https://doi.org/10.3389/fpls.2019.01373"
 
 - num: 41
+  lead: true
   citation: "Kovaleski A.P., <strong>Londo J.P.</strong> (2019). <a class=\"pub-title-link\" href=\"https://doi.org/10.1016/j.plantsci.2019.110178\">Tempo of gene regulation in wild and cultivated Vitis species shows coordination between cold deacclimation and budbreak</a>. <em>Plant Science</em> 287, 110178."
   thumb: "images/pubs/41.jpg"
   doi: "https://doi.org/10.1016/j.plantsci.2019.110178"
 
 - num: 40
+  lead: true
   citation: "Kovaleski A.P., <strong>Londo J.P.</strong>, Finkelstein K.D. (2019). <a class=\"pub-title-link\" href=\"https://doi.org/10.1038/s41598-019-51415-2\">X-ray phase contrast imaging of Vitis spp. buds shows freezing pattern and correlation between volume and cold hardiness</a>. <em>Scientific Reports</em> 9(1)."
   thumb: "images/pubs/40.jpg"
   doi: "https://doi.org/10.1038/s41598-019-51415-2"
@@ -202,6 +211,7 @@
   doi: "https://doi.org/10.1038/s41438-019-0146-2"
 
 - num: 36
+  lead: true
   citation: "Kovaleski A.P., Reisch B.I., <strong>Londo J.P.</strong> (2018). <a class=\"pub-title-link\" href=\"https://doi.org/10.1093/aobpla/ply066\">Deacclimation kinetics as a quantitative phenotype for delineating the dormancy transition and thermal efficiency for budbreak in Vitis species</a>. <em>AoB PLANTS</em>."
   thumb: "images/pubs/36.jpg"
   doi: "https://doi.org/10.1093/aobpla/ply066"

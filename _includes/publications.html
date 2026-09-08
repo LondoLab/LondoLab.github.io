@@ -1,7 +1,7 @@
 {% assign pubs = site.data.publications %}
 <div class="pub-list">
   {% for p in pubs %}
-    <div class="pub">
+    <div class="pub{% if p.lead %} pub-lead{% endif %}">
       <a
         class="pub-thumb"
         {% if p.doi %}href="{{ p.doi }}"{% endif %}
