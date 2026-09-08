@@ -70,6 +70,29 @@ $stack: 600px;
   font-weight: var(--semi-bold);
 }
 
+/* work-type icons in each paper box */
+.pub-icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  margin-top: 9px;
+  font-size: 0.95rem;
+}
+
+.pub-ic {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+  cursor: default;
+}
+
+.pub-icons .icon {
+  font-size: 0.82rem;
+  color: var(--gray);
+}
+
 @media (max-width: $stack) {
   .pub {
     gap: 14px;
