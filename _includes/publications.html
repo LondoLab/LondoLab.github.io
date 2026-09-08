@@ -2,10 +2,11 @@
 <div class="pub-list{% if include.style == 'grid' %} pub-grid{% endif %}">
   {% for p in pubs %}
     <div class="pub{% if p.lead %} pub-lead{% endif %}">
+      {% if p.pdf %}{% assign plink = p.pdf | relative_url %}{% else %}{% assign plink = p.doi %}{% endif %}
       <a
         class="pub-thumb"
-        {% if p.doi %}href="{{ p.doi }}"{% endif %}
-        {% if p.doi %}data-tooltip="View at publisher"{% endif %}
+        {% if plink %}href="{{ plink }}"{% endif %}
+        data-tooltip="{% if p.pdf %}Open the PDF{% else %}View at publisher{% endif %}"
         aria-label="publication link"
       >
         {% if p.thumb %}

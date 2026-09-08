@@ -6,21 +6,25 @@
   citation: "Wang H., <strong>Londo J.P.</strong> (2026). <a class=\"pub-title-link\" href=\"https://doi.org/10.1111/ppl.71056\">Chilling Accumulation Shapes Transcriptomic Responses to Warming Exposure During Grapevine Deacclimation</a>. <em>Physiologia Plantarum</em> 178(4)."
   thumb: "images/pubs/76.jpg"
   doi: "https://doi.org/10.1111/ppl.71056"
+  pdf: "pdf/76.pdf"
 
 - num: 75
   citation: "Campos‐Arguedas F., Kirchhof E., North M.G., <strong>Londo J.P.</strong>, Bates T., van Leeuwen C., Destrac‐Irvine A., Bois B., Kovaleski A.P. (2026). <a class=\"pub-title-link\" href=\"https://doi.org/10.1111/nph.71074\">Cold hardiness dynamics predict budbreak and associated low‐temperature threats in grapevine</a>. <em>New Phytologist</em> 250(4), 2203-2220."
   thumb: "images/pubs/75.jpg"
   doi: "https://doi.org/10.1111/nph.71074"
+  pdf: "pdf/75.pdf"
 
 - num: 74
   citation: "Migicovsky Z., Elzinga C., Lauzon M.C., Connor T., DeViller K., Dinn C., Earle G.M., Hockley E., Lennon O., Ricker L.A., Roberts P.M., Robinson K.M., Sharma A., Spencer P.N., Stockdale S., Tingley L.L., Yates A., <strong>Londo J.P.</strong>, Cousins P. (2025). <a class=\"pub-title-link\" href=\"https://doi.org/10.1002/ppp3.70135\">Genomic structure and ex situ conservation of the North American grapevine Vitis labrusca</a>. <em>PLANTS, PEOPLE, PLANET</em> 8(5), 1649-1661."
   thumb: "images/pubs/74.jpg"
   doi: "https://doi.org/10.1002/ppp3.70135"
+  pdf: "pdf/74.pdf"
 
 - num: 73
   citation: "Sharma P., Alahakoon D., <strong>Londo J.P.</strong>, Fennell A. (2025). <a class=\"pub-title-link\" href=\"https://doi.org/10.3389/fpls.2025.1625453\">Genetic regulation of leaf morphology in own-rooted and grafted vines of an F1 rootstock population</a>. <em>Frontiers in Plant Science</em> 16."
   thumb: "images/pubs/73.jpg"
   doi: "https://doi.org/10.3389/fpls.2025.1625453"
+  pdf: "pdf/73.pdf"
 
 - num: 72
   lead: true
@@ -32,12 +36,14 @@
   citation: "Massonnet M., Cochetel N., Ricciardi V., Minio A., Figueroa-Balderas R., <strong>Londo J.P.</strong>, Cantu D. (2025). <a class=\"pub-title-link\" href=\"https://doi.org/10.1038/s41467-025-61387-9\">Evolutionary conservation of the grape sex-determining region in angiosperms and emergence of dioecy in Vitaceae</a>. <em>Nature Communications</em> 16(1)."
   thumb: "images/pubs/71.jpg"
   doi: "https://doi.org/10.1038/s41467-025-61387-9"
+  pdf: "pdf/71.pdf"
 
 - num: 70
   lead: true
   citation: "Wang H., Pan Y., <strong>Londo J.P.</strong> (2025). <a class=\"pub-title-link\" href=\"https://doi.org/10.1016/j.stress.2025.100861\">Tetralone-ABA enhances winter cold acclimation, reduces deacclimation, and delays budbreak in V. vinifera and V. hybrid grapevines</a>. <em>Plant Stress</em> 16, 100861."
   thumb: "images/pubs/70.jpg"
   doi: "https://doi.org/10.1016/j.stress.2025.100861"
+  pdf: "pdf/70.pdf"
 
 - num: 69
   citation: "<strong>Londo J.P.</strong>, Kovaleski A.P. (2025). <a class=\"pub-title-link\" href=\"https://doi.org/10.1093/jxb/eraf045\">Integrating cold hardiness and deacclimation resistance demonstrates a conserved response to chilling accumulation in grapevines</a>. <em>Journal of Experimental Botany</em> 76(11), 3158-3171."
@@ -55,21 +61,25 @@
   citation: "Wang H., Moghe G.D., Kovaleski A.P., Keller M., Martinson T.E., Wright A.H., Franklin J.L., Hébert-Haché A., Provost C., Reinke M., Atucha A., North M.G., Russo J.P., Helwi P., Centinari M., <strong>Londo J.P.</strong> (2023). <a class=\"pub-title-link\" href=\"https://doi.org/10.1093/hr/uhad286\">NYUS.2: an automated machine learning prediction model for the large-scale real-time simulation of grapevine freezing tolerance in North America</a>. <em>Horticulture Research</em> 11(2)."
   thumb: "images/pubs/67.jpg"
   doi: "https://doi.org/10.1093/hr/uhad286"
+  pdf: "pdf/67.pdf"
 
 - num: 66
   citation: "Strickland D.A., <strong>Londo J.P.</strong>, Cox K.D. (2024). <a class=\"pub-title-link\" href=\"https://doi.org/10.1094/PHYTOFR-07-23-0092-R\">Comparison of Standard Calendar GA4+7 Plant Growth Regulator Programs to Applications Timed to Rainfall Events for Management of Scarf Skin, a Fruit Finish Disorder of Apple</a>. <em>PhytoFrontiers™</em> 4(2), 141-149."
   thumb: "images/pubs/66.jpg"
   doi: "https://doi.org/10.1094/PHYTOFR-07-23-0092-R"
+  pdf: "pdf/66.pdf"
 
 - num: 65
   citation: "Cochetel N., Minio A., Guarracino A., Garcia J.F., Figueroa-Balderas R., Massonnet M., Kasuga T., <strong>Londo J.P.</strong>, Garrison E., Gaut B.S., Cantu D. (2023). <a class=\"pub-title-link\" href=\"https://doi.org/10.1186/s13059-023-03133-2\">A super-pangenome of the North American wild grape species</a>. <em>Genome Biology</em> 24(1)."
   thumb: "images/pubs/65.jpg"
   doi: "https://doi.org/10.1186/s13059-023-03133-2"
+  pdf: "pdf/65.pdf"
 
 - num: 64
   citation: "de Sousa Moreira L., Clark M.D., Tabb A., Karn A., <strong>Londo J.P.</strong>, Zou C., Sun Q., van Zyl S., Prins B., DeLong J.D., Burhans A., Yang H.C., Naegele R.P. (2024). <a class=\"pub-title-link\" href=\"https://doi.org/10.21273/jashs05334-23\">Identification of Novel Quantitative Trait Loci Associated with Table Grape Fruit Quality Characteristics in a Segregating Population and Transferability of Existing Quality Markers</a>. <em>J. Amer. Soc. Hort. Sci.</em> 149(1), 50-60."
   thumb: "images/pubs/64.jpg"
   doi: "https://doi.org/10.21273/jashs05334-23"
+  pdf: "pdf/64.pdf"
 
 - num: 63
   citation: "Reisch B.I., Cadle-Davidson L., Ugochukwu I., Gavin S., <strong>Londo J.P.</strong>, Martinson T.E. (2023). Contributions of the VitisGen2 project to grapevine breeding and genetics. <em>Vitis</em> 62, 88-91."
@@ -80,22 +90,26 @@
   citation: "Patel S., Harris Z.N., <strong>Londo J.P.</strong>, Miller A., Fennell A. (2023). <a class=\"pub-title-link\" href=\"https://doi.org/10.46471/gigabyte.84\">Genome assembly of the hybrid grapevine Vitis ‘Chambourcin’</a>. <em>Gigabyte</em> 2023, 1-18."
   thumb: "images/pubs/62.jpg"
   doi: "https://doi.org/10.46471/gigabyte.84"
+  pdf: "pdf/62.pdf"
 
 - num: 61
   citation: "Harris Z.N., Pratt J.E., Kovacs L.G., Klein L.L., Kwasniewski M.T., <strong>Londo J.P.</strong>, Wu A.S., Miller A.J. (2023). <a class=\"pub-title-link\" href=\"https://doi.org/10.1186/s12870-023-04223-w\">Grapevine scion gene expression is driven by rootstock and environment interaction</a>. <em>BMC Plant Biology</em> 23(1)."
   thumb: "images/pubs/61.jpg"
   doi: "https://doi.org/10.1186/s12870-023-04223-w"
+  pdf: "pdf/61.pdf"
 
 - num: 60
   lead: true
   citation: "Kovaleski A.P., North M.G., Martinson T.E., <strong>Londo J.P.</strong> (2023). <a class=\"pub-title-link\" href=\"https://doi.org/10.1016/j.agrformet.2023.109324\">Development of a new cold hardiness prediction model for grapevine using phased integration of acclimation and deacclimation responses</a>. <em>Agricultural and Forest Meteorology</em> 331, 109324."
   thumb: "images/pubs/60.jpg"
   doi: "https://doi.org/10.1016/j.agrformet.2023.109324"
+  pdf: "pdf/60.pdf"
 
 - num: 59
   citation: "Alzohairy S.A., <strong>Londo J.P.</strong>, Heinitz C., Naegele R.P. (2023). <a class=\"pub-title-link\" href=\"https://doi.org/10.21273/HORTSCI17002-22\">Cultivar and Maternal Plant Environment Influence Cold Stratification Requirements and Germination Rates of Vitis Species</a>. <em>HortScience</em> 58(5), 515-524."
   thumb: "images/pubs/59.jpg"
   doi: "https://doi.org/10.21273/HORTSCI17002-22"
+  pdf: "pdf/59.pdf"
 
 - num: 58
   citation: "<strong>Londo J.P.</strong>, Moyer M.M., Mireles M., Mills L., Keller M., Workmaster B.A., Atucha A., Kovaleski A.P. (2022). <a class=\"pub-title-link\" href=\"https://doi.org/10.5344/ajev.2022.22010\">Evaluation of Sample Preparation Practices Common with Differential Thermal Analysis of Grapevine Bud Cold Hardiness</a>. <em>American Journal of Enology and Viticulture</em> 74(1), 0740002."
@@ -106,6 +120,7 @@
   citation: "Islam M.T., Kudla-Williams C., Kar S., <strong>Londo J.P.</strong>, Centinari M., Rosa C. (2022). <a class=\"pub-title-link\" href=\"https://doi.org/10.3389/finsc.2022.971221\">Deciphering genome-wide transcriptomic changes in grapevines heavily infested by spotted lanternflies</a>. <em>Frontiers in Insect Science</em> 2."
   thumb: "images/pubs/57.jpg"
   doi: "https://doi.org/10.3389/finsc.2022.971221"
+  pdf: "pdf/57.pdf"
 
 - num: 56
   citation: "Brillouet J.M., Romieu C., Bacilieri R., Nick P., Trias-Blasi A., Maul E., Solymosi K., Teszlák P., Jiang J.F., Sun L., Ortolani D., <strong>Londo J.P.</strong>, Gutierrez B., Prins B., Reynders M., Van Caekenberghe F., Maghradze D., Marchal C., Sultan A., Thomas J.F., Scherberich D., Fulcrand H., Roumeas L., Billerach G., Salimov V., Musayev M., Ejaz Ul Islam Dar M., Peltier J.B., Grisoni M. (2022). <a class=\"pub-title-link\" href=\"https://doi.org/10.1093/aob/mcac077\">Tannin phenotyping of the Vitaceae reveals a phylogenetic linkage of epigallocatechin in berries and leaves</a>. <em>Annals of Botany</em> 130(2), 159-171."
@@ -116,47 +131,56 @@
   citation: "Alahakoon D., Fennell A., Helget Z., Bates T., Karn A., Manns D., Mansfield A.K., Reisch B.I., Sacks G., Sun Q., Zou C., Cadle-Davidson L., <strong>Londo J.P.</strong> (2022). <a class=\"pub-title-link\" href=\"https://doi.org/10.3390/plants11050696\">Berry Anthocyanin, Acid, and Volatile Trait Analyses in a Grapevine-Interspecific F2 Population Using an Integrated GBS and rhAmpSeq Genetic Map</a>. <em>Plants</em> 11(5), 696."
   thumb: "images/pubs/55.jpg"
   doi: "https://doi.org/10.3390/plants11050696"
+  pdf: "pdf/55.pdf"
 
 - num: 54
   citation: "Yin L., Karn A., Cadle-Davidson L., Zou C., <strong>Londo J.</strong>, Sun Q., Clark M.D. (2022). <a class=\"pub-title-link\" href=\"https://doi.org/10.1093/hr/uhac027\">Candidate resistance genes to foliar phylloxera identified at Rdv3 of hybrid grape</a>. <em>Horticulture Research</em> 9."
   thumb: "images/pubs/54.jpg"
   doi: "https://doi.org/10.1093/hr/uhac027"
+  pdf: "pdf/54.pdf"
 
 - num: 53
   lead: true
   citation: "Wang H., Dami I.E., Martens H., <strong>Londo J.P.</strong> (2022). <a class=\"pub-title-link\" href=\"https://doi.org/10.48130/FruRes-2022-0001\">Transcriptomic analysis of grapevine in response to ABA application reveals its diverse regulations during cold acclimation and deacclimation</a>. <em>Fruit Research</em> 2(1), 1-12."
   thumb: "images/pubs/53.jpg"
   doi: "https://doi.org/10.48130/FruRes-2022-0001"
+  pdf: "pdf/53.pdf"
 
 - num: 52
   citation: "Harris Z.N., Awale M., Bhakta N., Chitwood D.H., Fennell A., Frawley E., Klein L.L., Kovacs L.G., Kwasniewski M., <strong>Londo J.P.</strong>, Ma Q., Migicovsky Z., Swift J.F., Miller A.J. (2021). <a class=\"pub-title-link\" href=\"https://doi.org/10.1093/gigascience/giab087\">Multi-dimensional leaf phenotypes reflect root system genotype in grafted grapevine over the growing season</a>. <em>GigaScience</em> 10(12)."
   thumb: "images/pubs/52.jpg"
   doi: "https://doi.org/10.1093/gigascience/giab087"
+  pdf: "pdf/52.pdf"
 
 - num: 51
   citation: "Gutierrez B., Schwaninger H., Meakem V., <strong>Londo J.</strong>, Zhong G.Y. (2021). <a class=\"pub-title-link\" href=\"https://doi.org/10.1038/s41598-021-03783-x\">Phenological diversity in wild and hybrid grapes (Vitis) from the USDA-ARS cold-hardy grape collection</a>. <em>Scientific Reports</em> 11(1)."
   thumb: "images/pubs/51.jpg"
   doi: "https://doi.org/10.1038/s41598-021-03783-x"
+  pdf: "pdf/51.pdf"
 
 - num: 50
   citation: "Zou C., Massonnet M., Minio A., Patel S., Llaca V., Karn A., Gouker F., Cadle-Davidson L., Reisch B., Fennell A., Cantu D., Sun Q., <strong>Londo J.P.</strong> (2021). <a class=\"pub-title-link\" href=\"https://doi.org/10.1073/pnas.2023548118\">Multiple independent recombinations led to hermaphroditism in grapevine</a>. <em>Proceedings of the National Academy of Sciences</em> 118(15)."
   thumb: "images/pubs/50.jpg"
   doi: "https://doi.org/10.1073/pnas.2023548118"
+  pdf: "pdf/50.pdf"
 
 - num: 49
   citation: "Naegele R.P., <strong>Londo J.P.</strong>, Zou C., Cousins P. (2021). <a class=\"pub-title-link\" href=\"https://doi.org/10.7717/peerj.10773\">Identification of SNPs associated with magnesium and sodium uptake and the effect of their accumulation on micro and macro nutrient levels in Vitis vinifera</a>. <em>PeerJ</em> 9, e10773."
   thumb: "images/pubs/49.jpg"
   doi: "https://doi.org/10.7717/peerj.10773"
+  pdf: "pdf/49.pdf"
 
 - num: 48
   citation: "Chitwood D.H., Mullins J., Migicovsky Z., Frank M., VanBuren R., <strong>Londo J.P.</strong> (2021). <a class=\"pub-title-link\" href=\"https://doi.org/10.1002/ajb2.1639\">Vein‐to‐blade ratio is an allometric indicator of leaf size and plasticity</a>. <em>American Journal of Botany</em> 108(4), 571-579."
   thumb: "images/pubs/48.jpg"
   doi: "https://doi.org/10.1002/ajb2.1639"
+  pdf: "pdf/48.pdf"
 
 - num: 47
   citation: "Bryson A.E., Wilson Brown M., Mullins J., Dong W., Bahmani K., Bornowski N., Chiu C., Engelgau P., Gettings B., Gomezcano F., Gregory L.M., Haber A.C., Hoh D., Jennings E.E., Ji Z., Kaur P., Kenchanmane Raju S.K., Long Y., Lotreck S.G., Mathieu D.T., Ranaweera T., Ritter E.J., Sadohara R., Shrote R.Z., Smith K.E., Teresi S.J., Venegas J., Wang H., Wilson M.L., Tarrant A.R., Frank M.H., Migicovsky Z., Kumar J., VanBuren R., <strong>Londo J.P.</strong>, Chitwood D.H. (2020). <a class=\"pub-title-link\" href=\"https://doi.org/10.1002/aps3.11404\">Composite modeling of leaf shape along shoots discriminates Vitis species better than individual leaves</a>. <em>Applications in Plant Sciences</em> 8(12)."
   thumb: "images/pubs/47.jpg"
   doi: "https://doi.org/10.1002/aps3.11404"
+  pdf: "pdf/47.pdf"
 
 - num: 46
   citation: "Bhattarai G., Fennell A., <strong>Londo J.P.</strong>, Coleman C., Kovacs L.G. (2020). <a class=\"pub-title-link\" href=\"https://doi.org/10.5344/ajev.2020.20030\">A Novel Grape Downy Mildew Resistance Locus fromVitis rupestris</a>. <em>American Journal of Enology and Viticulture</em> 72(1), 12-20."
@@ -167,38 +191,45 @@
   citation: "Patel S., Robben M., Fennell A., <strong>Londo J.P.</strong>, Alahakoon D., Villegas-Diaz R., Swaminathan P. (2020). <a class=\"pub-title-link\" href=\"https://doi.org/10.1038/s41438-020-0316-2\">Draft genome of the Native American cold hardy grapevine Vitis riparia Michx. ‘Manitoba 37’</a>. <em>Horticulture Research</em> 7(1)."
   thumb: "images/pubs/45.jpg"
   doi: "https://doi.org/10.1038/s41438-020-0316-2"
+  pdf: "pdf/45.pdf"
 
 - num: 44
   citation: "Zou C., Karn A., Reisch B., Nguyen A., Sun Y., Bao Y., Campbell M.S., Church D., Williams S., Xu X., Ledbetter C.A., Patel S., Fennell A., Glaubitz J.C., Clark M., Ware D., <strong>Londo J.P.</strong>, Sun Q., Cadle-Davidson L. (2020). <a class=\"pub-title-link\" href=\"https://doi.org/10.1038/s41467-019-14280-1\">Haplotyping the Vitis collinear core genome with rhAmpSeq improves marker transferability in a diverse genus</a>. <em>Nature Communications</em> 11(1)."
   thumb: "images/pubs/44.jpg"
   doi: "https://doi.org/10.1038/s41467-019-14280-1"
+  pdf: "pdf/44.pdf"
 
 - num: 43
   citation: "Yang Y., Cuenca J., Wang N., Liang Z., Sun H., Gutierrez B., Xi X., Arro J., Wang Y., Fan P., <strong>Londo J.</strong>, Cousins P., Li S., Fei Z., Zhong G.Y. (2020). <a class=\"pub-title-link\" href=\"https://doi.org/10.1038/s41438-020-0304-6\">A key ‘foxy’ aroma gene is regulated by homology-induced promoter indels in the iconic juice grape ‘Concord’</a>. <em>Horticulture Research</em> 7(1)."
   thumb: "images/pubs/43.jpg"
   doi: "https://doi.org/10.1038/s41438-020-0304-6"
+  pdf: "pdf/43.pdf"
 
 - num: 42
   citation: "Demmings E.M., Williams B.R., Lee C.R., Barba P., Yang S., Hwang C.F., Reisch B.I., Chitwood D.H., <strong>Londo J.P.</strong> (2019). <a class=\"pub-title-link\" href=\"https://doi.org/10.3389/fpls.2019.01373\">Quantitative Trait Locus Analysis of Leaf Morphology Indicates Conserved Shape Loci in Grapevine</a>. <em>Frontiers in Plant Science</em> 10."
   thumb: "images/pubs/42.jpg"
   doi: "https://doi.org/10.3389/fpls.2019.01373"
+  pdf: "pdf/42.pdf"
 
 - num: 41
   lead: true
   citation: "Kovaleski A.P., <strong>Londo J.P.</strong> (2019). <a class=\"pub-title-link\" href=\"https://doi.org/10.1016/j.plantsci.2019.110178\">Tempo of gene regulation in wild and cultivated Vitis species shows coordination between cold deacclimation and budbreak</a>. <em>Plant Science</em> 287, 110178."
   thumb: "images/pubs/41.jpg"
   doi: "https://doi.org/10.1016/j.plantsci.2019.110178"
+  pdf: "pdf/41.pdf"
 
 - num: 40
   lead: true
   citation: "Kovaleski A.P., <strong>Londo J.P.</strong>, Finkelstein K.D. (2019). <a class=\"pub-title-link\" href=\"https://doi.org/10.1038/s41598-019-51415-2\">X-ray phase contrast imaging of Vitis spp. buds shows freezing pattern and correlation between volume and cold hardiness</a>. <em>Scientific Reports</em> 9(1)."
   thumb: "images/pubs/40.jpg"
   doi: "https://doi.org/10.1038/s41598-019-51415-2"
+  pdf: "pdf/40.pdf"
 
 - num: 39
   citation: "Li M., Klein L.L., Duncan K.E., Jiang N., Chitwood D.H., <strong>Londo J.P.</strong>, Miller A.J., Topp C.N. (2019). <a class=\"pub-title-link\" href=\"https://doi.org/10.1093/jxb/erz394\">Characterizing 3D inflorescence architecture in grapevine using X-ray imaging and advanced morphometrics: implications for understanding cluster density</a>. <em>Journal of Experimental Botany</em> 70(21), 6261-6276."
   thumb: "images/pubs/39.jpg"
   doi: "https://doi.org/10.1093/jxb/erz394"
+  pdf: "pdf/39.pdf"
 
 - num: 38
   citation: "<strong>Londo J.P.</strong>, Kovaleski A.P. (2019). <a class=\"pub-title-link\" href=\"https://doi.org/10.1111/ajgw.12389\">Deconstructing cold hardiness: variation in supercooling ability and chilling requirements in the wild grapevine Vitis riparia</a>. <em>Australian Journal of Grape and Wine Research</em> 25(3), 276-285."
@@ -209,22 +240,26 @@
   citation: "Migicovsky Z., Harris Z.N., Klein L.L., Li M., McDermaid A., Chitwood D.H., Fennell A., Kovacs L.G., Kwasniewski M., <strong>Londo J.P.</strong>, Ma Q., Miller A.J. (2019). <a class=\"pub-title-link\" href=\"https://doi.org/10.1038/s41438-019-0146-2\">Rootstock effects on scion phenotypes in a ‘Chambourcin’ experimental vineyard</a>. <em>Horticulture Research</em> 6(1)."
   thumb: "images/pubs/37.jpg"
   doi: "https://doi.org/10.1038/s41438-019-0146-2"
+  pdf: "pdf/37.pdf"
 
 - num: 36
   lead: true
   citation: "Kovaleski A.P., Reisch B.I., <strong>Londo J.P.</strong> (2018). <a class=\"pub-title-link\" href=\"https://doi.org/10.1093/aobpla/ply066\">Deacclimation kinetics as a quantitative phenotype for delineating the dormancy transition and thermal efficiency for budbreak in Vitis species</a>. <em>AoB PLANTS</em>."
   thumb: "images/pubs/36.jpg"
   doi: "https://doi.org/10.1093/aobpla/ply066"
+  pdf: "pdf/36.pdf"
 
 - num: 35
   citation: "Li M., An H., Angelovici R., Bagaza C., Batushansky A., Clark L., Coneva V., Donoghue M.J., Edwards E., Fajardo D., Fang H., Frank M.H., Gallaher T., Gebken S., Hill T., Jansky S., Kaur B., Klahs P.C., Klein L.L., Kuraparthy V., <strong>Londo J.</strong>, Migicovsky Z., Miller A., Mohn R., Myles S., Otoni W.C., Pires J.C., Rieffer E., Schmerler S., Spriggs E., Topp C.N., Van Deynze A., Zhang K., Zhu L., Zink B.M., Chitwood D.H. (2018). <a class=\"pub-title-link\" href=\"https://doi.org/10.3389/fpls.2018.00553\">Topological Data Analysis as a Morphometric Method: Using Persistent Homology to Demarcate a Leaf Morphospace</a>. <em>Frontiers in Plant Science</em> 9."
   thumb: "images/pubs/35.jpg"
   doi: "https://doi.org/10.3389/fpls.2018.00553"
+  pdf: "pdf/35.pdf"
 
 - num: 34
   citation: "<strong>Londo J.P.</strong>, Kovaleski A.P., Lillis J.A. (2018). <a class=\"pub-title-link\" href=\"https://doi.org/10.1038/s41438-018-0020-7\">Divergence in the transcriptional landscape between low temperature and freeze shock in cultivated grapevine (Vitis vinifera)</a>. <em>Horticulture Research</em> 5(1)."
   thumb: "images/pubs/34.jpg"
   doi: "https://doi.org/10.1038/s41438-018-0020-7"
+  pdf: "pdf/34.pdf"
 
 - num: 33
   citation: "Klein L.L., Miller A.J., Ciotir C., Hyma K., Uribe‐Convers S., <strong>Londo J.</strong> (2018). <a class=\"pub-title-link\" href=\"https://doi.org/10.1002/ajb2.1033\">High‐throughput sequencing data clarify evolutionary relationships among North American Vitis species and improve identification in USDA Vitis germplasm collections</a>. <em>American Journal of Botany</em> 105(2), 215-226."
@@ -250,6 +285,7 @@
   citation: "Harris Z.N., Kovacs L.G., <strong>Londo J.P.</strong> (2017). <a class=\"pub-title-link\" href=\"https://doi.org/10.1186/s12864-017-4346-6\">RNA-seq-based genome annotation and identification of long-noncoding RNAs in the grapevine cultivar ‘Riesling’</a>. <em>BMC Genomics</em> 18(1)."
   thumb: "images/pubs/29.jpg"
   doi: "https://doi.org/10.1186/s12864-017-4346-6"
+  pdf: "pdf/29.pdf"
 
 - num: 28
   citation: "<strong>Londo J.P.</strong>, Kovaleski A.P. (2017). <a class=\"pub-title-link\" href=\"https://doi.org/10.5344/ajev.2016.16090\">Characterization of Wild North American Grapevine Cold Hardiness Using Differential Thermal Analysis</a>. <em>American Journal of Enology and Viticulture</em> 68(2), 203-212."
@@ -260,6 +296,7 @@
   citation: "Adam-Blondon A.F., Alaux M., Pommier C., Cantu D., Cheng Z.M., Cramer G., Davies C., Delrot S., Deluc L., Di Gaspero G., Grimplet J., Fennell A., <strong>Londo J.</strong>, Kersey P., Mattivi F., Naithani S., Neveu P., Nikolski M., Pezzotti M., Reisch B., Töpfer R., Vivier M., Ware D., Quesneville H. (2016). <a class=\"pub-title-link\" href=\"https://doi.org/10.1038/hortres.2016.56\">Towards an open grapevine information system</a>. <em>Horticulture Research</em> 3(1)."
   thumb: "images/pubs/27.jpg"
   doi: "https://doi.org/10.1038/hortres.2016.56"
+  pdf: "pdf/27.pdf"
 
 - num: 26
   citation: "Centinari M., Smith M.S., <strong>Londo J.P.</strong> (2016). <a class=\"pub-title-link\" href=\"https://doi.org/10.21273/HORTSCI.51.7.856\">Assessment of Freeze Injury of Grapevine Green Tissues in Response to Cultivars and a Cryoprotectant Product</a>. <em>HortScience</em> 51(7), 856-860."
@@ -275,6 +312,7 @@
   citation: "Yang S., Fresnedo-Ramírez J., Wang M., Cote L., Schweitzer P., Barba P., Takacs E.M., Clark M., Luby J., Manns D.C., Sacks G., Mansfield A.K., <strong>Londo J.</strong>, Fennell A., Gadoury D., Reisch B., Cadle-Davidson L., Sun Q. (2016). <a class=\"pub-title-link\" href=\"https://doi.org/10.1038/hortres.2016.2\">A next-generation marker genotyping platform (AmpSeq) in heterozygous crops: a case study for marker-assisted selection in grapevine</a>. <em>Horticulture Research</em> 3(1)."
   thumb: "images/pubs/24.jpg"
   doi: "https://doi.org/10.1038/hortres.2016.2"
+  pdf: "pdf/24.pdf"
 
 - num: 23
   citation: "Chitwood D.H., Rundell S.M., Li D.Y., Woodford Q.L., Yu T.T., Lopez J.R., Greenblatt D., Kang J., <strong>Londo J.P.</strong> (2016). <a class=\"pub-title-link\" href=\"https://doi.org/10.1104/pp.15.01825\">Climate and Developmental Plasticity: Interannual Variability in Grapevine Leaf Morphology</a>. <em>Plant Physiology</em> 170(3), 1480-1491."
@@ -285,6 +323,7 @@
   citation: "Yang S., Fresnedo-Ramírez J., Sun Q., Manns D.C., Sacks G.L., Mansfield A.K., Luby J.J., <strong>Londo J.P.</strong>, Reisch B.I., Cadle-Davidson L.E., Fennell A.Y. (2016). <a class=\"pub-title-link\" href=\"https://doi.org/10.1371/journal.pone.0149560\">Next Generation Mapping of Enological Traits in an F2 Interspecific Grapevine Hybrid Family</a>. <em>PLOS ONE</em> 11(3), e0149560."
   thumb: "images/pubs/22.jpg"
   doi: "https://doi.org/10.1371/journal.pone.0149560"
+  pdf: "pdf/22.pdf"
 
 - num: 21
   citation: "Warschefsky E.J., Klein L.L., Frank M.H., Chitwood D.H., <strong>Londo J.P.</strong>, von Wettberg E.J.B., Miller A.J. (2016). <a class=\"pub-title-link\" href=\"https://doi.org/10.1016/j.tplants.2015.11.008\">Rootstocks: Diversity, Domestication, and Impacts on Shoot Phenotypes</a>. <em>Trends in Plant Science</em> 21(5), 418-437."
@@ -295,11 +334,13 @@
   citation: "Chitwood D.H., Klein L.L., O&#x27;Hanlon R., Chacko S., Greg M., Kitchen C., Miller A.J., <strong>Londo J.P.</strong> (2015). <a class=\"pub-title-link\" href=\"https://doi.org/10.1111/nph.13754\">Latent developmental and evolutionary shapes embedded within the grapevine leaf</a>. <em>New Phytologist</em> 210(1), 343-355."
   thumb: "images/pubs/20.jpg"
   doi: "https://doi.org/10.1111/nph.13754"
+  pdf: "pdf/20.pdf"
 
 - num: 19
   citation: "Hyma K.E., Barba P., Wang M., <strong>Londo J.P.</strong>, Acharya C.B., Mitchell S.E., Sun Q., Reisch B., Cadle-Davidson L. (2015). <a class=\"pub-title-link\" href=\"https://doi.org/10.1371/journal.pone.0134880\">Heterozygous Mapping Strategy (HetMappS) for High Resolution Genotyping-By-Sequencing Markers: A Case Study in Grapevine</a>. <em>PLOS ONE</em> 10(8), e0134880."
   thumb: "images/pubs/19.jpg"
   doi: "https://doi.org/10.1371/journal.pone.0134880"
+  pdf: "pdf/19.pdf"
 
 - num: 18
   citation: "Moyer M.M., <strong>Londo J.</strong>, Gadoury D.M., Cadle-Davidson L. (2015). <a class=\"pub-title-link\" href=\"https://doi.org/10.1007/s10658-015-0745-1\">Cold Stress-Induced Disease Resistance (SIDR): indirect effects of low temperatures on host-pathogen interactions and disease progress in the grapevine powdery mildew pathosystem</a>. <em>European Journal of Plant Pathology</em> 144(4), 695-705."
@@ -315,6 +356,7 @@
   citation: "Sagers C., <strong>Londo J.</strong>, Bautista N., Lee E., Watrud L., King G. (2015). <a class=\"pub-title-link\" href=\"https://doi.org/10.3390/agronomy5010021\">Benefits of Transgenic Insect Resistance in Brassica Hybrids under Selection</a>. <em>Agronomy</em> 5(1), 21-34."
   thumb: "images/pubs/16.jpg"
   doi: "https://doi.org/10.3390/agronomy5010021"
+  pdf: "pdf/16.pdf"
 
 - num: 15
   citation: "<strong>Londo J.P.</strong>, Garris A.M. (2014). Genetic and protein sequence variation of CBF1-4 in cold hardy wild grapevine germplasm. <em>VITIS</em> 53(4), 201-206."
@@ -324,11 +366,13 @@
   citation: "Wang L., Zhu W., Fang L., Sun X., Su L., Liang Z., Wang N., <strong>Londo J.P.</strong>, Li S., Xin H. (2014). <a class=\"pub-title-link\" href=\"https://doi.org/10.1186/1471-2229-14-103\">Genome-wide identification of WRKY family genes and their response to cold stress in Vitis vinifera</a>. <em>BMC Plant Biology</em> 14(1)."
   thumb: "images/pubs/14.jpg"
   doi: "https://doi.org/10.1186/1471-2229-14-103"
+  pdf: "pdf/14.pdf"
 
 - num: 13
   citation: "<strong>Londo J.</strong>, McKinney J., Schwartz M., Bollman M., Sagers C., Watrud L. (2014). <a class=\"pub-title-link\" href=\"https://doi.org/10.1186/1471-2229-14-70\">Sub-lethal glyphosate exposure alters flowering phenology and causes transient male-sterility in Brassica spp</a>. <em>BMC Plant Biology</em> 14(1), 70."
   thumb: "images/pubs/13.jpg"
   doi: "https://doi.org/10.1186/1471-2229-14-70"
+  pdf: "pdf/13.pdf"
 
 - num: 12
   citation: "<strong>Londo J.P.</strong>, Johnson L.M. (2014). <a class=\"pub-title-link\" href=\"https://doi.org/10.1016/j.envexpbot.2013.12.012\">Variation in the chilling requirement and budburst rate of wild Vitis species</a>. <em>Environmental and Experimental Botany</em> 106, 138-147."
@@ -339,6 +383,7 @@
   citation: "Xin H., Zhu W., Wang L., Xiang Y., Fang L., Li J., Sun X., Wang N., <strong>Londo J.P.</strong>, Li S. (2013). <a class=\"pub-title-link\" href=\"https://doi.org/10.1371/journal.pone.0058740\">Genome Wide Transcriptional Profile Analysis of Vitis amurensis and Vitis vinifera in Response to Cold Stress</a>. <em>PLoS ONE</em> 8(3), e58740."
   thumb: "images/pubs/11.jpg"
   doi: "https://doi.org/10.1371/journal.pone.0058740"
+  pdf: "pdf/11.pdf"
 
 - num: 10
   citation: "<strong>Londo J.P.</strong>, Bollman M.A., Sagers C.L., Lee E.H., Watrud L.S. (2011). <a class=\"pub-title-link\" href=\"https://doi.org/10.1038/hdy.2011.19\">Changes in fitness-associated traits due to the stacking of transgenic glyphosate resistance and insect resistance in Brassica napus L</a>. <em>Heredity</em> 107(4), 328-337."
@@ -354,6 +399,7 @@
   citation: "Schafer M.G., Ross A.A., <strong>Londo J.P.</strong>, Burdick C.A., Lee E.H., Travers S.E., Van de Water P.K., Sagers C.L. (2011). <a class=\"pub-title-link\" href=\"https://doi.org/10.1371/journal.pone.0025736\">The Establishment of Genetically Engineered Canola Populations in the U.S</a>. <em>PLoS ONE</em> 6(10), e25736."
   thumb: "images/pubs/8.jpg"
   doi: "https://doi.org/10.1371/journal.pone.0025736"
+  pdf: "pdf/8.pdf"
 
 - num: 7
   citation: "Reichman J.R., Smith B.M., <strong>Londo J.P.</strong>, Bollman M.A., Auer C.A., Watrud L.S. (2011). <a class=\"pub-title-link\" href=\"https://doi.org/10.2135/cropsci2010.05.0266\">Diallelic Nuclear Microsatellites for Diversity and Population Analyses of the Allotetraploid Creeping Bentgrass (Agrostis stolonifera)</a>. <em>Crop Science</em> 51(2), 747-758."
