@@ -1,0 +1,13 @@
+{% assign panels = "projects,Research,1|team,People,2|research,Publications,3|media,Media,4|tools,Tools & Resources,5|gallery,Lab Life,6|contact,Contact,7" | split: "|" %}
+<div class="rainbow-hero">
+  {% for panel in panels %}
+    {% assign parts = panel | split: "," %}
+    <a
+      class="rh-panel"
+      href="{{ parts[0] | relative_url }}"
+      style="background-image: url('{{ 'images/banner/' | append: parts[2] | append: '.jpg' | relative_url }}')"
+    >
+      <span class="rh-label">{{ parts[1] }}</span>
+    </a>
+  {% endfor %}
+</div>

@@ -1,0 +1,77 @@
+---
+---
+
+/* Photo-panel rainbow hero on the home page: seven themed color photos as
+   diagonally-slanted panels (top-right to lower-left), each a quicklink. */
+
+.rainbow-hero {
+  display: flex;
+  height: 320px;
+  margin: 30px 0 40px;
+  overflow: hidden;
+  border-radius: var(--rounded);
+  box-shadow: var(--shadow);
+}
+
+.rh-panel {
+  position: relative;
+  flex: 1 1 0;
+  min-width: 0;
+  margin: 0 -18px;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(36px 0, 100% 0, calc(100% - 36px) 100%, 0 100%);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-decoration: none;
+  transition: flex-grow 0.35s ease;
+}
+
+.rh-panel:first-child {
+  margin-left: -36px;
+}
+.rh-panel:last-child {
+  margin-right: -36px;
+}
+
+.rh-panel::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.15) 35%,
+    transparent 60%
+  );
+}
+
+.rh-label {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.82rem;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  padding: 0 10px 18px;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.85);
+}
+
+.rh-panel:hover {
+  flex-grow: 1.6;
+}
+
+@media (max-width: 700px) {
+  .rainbow-hero {
+    height: 210px;
+  }
+  .rh-label {
+    font-size: 0.7rem;
+    padding-bottom: 12px;
+  }
+}
