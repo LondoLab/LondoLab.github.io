@@ -1,5 +1,5 @@
 {% assign pubs = site.data.publications %}
-<div class="pub-list">
+<div class="pub-list{% if include.style == 'grid' %} pub-grid{% endif %}">
   {% for p in pubs %}
     <div class="pub{% if p.lead %} pub-lead{% endif %}">
       <a
