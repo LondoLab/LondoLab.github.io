@@ -1,0 +1,16 @@
+<div class="gallery">
+  {% for photo in site.data.gallery %}
+    <a
+      class="gallery-item"
+      href="{{ photo.image | relative_url | uri_escape }}"
+      {% if photo.caption %}data-caption="{{ photo.caption | xml_escape }}"{% endif %}
+      aria-label="{{ photo.caption | default: 'Lab photo' | regex_strip }}"
+    >
+      <img
+        src="{{ photo.image | relative_url | uri_escape }}"
+        alt="{{ photo.caption | default: 'Lab photo' | regex_strip }}"
+        loading="lazy"
+      >
+    </a>
+  {% endfor %}
+</div>

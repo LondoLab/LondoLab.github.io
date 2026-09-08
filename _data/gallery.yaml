@@ -1,0 +1,27 @@
+# Lab Life photo gallery.
+# Each entry: image (path under images/gallery or images/), caption (optional, shown in lightbox).
+# Add a photo by dropping it in images/gallery/ and adding an entry here.
+- image: images/gallery/wintervineyard.jpg
+  caption: Dormant vineyard in winter
+- image: images/gallery/rootstockfall.jpg
+  caption: Rootstock trial in autumn
+- image: images/gallery/budburst.jpg
+  caption: Bud break in spring
+- image: images/gallery/cherrybuds.jpg
+  caption: Cherry buds swelling
+- image: images/gallery/goldenapples.jpg
+  caption: Apples at harvest
+- image: images/gallery/laterusset.jpg
+  caption: Late russet on apple skin
+- image: images/gallery/winterorchard.jpg
+  caption: Orchard under snow
+- image: images/gallery/hyperspec.jpg
+  caption: Hyperspectral imaging in the field
+- image: images/gallery/frost2023.jpg
+  caption: Spring frost, 2023
+- image: images/gallery/scarf.jpg
+  caption: Scarf skin on apple
+- image: images/gallery/treedeclinecrew.jpg
+  caption: Tree decline field survey
+- image: images/gallery/GabbyMarineHannaApples.jpg
+  caption: Sorting apples in the lab
