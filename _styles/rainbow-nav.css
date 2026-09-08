@@ -72,31 +72,31 @@ header[data-big] nav > a:hover {
 }
 
 header[data-big] nav > a:nth-of-type(1) {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.08) 55%, transparent 78%), url("/images/banner/1.jpg?v=6");
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.08) 55%, transparent 78%), url("/images/banner/1.jpg?v=7");
 }
 
 header[data-big] nav > a:nth-of-type(2) {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.08) 55%, transparent 78%), url("/images/banner/2.jpg?v=6");
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.08) 55%, transparent 78%), url("/images/banner/2.jpg?v=7");
 }
 
 header[data-big] nav > a:nth-of-type(3) {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.08) 55%, transparent 78%), url("/images/banner/3.jpg?v=6");
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.08) 55%, transparent 78%), url("/images/banner/3.jpg?v=7");
 }
 
 header[data-big] nav > a:nth-of-type(4) {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.08) 55%, transparent 78%), url("/images/banner/4.jpg?v=6");
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.08) 55%, transparent 78%), url("/images/banner/4.jpg?v=7");
 }
 
 header[data-big] nav > a:nth-of-type(5) {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.08) 55%, transparent 78%), url("/images/banner/5.jpg?v=6");
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.08) 55%, transparent 78%), url("/images/banner/5.jpg?v=7");
 }
 
 header[data-big] nav > a:nth-of-type(6) {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.08) 55%, transparent 78%), url("/images/banner/6.jpg?v=6");
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.08) 55%, transparent 78%), url("/images/banner/6.jpg?v=7");
 }
 
 header[data-big] nav > a:nth-of-type(7) {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.08) 55%, transparent 78%), url("/images/banner/7.jpg?v=6");
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.08) 55%, transparent 78%), url("/images/banner/7.jpg?v=7");
 }
 
 /*# sourceMappingURL=rainbow-nav.css.map */
