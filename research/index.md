@@ -13,8 +13,4 @@ The research conducted in this group is wide in scope. We have a programmatic be
 
 {% include section.html %}
 
-{% include search-box.html %}
-
-{% include search-info.html %}
-
-{% include list.html data="citations" component="citation" %}
+{% include publications.html %}
