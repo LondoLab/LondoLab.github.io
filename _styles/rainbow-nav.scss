@@ -2,62 +2,49 @@
 ---
 
 /* Rainbow quicklink banner on the home page header.
-   Each nav link (Research, People, Publications, Media, Tools, Contact) sits
-   over a diagonally-slanted color band, slanting top-right to lower-left. */
+   A single smooth spectrum gradient behind the nav, slanted top-right to
+   lower-left, with the quicklinks sitting over it. */
 
 header[data-big] nav {
+  position: relative;
   gap: 0;
   margin-left: auto;
   flex: 0 1 auto;
   justify-content: flex-end;
+  isolation: isolate;
+}
+
+header[data-big] nav::before {
+  content: "";
+  position: absolute;
+  inset: -3px -16px;
+  z-index: -1;
+  transform: skewX(-18deg);
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(
+    to right,
+    #d64541 0%,
+    #e2842f 17%,
+    #d9a521 33%,
+    #43a35b 50%,
+    #3b7fc4 66%,
+    #8a4aa0 83%,
+    #e06aa5 100%
+  );
 }
 
 header[data-big] nav > a {
   position: relative;
-  z-index: 0;
   color: #ffffff;
   padding: 4px 9px;
   font-size: 0.8rem;
   font-weight: var(--semi-bold);
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
   transition: filter 0.2s ease;
-}
-
-header[data-big] nav > a::before {
-  content: "";
-  position: absolute;
-  top: -2px;
-  bottom: -2px;
-  left: -6px;
-  right: -6px;
-  z-index: -1;
-  transform: skewX(-18deg);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
 }
 
 header[data-big] nav > a:hover {
   color: #ffffff;
-  filter: brightness(1.1);
-}
-
-header[data-big] nav > a:nth-of-type(1)::before {
-  background: #d64541;
-}
-header[data-big] nav > a:nth-of-type(2)::before {
-  background: #e2842f;
-}
-header[data-big] nav > a:nth-of-type(3)::before {
-  background: #d9a521;
-}
-header[data-big] nav > a:nth-of-type(4)::before {
-  background: #43a35b;
-}
-header[data-big] nav > a:nth-of-type(5)::before {
-  background: #3b7fc4;
-}
-header[data-big] nav > a:nth-of-type(6)::before {
-  background: #8a4aa0;
-}
-header[data-big] nav > a:nth-of-type(7)::before {
-  background: #e06aa5;
+  filter: brightness(1.12);
 }
