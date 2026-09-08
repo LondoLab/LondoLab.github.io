@@ -79,7 +79,7 @@
 /* grid variant: larger image, compact reference beside it, three per row */
 .pub-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
   margin: 30px 0;
 }
@@ -87,12 +87,12 @@
 .pub-grid .pub {
   margin-bottom: 0;
   align-items: flex-start;
-  gap: 12px;
-  padding: 12px;
+  gap: 10px;
+  padding: 10px;
 }
 
 .pub-grid .pub-thumb {
-  width: 150px;
+  width: 165px;
 }
 
 .pub-grid .pub-cite {
