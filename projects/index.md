@@ -16,48 +16,63 @@ We study the physiology, genetics, and climate adaptation of perennial fruit cro
 
 {% include section.html %}
 
-{% capture text %}
-
-We study the winter physiology of grapevine and apple. Our work follows how perennial buds acclimate in autumn, hold cold hardiness through the dormant season, and deacclimate in spring. We measure chilling requirements and deacclimation resistance and quantify the freeze damage risks that grow under a warming and more variable climate.
-
-{% endcapture %}
-{% include feature.html image="images/Apple_frost.jpg" title="Cold Hardiness &amp; Dormancy" text=text %}
-
-{% capture text %}
-
-We turn physiological understanding into decision tools for growers. NYUS.2 is our open-source model that predicts grapevine bud freezing tolerance across North America throughout the dormant season. Related work targets spring frost risk and practical mitigation for the fruit industry.
-
-{%
-  include button.html
-  link="https://github.com/imbaterry11/NYUS.2"
-  text="NYUS.2 model"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-{% include feature.html image="images/NYUS2.png" title="Climate Adaptation &amp; Predictive Tools" flip=true text=text %}
-
-{% capture text %}
-
-We use genome- and epigenome-scale approaches to understand perennial crop biology. The NSF-funded Vitis Underground project examines the epigenomics of clonally propagated grapevine. We also work on pangenomics, sex determination, and the genetic architecture of adaptive traits.
-
-{%
-  include button.html
-  link="http://www.vitisunderground.org/"
-  text="Vitis Underground"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-{% include feature.html image="images/tube.jpg" title="Genomics &amp; Epigenomics" text=text %}
-
-{% capture text %}
-
-We study the physiology and biochemistry of the apple cuticle and the fruit-finish disorders scarf skin and late russet. Our work asks how crop load, rootstock × scion interactions, and the growing environment shape fruit appearance and packout quality.
-
-{% endcapture %}
-{% include feature.html image="images/redapples.jpg" title="Apple Physiology &amp; Fruit Finish" flip=true text=text %}
+<div class="project-grid">
+  <div class="project-callout">
+    <span class="project-ic">{% include icon.html icon="fa-solid fa-snowflake" %}</span>
+    <div class="project-body">
+      <p class="project-title">Grapevine cold hardiness and dormancy physiology</p>
+      <p class="project-text">We track how grapevine buds acclimate in autumn, hold hardiness through dormancy, and deacclimate in spring, and how chilling and warming shift that timing.</p>
+      {% include button.html link="https://github.com/imbaterry11/NYUS.2" text="NYUS.2 model" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
+    </div>
+  </div>
+  <div class="project-callout">
+    <span class="project-ic">{% include icon.html icon="fa-solid fa-icicles" %}</span>
+    <div class="project-body">
+      <p class="project-title">Frost stress and mitigation</p>
+      <p class="project-text">We measure freeze damage risk to buds and shoots and test practical ways growers can protect the crop through spring frost events.</p>
+    </div>
+  </div>
+  <div class="project-callout">
+    <span class="project-ic">{% include icon.html icon="fa-solid fa-tree" %}</span>
+    <div class="project-body">
+      <p class="project-title">Apple rootstock cold hardiness and tree decline</p>
+      <p class="project-text">We study how rootstock genetics set the cold hardiness of the graft union and trunk, and how that links to rapid apple decline.</p>
+    </div>
+  </div>
+  <div class="project-callout">
+    <span class="project-ic">{% include icon.html icon="fa-solid fa-circle-nodes" %}</span>
+    <div class="project-body">
+      <p class="project-title">Grapevine rootstock-shoot physiology and epigenomics of terroir</p>
+      <p class="project-text">We ask how rootstock and shoot interact, and how the epigenome of clonal grapevine records the signal of site and terroir.</p>
+      {% include button.html link="http://www.vitisunderground.org/" text="Vitis Underground" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
+    </div>
+  </div>
+  <div class="project-callout">
+    <span class="project-ic">{% include icon.html icon="fa-solid fa-apple-whole" %}</span>
+    <div class="project-body">
+      <p class="project-title">Microclimate impacts on apple fruit finish</p>
+      <p class="project-text">We connect the canopy microclimate around each fruit to finish disorders like scarf skin and russet that lower packout quality.</p>
+    </div>
+  </div>
+  <div class="project-callout">
+    <span class="project-ic">{% include icon.html icon="fa-solid fa-chart-line" %}</span>
+    <div class="project-body">
+      <p class="project-title">Predicting and modeling cool climate grape berry ripening</p>
+      <p class="project-text">We build models that predict berry ripening and fruit composition in cool climates to help growers plan harvest.</p>
+    </div>
+  </div>
+  <div class="project-callout">
+    <span class="project-ic">{% include icon.html icon="fa-solid fa-droplet" %}</span>
+    <div class="project-body">
+      <p class="project-title">Physiology and genetics of woody vascular traits</p>
+      <p class="project-text">We study the xylem and phloem of woody perennials and the genetics behind vascular structure, function, and repair.</p>
+    </div>
+  </div>
+  <div class="project-callout">
+    <span class="project-ic">{% include icon.html icon="fa-solid fa-satellite-dish" %}</span>
+    <div class="project-body">
+      <p class="project-title">Remote sensing to optimize crop production</p>
+      <p class="project-text">We use microclimate sensors and multispectral drone imaging to map vineyard and orchard variation and guide management.</p>
+    </div>
+  </div>
+</div>
