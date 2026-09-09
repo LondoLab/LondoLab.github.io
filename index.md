@@ -54,7 +54,7 @@
     <p class="disc-text">Time series RNA sequencing tracks how gene expression shifts through dormancy and stress.</p>
   </div>
   <div class="disc">
-    <span class="disc-ic">{% include icon.html icon="fa-solid fa-diagram-project" %}</span>
+    <span class="disc-ic">{% include icon.html icon="fa-solid fa-puzzle-piece" %}</span>
     <p class="disc-title">Genome Assembly</p>
     <p class="disc-text">Haplotype resolved genomes and pangenomes of highly heterozygous perennial crops.</p>
   </div>
