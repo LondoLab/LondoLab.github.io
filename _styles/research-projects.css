@@ -1,0 +1,63 @@
+/* Project callouts on the Research page. */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 10px 0;
+}
+
+.project-callout {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  padding: 20px;
+  background: var(--background);
+  border: 1px solid var(--light-gray);
+  border-radius: var(--rounded);
+  box-shadow: var(--shadow);
+}
+
+.project-ic {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: rgba(7, 149, 217, 0.1);
+}
+
+.project-ic .icon {
+  font-size: 1.15rem;
+  color: var(--primary);
+}
+
+.project-body {
+  min-width: 0;
+}
+
+.project-title {
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+  font-size: 1.08rem;
+  line-height: 1.3;
+  margin: 2px 0 8px;
+  text-align: left;
+}
+
+.project-text {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--dark-gray);
+  margin: 0;
+  text-align: left;
+}
+
+@media (max-width: 760px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=research-projects.css.map */
