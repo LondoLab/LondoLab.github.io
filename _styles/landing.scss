@@ -139,6 +139,7 @@ $home: "body:has(header[data-big])";
   font-size: 0.92rem;
   line-height: 1.5;
   color: var(--dark-gray);
+  margin: 0;
 }
 
 /* --- how we do it: six discipline tiles --- */
@@ -153,6 +154,12 @@ $home: "body:has(header[data-big])";
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
+}
+
+.disc p,
+.disc-title,
+.disc-text {
+  margin: 0;
 }
 
 .disc-ic {
