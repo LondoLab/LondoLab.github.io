@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320" fill="none" stroke="#4e7a52" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- apple body -->
+  <path d="M150 108
+    C140 96 120 92 106 104
+    C90 118 88 148 98 176
+    C106 198 122 216 150 216
+    C178 216 194 198 202 176
+    C212 148 210 118 194 104
+    C180 92 160 96 150 108 Z"/>
+  <!-- top dimple -->
+  <path d="M150 108 C147 116 146 120 150 126"/>
+  <!-- stem -->
+  <path d="M150 104 C150 90 148 80 156 70"/>
+  <!-- leaf on stem -->
+  <path d="M156 78 C170 66 192 66 206 76 C192 86 176 88 160 84 Z"/>
+  <path d="M156 78 C176 80 192 80 206 76"/>
+  <!-- five-petal blossom (upper left) -->
+  <g transform="translate(72 96)">
+    <ellipse cx="0" cy="-20" rx="12" ry="18"/>
+    <ellipse cx="19" cy="-6" rx="12" ry="18" transform="rotate(72 19 -6)"/>
+    <ellipse cx="12" cy="16" rx="12" ry="18" transform="rotate(144 12 16)"/>
+    <ellipse cx="-12" cy="16" rx="12" ry="18" transform="rotate(216 -12 16)"/>
+    <ellipse cx="-19" cy="-6" rx="12" ry="18" transform="rotate(288 -19 -6)"/>
+    <circle cx="0" cy="-2" r="6"/>
+  </g>
+</svg>
