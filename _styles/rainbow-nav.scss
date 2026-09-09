@@ -11,83 +11,53 @@ header nav {
   isolation: isolate;
 }
 
-/* Subpages: smooth blended spectrum gradient behind the links. */
-header:not([data-big]) nav::before {
-  content: "";
-  position: absolute;
-  inset: -3px -16px;
-  z-index: -1;
-  transform: skewX(-18deg);
-  border-radius: 2px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
-  background: linear-gradient(
-    to right,
-    #d64541 0%,
-    #e2842f 17%,
-    #d9a521 33%,
-    #43a35b 50%,
-    #3b7fc4 66%,
-    #8a4aa0 83%,
-    #e06aa5 100%
-  );
-}
+/* Fruit-photo rainbow behind the quicklinks, on the landing page and every
+   interior page. Themed photo panels, slanted top-right to lower-left; each
+   panel keeps its angled edges. Height and slant differ per context so the
+   interior bar stays compact. */
 
-header:not([data-big]) nav > a {
+header nav > a {
   position: relative;
-  color: #ffffff;
-  padding: 4px 9px;
-  font-size: 0.8rem;
-  font-weight: var(--semi-bold);
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
-  transition: filter 0.2s ease;
-}
-
-header:not([data-big]) nav > a:hover {
-  color: #ffffff;
-  filter: brightness(1.12);
-}
-
-@media (max-width: 700px) {
-  header:not([data-big]) nav::before {
-    display: none;
-  }
-  header:not([data-big]) nav > a {
-    color: var(--text);
-    text-shadow: none;
-  }
-}
-
-/* Landing page: the picture rainbow in the nav position. Scaled-down themed
-   photo panels, slanted top-right to lower-left; every panel (incl. the red
-   apple) keeps its angled edges (nav is not clipped). */
-$slant: 17px;
-
-header[data-big] nav > a {
-  position: relative;
-  height: 86px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  padding: 0 17px 8px;
   color: #ffffff;
-  font-size: 0.8rem;
   font-weight: var(--semi-bold);
   letter-spacing: 0.02em;
   text-align: center;
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
   background-position: center;
   background-size: cover;
-  clip-path: polygon(#{$slant} 0, 100% 0, calc(100% - #{$slant}) 100%, 0 100%);
-  margin: 0 -9px;
   transition: filter 0.2s ease;
 }
 
-header[data-big] nav > a:hover {
+header nav > a:hover {
   filter: brightness(1.08);
 }
 
+/* Landing page: full-size panels. */
+$slant-big: 17px;
+header[data-big] nav > a {
+  height: 86px;
+  padding: 0 17px 8px;
+  font-size: 0.8rem;
+  clip-path: polygon(#{$slant-big} 0, 100% 0, calc(100% - #{$slant-big}) 100%, 0 100%);
+  margin: 0 -9px;
+}
+
+/* Interior pages: shorter panels to fit the compact header. */
+$slant-sub: 10px;
+header:not([data-big]) nav > a {
+  height: 48px;
+  padding: 0 14px 6px;
+  font-size: 0.72rem;
+  clip-path: polygon(#{$slant-sub} 0, 100% 0, calc(100% - #{$slant-sub}) 100%, 0 100%);
+  margin: 0 -5px;
+}
+
+/* Themed photo per link, shared by both contexts. */
 @for $i from 1 through 7 {
-  header[data-big] nav > a:nth-of-type(#{$i}) {
+  header nav > a:nth-of-type(#{$i}) {
     background-image: linear-gradient(
         to top,
         rgba(0, 0, 0, 0.6) 0%,
@@ -95,5 +65,19 @@ header[data-big] nav > a:hover {
         transparent 78%
       ),
       url("/images/banner/#{$i}.jpg?v=9");
+  }
+}
+
+/* Mobile: the interior nav collapses into a vertical dropdown, so drop the
+   photo panels there and fall back to plain text links. */
+@media (max-width: 700px) {
+  header:not([data-big]) nav > a {
+    height: auto;
+    padding: 5px;
+    margin: 0;
+    color: var(--text);
+    text-shadow: none;
+    background-image: none;
+    clip-path: none;
   }
 }
