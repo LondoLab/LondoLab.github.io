@@ -1,6 +1,7 @@
 {% assign pubs = site.data.publications %}
 
 <div class="pub-key" aria-label="Icon key">
+  <span class="pub-key-item"><span class="pub-ic pub-ic-grad">{% include icon.html icon="fa-solid fa-graduation-cap" %}</span> Student / postdoc led</span>
   <span class="pub-key-item"><span class="pub-ic pub-ic-sys">🍇</span> Grapevine</span>
   <span class="pub-key-item"><span class="pub-ic pub-ic-sys">🍎</span> Apple</span>
   <span class="pub-key-item"><span class="pub-ic pub-ic-sys">🌼</span> Brassica / canola</span>
@@ -9,7 +10,6 @@
   <span class="pub-key-item"><span class="pub-ic pub-ic-pheno">{% include icon.html icon="fa-solid fa-leaf" %}</span> Phenotyping</span>
   <span class="pub-key-item"><span class="pub-ic pub-ic-cold">{% include icon.html icon="fa-solid fa-snowflake" %}</span> Cold / winter</span>
   <span class="pub-key-item"><span class="pub-ic pub-ic-model">{% include icon.html icon="fa-solid fa-brain" %}</span> Modeling</span>
-  <span class="pub-key-item"><span class="pub-ic pub-ic-grad">{% include icon.html icon="fa-solid fa-graduation-cap" %}</span> Student / postdoc led</span>
 </div>
 
 <div class="pub-list{% if include.style == 'grid' %} pub-grid{% endif %}">
@@ -32,6 +32,7 @@
         {{ p.citation }}
         {% assign tags = p.tags | split: "," %}
         <div class="pub-icons">
+          {% if p.lead %}<span class="pub-ic pub-ic-grad" data-tooltip="Student / postdoc led">{% include icon.html icon="fa-solid fa-graduation-cap" %}</span>{% endif %}
           {% if tags contains "grape" %}<span class="pub-ic pub-ic-sys" data-tooltip="Grapevine">🍇</span>{% endif %}
           {% if tags contains "apple" %}<span class="pub-ic pub-ic-sys" data-tooltip="Apple">🍎</span>{% endif %}
           {% if tags contains "canola" %}<span class="pub-ic pub-ic-sys" data-tooltip="Brassica / canola">🌼</span>{% endif %}
@@ -40,7 +41,6 @@
           {% if tags contains "phenotyping" %}<span class="pub-ic pub-ic-pheno" data-tooltip="Phenotyping">{% include icon.html icon="fa-solid fa-leaf" %}</span>{% endif %}
           {% if tags contains "cold" %}<span class="pub-ic pub-ic-cold" data-tooltip="Cold / winter">{% include icon.html icon="fa-solid fa-snowflake" %}</span>{% endif %}
           {% if tags contains "modeling" %}<span class="pub-ic pub-ic-model" data-tooltip="Modeling">{% include icon.html icon="fa-solid fa-brain" %}</span>{% endif %}
-          {% if p.lead %}<span class="pub-ic pub-ic-grad" data-tooltip="Student / postdoc led">{% include icon.html icon="fa-solid fa-graduation-cap" %}</span>{% endif %}
         </div>
       </div>
     </div>
