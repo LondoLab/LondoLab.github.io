@@ -143,6 +143,7 @@ $home: "body:has(header[data-big])";
   font-weight: var(--semi-bold);
   font-size: var(--large);
   margin: 0 0 8px;
+  text-align: left;
 }
 
 .study-card-text {
@@ -150,6 +151,7 @@ $home: "body:has(header[data-big])";
   line-height: 1.5;
   color: var(--dark-gray);
   margin: 0;
+  text-align: left;
 }
 
 /* --- how we do it: six discipline tiles --- */
@@ -170,6 +172,7 @@ $home: "body:has(header[data-big])";
 .disc-title,
 .disc-text {
   margin: 0;
+  text-align: left;
 }
 
 .disc-ic {
