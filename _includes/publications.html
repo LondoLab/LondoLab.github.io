@@ -1,4 +1,17 @@
 {% assign pubs = site.data.publications %}
+
+<div class="pub-key" aria-label="Icon key">
+  <span class="pub-key-item"><span class="pub-ic pub-ic-sys">🍇</span> Grapevine</span>
+  <span class="pub-key-item"><span class="pub-ic pub-ic-sys">🍎</span> Apple</span>
+  <span class="pub-key-item"><span class="pub-ic pub-ic-sys">🌼</span> Brassica / canola</span>
+  <span class="pub-key-item"><span class="pub-ic pub-ic-sys">🌾</span> Rice</span>
+  <span class="pub-key-item"><span class="pub-ic pub-ic-genomics">{% include icon.html icon="fa-solid fa-dna" %}</span> Genetics / genomics</span>
+  <span class="pub-key-item"><span class="pub-ic pub-ic-pheno">{% include icon.html icon="fa-solid fa-leaf" %}</span> Phenotyping</span>
+  <span class="pub-key-item"><span class="pub-ic pub-ic-cold">{% include icon.html icon="fa-solid fa-snowflake" %}</span> Cold / winter</span>
+  <span class="pub-key-item"><span class="pub-ic pub-ic-model">{% include icon.html icon="fa-solid fa-brain" %}</span> Modeling</span>
+  <span class="pub-key-item"><span class="pub-ic pub-ic-grad">{% include icon.html icon="fa-solid fa-graduation-cap" %}</span> Student / postdoc led</span>
+</div>
+
 <div class="pub-list{% if include.style == 'grid' %} pub-grid{% endif %}">
   {% for p in pubs %}
     <div class="pub{% if p.lead %} pub-lead{% endif %}">
