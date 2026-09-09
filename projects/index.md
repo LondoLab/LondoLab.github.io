@@ -20,7 +20,7 @@ We study the physiology, genetics, and climate adaptation of perennial fruit cro
   <div class="project-callout">
     <span class="project-ic">{% include icon.html icon="fa-solid fa-snowflake" %}</span>
     <div class="project-body">
-      <p class="project-title">Grapevine cold hardiness and dormancy physiology</p>
+      <p class="project-title"><a href="{{ '/projects/grapevine-winter-physiology/' | relative_url }}">Grapevine cold hardiness and dormancy physiology</a></p>
       <p class="project-text">We track how grapevine buds acclimate in autumn, hold hardiness through dormancy, and deacclimate in spring, and how chilling and warming shift that timing.</p>
       {% include button.html link="https://github.com/imbaterry11/NYUS.2" text="NYUS.2 model" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
     </div>
