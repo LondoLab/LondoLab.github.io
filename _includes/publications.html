@@ -19,10 +19,10 @@
         {{ p.citation }}
         {% assign tags = p.tags | split: "," %}
         <div class="pub-icons">
-          {% if tags contains "grape" %}<span class="pub-ic" data-tooltip="Grapevine">🍇</span>{% endif %}
-          {% if tags contains "apple" %}<span class="pub-ic" data-tooltip="Apple">🍎</span>{% endif %}
-          {% if tags contains "canola" %}<span class="pub-ic" data-tooltip="Brassica / canola">🌼</span>{% endif %}
-          {% if tags contains "rice" %}<span class="pub-ic" data-tooltip="Rice">🌾</span>{% endif %}
+          {% if tags contains "grape" %}<span class="pub-ic pub-ic-sys" data-tooltip="Grapevine">🍇</span>{% endif %}
+          {% if tags contains "apple" %}<span class="pub-ic pub-ic-sys" data-tooltip="Apple">🍎</span>{% endif %}
+          {% if tags contains "canola" %}<span class="pub-ic pub-ic-sys" data-tooltip="Brassica / canola">🌼</span>{% endif %}
+          {% if tags contains "rice" %}<span class="pub-ic pub-ic-sys" data-tooltip="Rice">🌾</span>{% endif %}
           {% if tags contains "genomics" %}<span class="pub-ic pub-ic-genomics" data-tooltip="Genetics / genomics">{% include icon.html icon="fa-solid fa-dna" %}</span>{% endif %}
           {% if tags contains "phenotyping" %}<span class="pub-ic pub-ic-pheno" data-tooltip="Phenotyping">{% include icon.html icon="fa-solid fa-leaf" %}</span>{% endif %}
           {% if tags contains "cold" %}<span class="pub-ic pub-ic-cold" data-tooltip="Cold / winter">{% include icon.html icon="fa-solid fa-snowflake" %}</span>{% endif %}

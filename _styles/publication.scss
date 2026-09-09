@@ -85,12 +85,21 @@ $stack: 600px;
 .pub-ic {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   line-height: 1;
   cursor: default;
 }
 
 .pub-icons .icon {
-  font-size: 0.82rem;
+  font-size: 0.86rem;
+}
+
+/* emoji study-system marks: match the icon size and lift the glyph so it
+   sits on the same center line as the Font Awesome icons */
+.pub-ic-sys {
+  font-size: 0.86rem;
+  line-height: 1;
+  transform: translateY(-0.09em);
 }
 
 .pub-ic-genomics .icon {
