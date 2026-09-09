@@ -142,6 +142,9 @@ $home: "body:has(header[data-big])";
   font-family: var(--heading);
   font-weight: var(--semi-bold);
   font-size: var(--large);
+  line-height: 1.25;
+  text-wrap: balance;
+  min-height: 2.5em;
   margin: 0 0 8px;
   text-align: left;
 }
@@ -194,6 +197,8 @@ $home: "body:has(header[data-big])";
   font-family: var(--heading);
   font-weight: var(--semi-bold);
   font-size: 1.02rem;
+  line-height: 1.25;
+  text-wrap: balance;
 }
 
 .disc-text {

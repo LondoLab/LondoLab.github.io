@@ -56,19 +56,29 @@
     <p class="disc-text">Differential thermal analysis and controlled freeze tests measure cold hardiness, chilling, and deacclimation.</p>
   </div>
   <div class="disc">
+    <span class="disc-ic">{% include icon.html icon="fa-solid fa-cloud-sun" %}</span>
+    <p class="disc-title">Microclimate &amp; Fruit Quality</p>
+    <p class="disc-text">Canopy microclimate sensors and imaging connect the growing environment to fruit finish disorders like scarf skin and russet.</p>
+  </div>
+  <div class="disc">
+    <span class="disc-ic">{% include icon.html icon="fa-solid fa-droplet" %}</span>
+    <p class="disc-title">Vascular Physiology &amp; Repair</p>
+    <p class="disc-text">Xylem and phloem function and how vascular tissue recovers from grafting, rootstock effects, and virus.</p>
+  </div>
+  <div class="disc">
     <span class="disc-ic">{% include icon.html icon="fa-solid fa-dna" %}</span>
     <p class="disc-title">Transcriptomics</p>
     <p class="disc-text">Time series RNA sequencing tracks how gene expression shifts through dormancy and stress.</p>
   </div>
   <div class="disc">
-    <span class="disc-ic">{% include icon.html icon="fa-solid fa-puzzle-piece" %}</span>
-    <p class="disc-title">Genome Assembly</p>
-    <p class="disc-text">Haplotype resolved genomes and pangenomes of highly heterozygous perennial crops.</p>
-  </div>
-  <div class="disc">
     <span class="disc-ic">{% include icon.html icon="fa-solid fa-circle-nodes" %}</span>
     <p class="disc-title">Epigenomics</p>
     <p class="disc-text">Small RNA and methylation sequencing map the epigenome of clonally propagated grapevine.</p>
+  </div>
+  <div class="disc">
+    <span class="disc-ic">{% include icon.html icon="fa-solid fa-puzzle-piece" %}</span>
+    <p class="disc-title">Genome Assembly</p>
+    <p class="disc-text">Haplotype resolved genomes and pangenomes of highly heterozygous perennial crops.</p>
   </div>
   <div class="disc">
     <span class="disc-ic">{% include icon.html icon="fa-solid fa-satellite-dish" %}</span>
@@ -79,15 +89,5 @@
     <span class="disc-ic">{% include icon.html icon="fa-solid fa-brain" %}</span>
     <p class="disc-title">Modeling &amp; Decision Tools</p>
     <p class="disc-text">Predictive models and grower facing apps put physiology to work, including our NYUS.2 model.</p>
-  </div>
-  <div class="disc">
-    <span class="disc-ic">{% include icon.html icon="fa-solid fa-cloud-sun" %}</span>
-    <p class="disc-title">Microclimate &amp; Fruit Quality</p>
-    <p class="disc-text">Canopy microclimate sensors and imaging connect the growing environment to fruit finish disorders like scarf skin and russet.</p>
-  </div>
-  <div class="disc">
-    <span class="disc-ic">{% include icon.html icon="fa-solid fa-droplet" %}</span>
-    <p class="disc-title">Vascular Physiology &amp; Repair</p>
-    <p class="disc-text">Xylem and phloem function and how vascular tissue recovers from grafting, rootstock effects, and virus.</p>
   </div>
 </div>
