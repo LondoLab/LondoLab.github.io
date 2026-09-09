@@ -10,7 +10,7 @@
 
 {% include section.html %}
 
-<h2 class="home-h">What we study</h2>
+<h2 class="home-h">Questions and Focus</h2>
 <p class="home-sub">Our program spans grapevine and apple, from the molecules inside a dormant bud to the freeze risk facing a whole orchard.</p>
 
 <div class="study-grid">
@@ -39,7 +39,7 @@
 
 {% include section.html %}
 
-<h2 class="home-h">How we do it</h2>
+<h2 class="home-h">Data and approaches</h2>
 <p class="home-sub">We pair controlled physiology with genome scale biology and field sensing to connect mechanism to the vineyard and orchard.</p>
 
 <div class="disc-grid">
@@ -72,5 +72,15 @@
     <span class="disc-ic">{% include icon.html icon="fa-solid fa-brain" %}</span>
     <p class="disc-title">Modeling &amp; Decision Tools</p>
     <p class="disc-text">Predictive models and grower facing apps put physiology to work, including our NYUS.2 model.</p>
+  </div>
+  <div class="disc">
+    <span class="disc-ic">{% include icon.html icon="fa-solid fa-cloud-sun" %}</span>
+    <p class="disc-title">Microclimate &amp; Fruit Quality</p>
+    <p class="disc-text">Canopy microclimate sensors and imaging connect the growing environment to fruit finish disorders like scarf skin and russet.</p>
+  </div>
+  <div class="disc">
+    <span class="disc-ic">{% include icon.html icon="fa-solid fa-droplet" %}</span>
+    <p class="disc-title">Vascular Physiology &amp; Repair</p>
+    <p class="disc-text">Xylem and phloem function and how vascular tissue recovers from grafting, rootstock effects, and virus.</p>
   </div>
 </div>

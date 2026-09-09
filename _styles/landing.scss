@@ -67,6 +67,7 @@ $home: "body:has(header[data-big])";
   letter-spacing: 0.08em;
   font-size: 0.82rem;
   color: var(--primary);
+  text-align: center;
   margin-bottom: 18px;
 }
 
@@ -74,6 +75,15 @@ $home: "body:has(header[data-big])";
   font-size: var(--xl);
   line-height: 1.5;
   font-weight: var(--thin);
+  margin-bottom: 0;
+}
+
+/* tighten the gap between the intro and the first section */
+#{$home} main > section:nth-of-type(1) {
+  padding-bottom: 12px;
+}
+#{$home} main > section:nth-of-type(2) {
+  padding-top: 24px;
 }
 
 /* --- section headings on the home page --- */
@@ -145,8 +155,8 @@ $home: "body:has(header[data-big])";
 /* --- how we do it: six discipline tiles --- */
 .disc-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 22px 26px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 26px 24px;
 }
 
 .disc {
@@ -189,14 +199,17 @@ $home: "body:has(header[data-big])";
   color: var(--dark-gray);
 }
 
+@media (max-width: 900px) {
+  .disc-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 820px) {
   .study-grid {
     grid-template-columns: 1fr;
     max-width: 460px;
     margin: 0 auto;
-  }
-  .disc-grid {
-    grid-template-columns: repeat(2, 1fr);
   }
 }
 
