@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320" fill="none" stroke="#4e7a52" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- vine leaf (upper left) -->
+  <path d="M96 78
+    C86 66 70 64 58 54
+    C58 66 50 72 40 74
+    C52 82 52 94 46 104
+    C60 100 70 108 72 122
+    C82 112 96 114 104 126
+    C108 112 120 106 132 110
+    C126 98 130 84 120 74
+    C110 80 100 76 96 78 Z"/>
+  <path d="M96 78 L104 126 M96 78 L58 54 M96 78 L46 104 M96 78 L72 122 M96 78 L120 74 M96 78 L132 110"/>
+  <!-- petiole from leaf into stem -->
+  <path d="M104 126 C112 138 124 142 138 140"/>
+  <!-- main stem -->
+  <path d="M150 96 C148 112 150 120 150 128"/>
+  <path d="M150 96 C150 84 146 76 150 66"/>
+  <!-- tendril curl -->
+  <path d="M150 74 C168 68 182 78 184 92 C186 104 176 112 168 108 C162 105 162 96 168 94 C172 93 175 97 173 100"/>
+  <!-- grape cluster: staggered diamond bunch -->
+  <circle cx="135" cy="140" r="16"/>
+  <circle cx="167" cy="140" r="16"/>
+  <circle cx="119" cy="168" r="16"/>
+  <circle cx="151" cy="168" r="16"/>
+  <circle cx="183" cy="168" r="16"/>
+  <circle cx="103" cy="196" r="16"/>
+  <circle cx="135" cy="196" r="16"/>
+  <circle cx="167" cy="196" r="16"/>
+  <circle cx="199" cy="196" r="16"/>
+  <circle cx="119" cy="224" r="16"/>
+  <circle cx="151" cy="224" r="16"/>
+  <circle cx="183" cy="224" r="16"/>
+  <circle cx="135" cy="252" r="16"/>
+  <circle cx="167" cy="252" r="16"/>
+  <circle cx="151" cy="280" r="16"/>
+</svg>

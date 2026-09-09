@@ -1,0 +1,195 @@
+/* ============================================================
+   Landing (home) page. Scoped to the home header (data-big) so
+   these rules never touch interior pages.
+   ============================================================ */
+/* --- faint botanical line-art behind each home band --- */
+body:has(header[data-big]) main > section {
+  position: relative;
+  overflow: hidden;
+}
+
+body:has(header[data-big]) main > section > * {
+  position: relative;
+  z-index: 1;
+}
+
+body:has(header[data-big]) main > section::before {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  opacity: 0.08;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 0;
+}
+
+body:has(header[data-big]) main > section:nth-of-type(1)::before {
+  width: 380px;
+  height: 405px;
+  right: -80px;
+  top: -70px;
+  background-image: url("/images/botanical/grapevine.svg");
+}
+
+body:has(header[data-big]) main > section:nth-of-type(2)::before {
+  width: 360px;
+  height: 384px;
+  left: -90px;
+  bottom: -80px;
+  background-image: url("/images/botanical/apple-branch.svg");
+}
+
+body:has(header[data-big]) main > section:nth-of-type(3)::before {
+  width: 360px;
+  height: 384px;
+  right: -90px;
+  bottom: -70px;
+  background-image: url("/images/botanical/grapevine.svg");
+}
+
+/* --- intro band --- */
+.landing-intro {
+  max-width: 760px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.landing-tagline {
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.82rem;
+  color: var(--primary);
+  margin-bottom: 18px;
+}
+
+.landing-mission {
+  font-size: var(--xl);
+  line-height: 1.5;
+  font-weight: var(--thin);
+}
+
+/* --- section headings on the home page --- */
+.home-h {
+  text-align: center;
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+  font-size: var(--xxl);
+  margin: 0 0 6px;
+}
+
+.home-sub {
+  text-align: center;
+  color: var(--gray);
+  margin: 0 auto 30px;
+  max-width: 640px;
+}
+
+/* --- what we study: three picture cards --- */
+.study-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.study-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--background);
+  border: 1px solid var(--light-gray);
+  border-radius: var(--rounded);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  color: var(--text);
+  text-decoration: none;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.study-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px 0 var(--overlay);
+}
+
+.study-card-img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  display: block;
+}
+
+.study-card-body {
+  padding: 16px 18px 20px;
+}
+
+.study-card-title {
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+  font-size: var(--large);
+  margin: 0 0 8px;
+}
+
+.study-card-text {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--dark-gray);
+}
+
+/* --- how we do it: six discipline tiles --- */
+.disc-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px 26px;
+}
+
+.disc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.disc-ic {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(7, 149, 217, 0.1);
+}
+
+.disc-ic .icon {
+  font-size: 1.1rem;
+  color: var(--primary);
+}
+
+.disc-title {
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+  font-size: 1.02rem;
+}
+
+.disc-text {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--dark-gray);
+}
+
+@media (max-width: 820px) {
+  .study-grid {
+    grid-template-columns: 1fr;
+    max-width: 460px;
+    margin: 0 auto;
+  }
+  .disc-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 520px) {
+  .disc-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=landing.css.map */
