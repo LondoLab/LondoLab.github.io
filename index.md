@@ -15,10 +15,17 @@
 
 <div class="study-grid">
   <a class="study-card" href="{{ '/projects/' | relative_url }}">
-    <img class="study-card-img" src="{{ '/images/Apple_frost.jpg' | relative_url }}" alt="Frost on apple buds" loading="lazy">
+    <img class="study-card-img" src="{{ '/images/Apple_frost.jpg' | relative_url }}" alt="Frost on buds" loading="lazy">
     <div class="study-card-body">
-      <p class="study-card-title">Cold Hardiness &amp; Dormancy</p>
+      <p class="study-card-title">Winter Physiology &amp; Dormancy</p>
       <p class="study-card-text">We follow how grapevine and apple buds acclimate in autumn, hold hardiness through winter, and deacclimate in spring, and how freeze risk grows in a warming climate.</p>
+    </div>
+  </a>
+  <a class="study-card" href="{{ '/projects/' | relative_url }}">
+    <img class="study-card-img" src="{{ '/images/gallery/9.jpg' | relative_url }}" alt="Grafted apple tree with an interstem" loading="lazy">
+    <div class="study-card-body">
+      <p class="study-card-title">Rootstock-Scion Interaction</p>
+      <p class="study-card-text">We study how rootstock and scion combinations shape vigor, cold hardiness, and fruit quality in grapevine and apple.</p>
     </div>
   </a>
   <a class="study-card" href="{{ '/projects/' | relative_url }}">
