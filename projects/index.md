@@ -5,6 +5,11 @@ nav:
   tooltip: What we study
 ---
 
+<figure class="research-hero">
+  <img src="{{ '/images/gallery/30.jpg' | relative_url }}" alt="Grapevine bud breaking in spring, covered in dew" loading="eager">
+  <figcaption>Grapevine budburst, the end of winter dormancy</figcaption>
+</figure>
+
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
 We study the physiology, genetics, and climate adaptation of perennial fruit crops. Our work spans grapevine and apple, from molecular mechanisms to the vineyard and orchard.
