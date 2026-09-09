@@ -100,8 +100,8 @@ body:has(header[data-big]) main > section:nth-of-type(2) {
 /* --- what we study: three picture cards --- */
 .study-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
 }
 
 .study-card {
@@ -195,20 +195,19 @@ body:has(header[data-big]) main > section:nth-of-type(2) {
 }
 
 @media (max-width: 900px) {
+  .study-grid,
   .disc-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (max-width: 820px) {
-  .study-grid {
-    grid-template-columns: 1fr;
-    max-width: 460px;
-    margin: 0 auto;
-  }
-}
 @media (max-width: 520px) {
+  .study-grid,
   .disc-grid {
     grid-template-columns: 1fr;
+  }
+  .study-grid {
+    max-width: 420px;
+    margin: 0 auto;
   }
 }
 
