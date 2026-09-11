@@ -9,7 +9,7 @@ haiku: |
   Molecular prose
 links:
   email: bgr36 (at) cornell.edu
-  website: www.brandongroy.com
+  website: https://www.brandongroy.com
 
 ---
 
