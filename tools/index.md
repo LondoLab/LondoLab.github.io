@@ -84,7 +84,7 @@ An interactive dashboard of grapevine cold hardiness measurements and model outp
 
 {% capture text %}
 
-A GRAPE-CAST concept demo for exploring harmonized New York grape ripening data. It combines the New York Wine and Grape Foundation and Cornell Veraison to Harvest programs, pooled to the region level and de-identified, and lets you filter by cultivar and region and plot Brix, acidity, and pH against date or growing degree days.
+A cool climate grape ripening interface for New York. It brings together harmonized ripening data from the New York Wine and Grape Foundation and Cornell Veraison to Harvest programs, pooled to the region level and de-identified, and lets you filter by cultivar and region and plot Brix, acidity, and pH against date or growing degree days.
 
 {%
   include button.html
