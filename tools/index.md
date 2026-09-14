@@ -84,6 +84,29 @@ An interactive dashboard of grapevine cold hardiness measurements and model outp
 
 {% capture text %}
 
+A GRAPE-CAST concept demo for exploring harmonized New York grape ripening data. It combines the New York Wine and Grape Foundation and Cornell Veraison to Harvest programs, pooled to the region level and de-identified, and lets you filter by cultivar and region and plot Brix, acidity, and pH against date or growing degree days.
+
+{%
+  include button.html
+  link="https://jasonlondo.github.io/grape-ripening-explorer/"
+  text="Open the explorer"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+{%
+  include button.html
+  type="source"
+  link="https://github.com/Jasonlondo/grape-ripening-explorer"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+{% include feature.html image="images/tool-grape-ripening.png" link="https://jasonlondo.github.io/grape-ripening-explorer/" title="Grape Ripening Data Explorer" flip=true text=text %}
+
+{% capture text %}
+
 A live dashboard of microclimate measurements streamed from our field sensor tower.
 
 {%
