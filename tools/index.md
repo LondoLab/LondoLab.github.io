@@ -84,12 +84,12 @@ An interactive dashboard of grapevine cold hardiness measurements and model outp
 
 {% capture text %}
 
-A cool climate grape ripening interface for New York. It brings together harmonized ripening data from the New York Wine and Grape Foundation and Cornell Veraison to Harvest programs, pooled to the region level and de-identified, and lets you filter by cultivar and region and plot Brix, acidity, and pH against date or growing degree days.
+Explore harmonized grape ripening data across the state's growing regions. It brings together the New York Wine and Grape Foundation and Cornell Veraison to Harvest programs, pooled to the region level and de-identified, and lets you filter by cultivar and region and plot Brix, acidity, and pH against date or growing degree days. A comparison view overlays up to three cultivars across up to three regions.
 
 {%
   include button.html
   link="https://jasonlondo.github.io/grape-ripening-explorer/"
-  text="Open the explorer"
+  text="Open the repository"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -103,7 +103,7 @@ A cool climate grape ripening interface for New York. It brings together harmoni
 %}
 
 {% endcapture %}
-{% include feature.html image="images/tool-grape-ripening.png" link="https://jasonlondo.github.io/grape-ripening-explorer/" title="Grape Ripening Data Explorer" flip=true text=text %}
+{% include feature.html image="images/tool-grape-ripening.png" link="https://jasonlondo.github.io/grape-ripening-explorer/" title="New York Cool Climate Grape Ripening Repository" flip=true text=text %}
 
 {% capture text %}
 
