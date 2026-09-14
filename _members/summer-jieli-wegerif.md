@@ -1,6 +1,6 @@
 ---
 name: Jieli Wegerif
-image: images/fallback.svg
+image: images/jieli-wegerif.jpg
 role: summer-scholar
 order: 2
 affiliation: Florida State University
