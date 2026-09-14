@@ -73,18 +73,13 @@
 
 .member-haiku {
   width: 100%;
+  min-height: 3.94rem; /* reserve ~3 lines so cards without a haiku keep the space */
   font-size: 1.05rem;
   font-style: normal;
   line-height: 1.25;
   text-align: center;
   color: var(--dark-gray);
   white-space: nowrap;
-}
-
-.member-haiku-empty {
-  color: var(--gray);
-  opacity: 0.5;
-  letter-spacing: 0.05em;
 }
 
 /* right column: name, title, links, blurb */
