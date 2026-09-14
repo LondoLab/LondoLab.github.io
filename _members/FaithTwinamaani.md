@@ -1,6 +1,6 @@
 ---
 name: Faith Twinamaani
-image: images/fallback.svg
+image: images/faith-twinamaani.jpg
 role: alum
 order: 5
 ---

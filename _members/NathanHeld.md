@@ -1,6 +1,6 @@
 ---
 name: Nathan Held
-image: images/fallback.svg
+image: images/nathan-held.jpg
 role: alum
 order: 6
 affiliation: Stone Hill Winery
