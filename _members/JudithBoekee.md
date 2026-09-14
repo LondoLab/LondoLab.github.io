@@ -1,6 +1,6 @@
 ---
 name: Dr. Judith Boekee
-image: images/fallback.svg
+image: images/judith-boekee.jpg
 role: visiting-scholar
 order: 7
 affiliation: KNMI, Netherlands

@@ -19,11 +19,7 @@
 
     {% unless m.role == 'summer-scholar' or m.role == 'tech-alum' %}
     <div class="member-haiku">
-      {% if m.haiku %}
-        {{ m.haiku | newline_to_br }}
-      {% else %}
-        <span class="member-haiku-empty">· haiku ·</span>
-      {% endif %}
+      {% if m.haiku %}{{ m.haiku | newline_to_br }}{% endif %}
     </div>
     {% endunless %}
   </div>
