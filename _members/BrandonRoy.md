@@ -3,6 +3,7 @@ name: Brandon G. Roy, PhD
 image: images/brandon.jpg
 role: postdoc
 affiliation: Cornell University
+dates: "2025–present"
 haiku: |
   From virus to host
   I track grapevine's expression

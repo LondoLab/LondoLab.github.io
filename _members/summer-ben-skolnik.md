@@ -3,6 +3,7 @@ name: Ben Skolnik
 image: images/ben-skolnik.jpg
 role: summer-scholar
 order: 1
+dates: "2024"
 affiliation: Cornell University
 ---
 

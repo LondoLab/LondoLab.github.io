@@ -2,7 +2,7 @@
 name: Lincoln Champlin
 image: images/lincoln.jpg
 role: tech-alum
-order: 11
+order: 12
 affiliation: Cornell University
 links:
   scholar: 

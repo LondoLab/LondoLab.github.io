@@ -3,6 +3,7 @@ name: Lauren Decker
 image: images/lauren-decker.jpg
 role: summer-scholar
 order: 5
+dates: "2022"
 affiliation: Texas A&M University
 ---
 

@@ -4,6 +4,7 @@ image: images/michael-quade.jpg
 role: alum
 order: 7
 affiliation: Cornell University
+dates: "2020–2021"
 ---
 
 Michael completed his MPS (2020–2021), studying clonal variation in winter physiological traits of grapevine. He is now a PhD student in the lab of Dr. Larry Smart at Cornell University.

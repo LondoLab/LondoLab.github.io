@@ -32,6 +32,12 @@
       {% if m.affiliation and m.affiliation != "Cornell University" %} &middot; {{ m.affiliation }}{% endif %}
     </p>
 
+    {% if m.dates %}
+      <p class="member-dates">
+        <i class="fa-solid fa-calendar"></i> {{ m.dates }}
+      </p>
+    {% endif %}
+
     {% if m.links %}
       <div class="member-links">
         {% for link in m.links %}

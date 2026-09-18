@@ -2,7 +2,7 @@
 name: Phil Simmons
 image: images/phil-simmons.jpg
 role: tech-alum
-order: 10
+order: 11
 affiliation: Finger Lakes, NY
 ---
 

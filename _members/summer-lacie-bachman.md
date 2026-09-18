@@ -3,6 +3,7 @@ name: Lacie Bachman
 image: images/lacie-bachman.jpg
 role: summer-scholar
 order: 0
+dates: "2025"
 affiliation: The Ohio State University
 ---
 

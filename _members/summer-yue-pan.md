@@ -3,6 +3,7 @@ name: Yue Pan
 image: images/yue-pan.jpg
 role: summer-scholar
 order: 3
+dates: "2023"
 affiliation: Cornell University
 ---
 

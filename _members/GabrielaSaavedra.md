@@ -2,7 +2,7 @@
 name: Gabriela Saavedra
 image: images/gabriela-saavedra.jpg
 role: visiting-scholar
-order: 9
+order: 10
 affiliation: Universidad Mayor, Chile
 haiku: |
   Winter buds dream deep

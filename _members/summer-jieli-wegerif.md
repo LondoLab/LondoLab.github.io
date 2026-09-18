@@ -3,6 +3,7 @@ name: Jieli Wegerif
 image: images/jieli-wegerif.jpg
 role: summer-scholar
 order: 2
+dates: "2023"
 affiliation: Florida State University
 ---
 
