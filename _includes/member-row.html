@@ -27,9 +27,12 @@
   <div class="member-body">
     <p class="member-name">{{ m.name }}</p>
 
+    {%- assign alum_roles = "alum,tech-alum,intern,visiting-scholar" | split: "," -%}
     <p class="member-title">
       {{- m.description | default: type.description -}}
-      {% if m.affiliation and m.affiliation != "Cornell University" %} &middot; {{ m.affiliation }}{% endif %}
+      {%- if m.affiliation and m.affiliation != "" -%}
+        {%- if m.affiliation != "Cornell University" or alum_roles contains m.role %} &middot; {{ m.affiliation }}{% endif -%}
+      {%- endif -%}
     </p>
 
     {% if m.dates %}
