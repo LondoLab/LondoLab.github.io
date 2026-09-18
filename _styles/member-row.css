@@ -101,6 +101,19 @@
   font-family: var(--heading);
 }
 
+.member-dates {
+  margin: -6px 0 10px;
+  color: var(--gray);
+  font-family: var(--heading);
+  font-size: 0.85rem;
+}
+
+.member-dates i {
+  margin-right: 5px;
+  font-size: 0.85em;
+  opacity: 0.7;
+}
+
 .member-links {
   display: flex;
   flex-wrap: wrap;
