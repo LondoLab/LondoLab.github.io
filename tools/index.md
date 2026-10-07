@@ -47,8 +47,14 @@ A NEWA tool that tracks grapevine cold hardiness and freeze risk from local weat
 
 Our open-source machine-learning model for predicting grapevine bud freezing tolerance across North America throughout the dormant season.
 
-*The NYUS.2 model is moving to a new web address and is temporarily unavailable. We will post the new link here when it is live.*
-
+{%
+  include button.html
+  link="https://plant-physiology-modeling-grapevine-cold-hardiness.share.connect.posit.cloud/"
+  text="Run the model"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
 {%
   include button.html
   type="source"
@@ -58,7 +64,7 @@ Our open-source machine-learning model for predicting grapevine bud freezing tol
 %}
 
 {% endcapture %}
-{% include feature.html image="images/tool-nyus2.png" title="NYUS.2" flip=true text=text %}
+{% include feature.html image="images/tool-nyus2.png" link="https://plant-physiology-modeling-grapevine-cold-hardiness.share.connect.posit.cloud/" title="NYUS.2" flip=true text=text %}
 
 {% capture text %}
 
