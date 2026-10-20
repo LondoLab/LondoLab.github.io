@@ -111,7 +111,7 @@ A live dashboard of microclimate measurements streamed from our field sensor tow
 
 {%
   include button.html
-  link="https://sensortower-zkcgehewyahye7ydvbnbxx.streamlit.app/"
+  link="https://jasonlondo.github.io/SensorTower/"
   text="Open dashboard"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -119,4 +119,4 @@ A live dashboard of microclimate measurements streamed from our field sensor tow
 %}
 
 {% endcapture %}
-{% include feature.html image="images/tool-sensor.png" link="https://sensortower-zkcgehewyahye7ydvbnbxx.streamlit.app/" title="Microclimate Sensor Tower" flip=true text=text %}
+{% include feature.html image="images/tool-sensor.png" link="https://jasonlondo.github.io/SensorTower/" title="Microclimate Sensor Tower" flip=true text=text %}
