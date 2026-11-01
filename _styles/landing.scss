@@ -134,6 +134,12 @@ $home: "body:has(header[data-big])";
   display: block;
 }
 
+// white-background figure (circos) needs a frame to separate it from the card text
+.study-card-img-framed {
+  box-sizing: border-box;
+  border: 1px solid #000;
+}
+
 .study-card-body {
   padding: 16px 18px 20px;
 }
