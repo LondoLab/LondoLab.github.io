@@ -1,8 +1,9 @@
-// Lightbox for the Lab Life gallery. Runs only on pages that have a gallery.
+// Lightbox for the Lab Life gallery and project-page figures. Runs only on
+// pages that have one.
 (function () {
   function init() {
     var items = Array.prototype.slice.call(
-      document.querySelectorAll(".gallery-item")
+      document.querySelectorAll(".gallery-item, .fig-zoom")
     );
     if (!items.length) return;
 
