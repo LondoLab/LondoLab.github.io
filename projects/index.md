@@ -10,7 +10,7 @@ nav:
   <figcaption>Grapevine budburst, the end of winter dormancy</figcaption>
 </figure>
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# Research
 
 We study the physiology, genetics, and climate adaptation of perennial fruit crops. Our work spans grapevine and apple, from molecular mechanisms to the vineyard and orchard.
 
