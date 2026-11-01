@@ -29,7 +29,7 @@
     </div>
   </a>
   <a class="study-card" href="{{ '/projects/' | relative_url }}">
-    <img class="study-card-img study-card-img-framed" src="{{ '/images/genomics-circos-full.jpg' | relative_url }}" alt="Circos plot of grapevine gene density, transposon density, and CHH methylation across 19 chromosomes" loading="lazy">
+    <img class="study-card-img" src="{{ '/images/genomics-circos-full.jpg' | relative_url }}" alt="Circos plot of grapevine gene density, transposon density, and CHH methylation across 19 chromosomes" loading="lazy">
     <div class="study-card-body">
       <p class="study-card-title">Genomics &amp; Epigenomics</p>
       <p class="study-card-text">We use genome and epigenome scale approaches to understand perennial crop biology, from the epigenomics of clonal grapevine to sex determination and adaptive traits.</p>

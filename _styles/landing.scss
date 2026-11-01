@@ -132,10 +132,7 @@ $home: "body:has(header[data-big])";
   aspect-ratio: 3 / 2;
   object-fit: cover;
   display: block;
-}
-
-// white-background figure (circos) needs a frame to separate it from the card text
-.study-card-img-framed {
+  // thin black frame on every card image (house style, set 2026-11-01)
   box-sizing: border-box;
   border: 1px solid #000;
 }
