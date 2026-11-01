@@ -24,14 +24,44 @@ We measure bud freezing tolerance directly with differential thermal analysis, w
 ## Figures
 
 <div class="figure-grid">
-  <figure class="fig">
-    <img src="{{ '/images/NYUS2.png' | relative_url }}" alt="NYUS.2 model output" loading="lazy">
-    <figcaption>NYUS.2 turns daily weather into a running estimate of bud freezing tolerance.</figcaption>
-  </figure>
-  <figure class="fig">
-    <img src="{{ '/images/gallery/30.jpg' | relative_url }}" alt="Grapevine budburst" loading="lazy">
-    <figcaption>Budburst marks the end of dormancy and the point of greatest frost risk.</figcaption>
-  </figure>
+{% include research-figure.html
+  image="/images/research/cold-xray-vinifera.jpg"
+  caption="X-ray microtomography of <em>V. vinifera</em> buds after 0, 2, 8 and 13 days of forcing, tracking the inflorescences as buds move toward budbreak."
+  credit="Kovaleski et al. 2019, Scientific Reports" doi="10.1038/s41598-019-51415-2" license="CC BY 4.0" %}
+{% include research-figure.html
+  image="/images/research/cold-xray-riparia.jpg"
+  caption="The same X-ray time series in the cold-hardy wild species <em>V. riparia</em>."
+  credit="Kovaleski et al. 2019, Scientific Reports" doi="10.1038/s41598-019-51415-2" license="CC BY 4.0" %}
+{% include research-figure.html
+  image="/images/research/cold-deacclimation-design.png"
+  caption="Buds collected at five points from November to March were forced at 22 °C to measure how fast they lose cold hardiness as chill accumulates."
+  credit="Wang and Londo 2026, Physiologia Plantarum" doi="10.1111/ppl.71056" license="CC BY 4.0" %}
+{% include research-figure.html
+  image="/images/research/cold-deacclimation-chill.png"
+  caption="Deacclimation rate of 'Riesling' buds rises with accumulated chill, shown as absolute and relative rates."
+  credit="Kovaleski et al. 2018, AoB PLANTS" doi="10.1093/aobpla/ply066" license="US public domain" %}
+{% include research-figure.html
+  image="/images/research/cold-chilling-warming-model.png"
+  caption="Model of how chilling accumulation and warm temperature exposure shape bud gene expression during deacclimation."
+  credit="Wang and Londo 2026, Physiologia Plantarum" doi="10.1111/ppl.71056" license="CC BY 4.0" %}
+{% include research-figure.html
+  image="/images/research/cold-aba-deacclimation-model.png"
+  caption="Proposed molecular control of deacclimation and budbreak, with ABA acting as a master regulator of cold hardiness and dormancy."
+  credit="Kovaleski and Londo 2019, Plant Science" doi="10.1016/j.plantsci.2019.110178" license="CC BY-NC-ND 4.0" %}
+{% include research-figure.html
+  image="/images/research/cold-phenology.png"
+  caption="Timing of budbreak, bloom and veraison across the USDA cold-hardy grape collection in Geneva, NY, from 2008 to 2013."
+  credit="Gutierrez et al. 2021, Scientific Reports" doi="10.1038/s41598-021-03783-x" license="CC BY 4.0" %}
+{% include research-figure.html
+  image="/images/research/cold-nyus2-dataset.png"
+  caption="Freezing tolerance (LT50) records behind the NYUS.2 model, by collection site and cultivar."
+  credit="Wang et al. 2024, Horticulture Research" doi="10.1093/hr/uhad286" license="CC BY 4.0" %}
+{% include research-figure.html
+  image="/images/NYUS2.png"
+  caption="NYUS.2 turns daily weather into a running estimate of bud freezing tolerance." %}
+{% include research-figure.html
+  image="/images/gallery/30.jpg"
+  caption="Budburst marks the end of dormancy and the point of greatest frost risk." %}
 </div>
 
 {% include section.html %}

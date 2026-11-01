@@ -1,0 +1,19 @@
+{% comment %}
+  One figure on a project page, shown whole inside a framed box and opened
+  full size in the lightbox on click.
+  params: image, caption, credit (e.g. "Kovaleski et al. 2019, Scientific Reports"), doi, license
+{% endcomment %}
+{% capture lightbox_caption %}{{ include.caption | strip_html }}{% if include.credit %} ({{ include.credit }}{% if include.license %}, {{ include.license }}{% endif %}){% endif %}{% endcapture %}
+<figure class="fig">
+  <a class="fig-zoom" href="{{ include.image | relative_url }}" data-caption="{{ lightbox_caption | strip | escape }}">
+    <img src="{{ include.image | relative_url }}" alt="{{ include.caption | strip_html | escape }}" loading="lazy">
+  </a>
+  <figcaption>
+    {{ include.caption }}
+    {% if include.credit %}
+      <span class="fig-credit">
+        {% if include.doi %}<a href="https://doi.org/{{ include.doi }}">{{ include.credit }}</a>{% else %}{{ include.credit }}{% endif %}{% if include.license %}, {{ include.license }}{% endif %}
+      </span>
+    {% endif %}
+  </figcaption>
+</figure>
