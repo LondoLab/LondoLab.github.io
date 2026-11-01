@@ -29,10 +29,6 @@ We measure bud freezing tolerance directly with differential thermal analysis, w
     <figcaption>NYUS.2 turns daily weather into a running estimate of bud freezing tolerance.</figcaption>
   </figure>
   <figure class="fig">
-    <img src="{{ '/images/gallery/23.jpg' | relative_url }}" alt="Controlled freeze test with thermocouples" loading="lazy">
-    <figcaption>A controlled freeze test, with a thermocouple on each stem to catch the freezing exotherm.</figcaption>
-  </figure>
-  <figure class="fig">
     <img src="{{ '/images/gallery/30.jpg' | relative_url }}" alt="Grapevine budburst" loading="lazy">
     <figcaption>Budburst marks the end of dormancy and the point of greatest frost risk.</figcaption>
   </figure>
