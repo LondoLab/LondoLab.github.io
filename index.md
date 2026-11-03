@@ -28,7 +28,7 @@
       <p class="study-card-text">We study how rootstock and scion combinations shape vigor, cold hardiness, and fruit quality in grapevine and apple.</p>
     </div>
   </a>
-  <a class="study-card" href="{{ '/projects/' | relative_url }}">
+  <a class="study-card" href="{{ '/projects/genomics-epigenomics/' | relative_url }}">
     <img class="study-card-img" src="{{ '/images/genomics-circos-full.jpg' | relative_url }}" alt="Circos plot of grapevine gene density, transposon density, and CHH methylation across 19 chromosomes" loading="lazy">
     <div class="study-card-body">
       <p class="study-card-title">Genomics &amp; Epigenomics</p>

@@ -49,10 +49,6 @@ We measure bud freezing tolerance directly with differential thermal analysis, w
   caption="Proposed molecular control of deacclimation and budbreak, with ABA acting as a master regulator of cold hardiness and dormancy."
   credit="Kovaleski and Londo 2019, Plant Science" doi="10.1016/j.plantsci.2019.110178" license="CC BY-NC-ND 4.0" %}
 {% include research-figure.html
-  image="/images/research/cold-phenology.png"
-  caption="Timing of budbreak, bloom and veraison across the USDA cold-hardy grape collection in Geneva, NY, from 2008 to 2013."
-  credit="Gutierrez et al. 2021, Scientific Reports" doi="10.1038/s41598-021-03783-x" license="CC BY 4.0" %}
-{% include research-figure.html
   image="/images/research/cold-nyus2-dataset.png"
   caption="Freezing tolerance (LT50) records behind the NYUS.2 model, by collection site and cultivar."
   credit="Wang et al. 2024, Horticulture Research" doi="10.1093/hr/uhad286" license="CC BY 4.0" %}

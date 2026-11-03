@@ -48,6 +48,13 @@ We study the physiology, genetics, and climate adaptation of perennial fruit cro
     </div>
   </div>
   <div class="project-callout">
+    <span class="project-ic">{% include icon.html icon="fa-solid fa-dna" %}</span>
+    <div class="project-body">
+      <p class="project-title"><a href="{{ '/projects/genomics-epigenomics/' | relative_url }}">Genomics and epigenomics</a></p>
+      <p class="project-text">We build haplotype resolved genomes of perennial fruit crops and map how the epigenome of clonal grapevine responds to site, along with the genetics of sex determination and adaptive traits.</p>
+    </div>
+  </div>
+  <div class="project-callout">
     <span class="project-ic">{% include icon.html icon="fa-solid fa-apple-whole" %}</span>
     <div class="project-body">
       <p class="project-title">Microclimate impacts on apple fruit finish</p>
